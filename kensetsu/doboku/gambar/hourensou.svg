@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic','Meiryo',sans-serif">
+  <title id="t">Alur Hourensou: lapor, kabari, konsultasi</title>
+  <desc id="d">Mandor berada di tengah antara penanggung jawab lokasi/perusahaan di atas dan pekerja di bawah, dengan alur laporan, kabar, konsultasi, instruksi, dan konfirmasi.</desc>
+  <rect width="900" height="560" rx="16" fill="#f7f9fb"/>
+  <text x="32" y="40" font-size="20" font-weight="700" fill="#16202a">Alur Hourensou (報連相)</text>
+  <text x="32" y="62" font-size="14" fill="#4a5966" font-style="italic">Hōkoku &#183; renraku &#183; sōdan &#183; shiji &#183; kakunin no kankei</text>
+
+  <!-- kotak atas: penanggung jawab lokasi / perusahaan -->
+  <rect x="290" y="90" width="320" height="70" rx="12" fill="#1f5fa8"/>
+  <text x="450" y="118" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">現場責任者・会社</text>
+  <text x="450" y="140" text-anchor="middle" font-size="12" fill="#dbe9fb">Genba sekininsha, kaisha &#8211; Penanggung jawab lokasi &amp; perusahaan</text>
+
+  <!-- kotak tengah: mandor -->
+  <rect x="330" y="245" width="240" height="70" rx="12" fill="#1b8a6b"/>
+  <text x="450" y="273" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">職長</text>
+  <text x="450" y="295" text-anchor="middle" font-size="12" fill="#d8f3e6">Shokuchō &#8211; Mandor</text>
+
+  <!-- kotak bawah: pekerja -->
+  <rect x="290" y="400" width="320" height="70" rx="12" fill="#d98b0c"/>
+  <text x="450" y="428" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">作業員</text>
+  <text x="450" y="450" text-anchor="middle" font-size="12" fill="#fdecc9">Sagyōin &#8211; Pekerja lapangan</text>
+
+  <!-- panah naik: laporan, kabar, konsultasi (kiri) -->
+  <g stroke="#c0332b" stroke-width="3" fill="none" marker-end="url(#ah-red)">
+    <path d="M370,245 L370,160"/>
+  </g>
+  <text x="200" y="185" font-size="14" font-weight="700" fill="#c0332b">報告・連絡・相談</text>
+  <text x="200" y="203" font-size="12" fill="#4a5966" font-style="italic">hōkoku &#183; renraku &#183; sōdan</text>
+  <text x="200" y="221" font-size="12.5" fill="#16202a">Lapor, kabari, dan minta pendapat</text>
+
+  <!-- panah turun: instruksi (kanan) -->
+  <g stroke="#1f5fa8" stroke-width="3" fill="none" marker-end="url(#ah-blue)">
+    <path d="M540,160 L540,245"/>
+  </g>
+  <text x="600" y="185" font-size="14" font-weight="700" fill="#1f5fa8">指示</text>
+  <text x="600" y="203" font-size="12" fill="#4a5966" font-style="italic">shiji</text>
+  <text x="600" y="221" font-size="12.5" fill="#16202a">Instruksi dan arahan kerja</text>
+
+  <!-- panah turun: instruksi ke pekerja (kanan bawah) -->
+  <g stroke="#1f5fa8" stroke-width="3" fill="none" marker-end="url(#ah-blue)">
+    <path d="M540,315 L540,400"/>
+  </g>
+  <text x="600" y="345" font-size="14" font-weight="700" fill="#1f5fa8">指示</text>
+  <text x="600" y="363" font-size="12" fill="#4a5966" font-style="italic">shiji</text>
+  <text x="600" y="381" font-size="12.5" fill="#16202a">Diteruskan ke pekerja</text>
+
+  <!-- panah naik: laporan dari pekerja (kiri bawah) -->
+  <g stroke="#c0332b" stroke-width="3" fill="none" marker-end="url(#ah-red)">
+    <path d="M370,400 L370,315"/>
+  </g>
+  <text x="150" y="345" font-size="14" font-weight="700" fill="#c0332b">報告・連絡・相談</text>
+  <text x="150" y="363" font-size="12" fill="#4a5966" font-style="italic">hōkoku &#183; renraku &#183; sōdan</text>
+  <text x="150" y="381" font-size="12.5" fill="#16202a">Dari pekerja ke mandor</text>
+
+  <defs>
+    <marker id="ah-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0332b"/>
+    </marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f5fa8"/>
+    </marker>
+  </defs>
+
+  <rect x="32" y="495" width="836" height="46" rx="10" fill="#eef2f5"/>
+  <text x="450" y="514" text-anchor="middle" font-size="13.5" font-weight="700" fill="#16202a">確認 (kakunin): setelah instruksi diberikan atau diterima,</text>
+  <text x="450" y="531" text-anchor="middle" font-size="13" fill="#16202a">selalu pastikan lawan bicara benar-benar memahaminya.</text>
+</svg>

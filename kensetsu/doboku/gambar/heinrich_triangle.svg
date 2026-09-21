@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="t d" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic','Meiryo',sans-serif">
+  <title id="t">Hukum Heinrich (1:29:300)</title>
+  <desc id="d">Segitiga tiga tingkat: 1 kecelakaan berat, 29 kecelakaan ringan, 300 kejadian nyaris celaka (hiyari hatto).</desc>
+  <rect width="900" height="480" rx="16" fill="#f7f9fb"/>
+  <text x="32" y="40" font-size="20" font-weight="700" fill="#16202a">Hukum Heinrich</text>
+  <text x="32" y="62" font-size="14" fill="#4a5966" font-style="italic">Hainrihhi no hōsoku · ハインリッヒの法則 (1:29:300)</text>
+
+  <!-- segitiga 3 tingkat -->
+  <polygon points="330,90 420,90 460,180 290,180" fill="#c0332b"/>
+  <polygon points="290,180 460,180 520,300 230,300" fill="#d98b0c"/>
+  <polygon points="230,300 520,300 600,440 150,440" fill="#f2c200"/>
+
+  <text x="375" y="142" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">1</text>
+  <text x="375" y="248" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">29</text>
+  <text x="375" y="378" text-anchor="middle" font-size="24" font-weight="700" fill="#5a3d00">300</text>
+
+  <g stroke="#7a8794" stroke-width="1.5" fill="none">
+    <polyline points="460,130 640,130"/>
+    <polyline points="520,240 660,240"/>
+    <polyline points="600,370 700,370"/>
+  </g>
+
+  <g font-size="16" font-weight="700" fill="#16202a">
+    <text x="650" y="118">Kecelakaan berat</text>
+    <text x="670" y="228">Kecelakaan ringan</text>
+    <text x="710" y="358">Hiyari hatto (nyaris celaka)</text>
+  </g>
+  <g font-size="13" fill="#4a5966" font-style="italic">
+    <text x="650" y="134">jūdai na saigai</text>
+    <text x="670" y="244">keishō saigai</text>
+    <text x="710" y="374">hiyari hatto</text>
+  </g>
+  <g font-size="13.5" fill="#16202a">
+    <text x="650" y="152">1 kejadian &#8211; cedera berat atau tewas</text>
+    <text x="670" y="262">29 kejadian &#8211; cedera ringan</text>
+    <text x="710" y="392">300 kejadian &#8211; nyaris celaka, tanpa cedera</text>
+  </g>
+
+  <text x="32" y="440" font-size="14" fill="#16202a" font-weight="700">Artinya: di balik 1 kecelakaan besar, ada 29 kecelakaan ringan</text>
+  <text x="32" y="460" font-size="14" fill="#16202a">dan 300 kejadian nyaris celaka dengan pola yang sama.</text>
+  <text x="32" y="478" font-size="12" fill="#6b7885">Ilustrasi buatan sendiri, berdasarkan teori Herbert W. Heinrich (1930-an).</text>
+</svg>
