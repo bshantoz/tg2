@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 756" width="1180" height="756" font-family="'Noto Sans JP','Hiragino Sans',sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#1b8a6b"/></marker>
+</defs>
+<rect x="0" y="0" width="1180" height="756" rx="24" fill="#f7f9fb"/>
+
+<text x="40" y="50" font-size="26" font-weight="700" fill="#17324a">Alat, Mesin &amp; Perkakas di Lokasi Konstruksi</text>
+<text x="40" y="76" font-size="15" fill="#5c6b78">建設機械・工具 &#8212; ringkasan visual Bab 10</text>
+
+<rect x="24" y="100" width="1132" height="34" rx="10" fill="#eef3f7"/>
+<text x="40" y="123" font-size="17" font-weight="700" fill="#0b5cad">建設機械 &#8212; Alat &amp; mesin berat</text>
+
+<rect x="46.0" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(95.66666666666669,158.0) scale(0.72)">
+    <line x1="50" y1="18" x2="50" y2="86" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <line x1="18" y1="26" x2="88" y2="26" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M78 26 L92 26 L84 34 Z" fill="#17324a"/>
+    <line x1="30" y1="26" x2="30" y2="48" stroke="#0b5cad" stroke-width="3"/>
+    <circle cx="30" cy="52" r="4" fill="none" stroke="#0b5cad" stroke-width="3"/>
+    <rect x="38" y="82" width="24" height="8" rx="2" fill="#17324a"/>
+    </g>
+<text x="131.66666666666669" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">タワークレーン</text>
+<rect x="229.33333333333334" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(279.0,158.0) scale(0.72)">
+    <rect x="16" y="70" width="56" height="10" rx="4" fill="none" stroke="#17324a" stroke-width="4"/>
+    <circle cx="26" cy="80" r="5" fill="#17324a"/><circle cx="62" cy="80" r="5" fill="#17324a"/>
+    <rect x="24" y="52" width="34" height="20" rx="4" fill="none" stroke="#17324a" stroke-width="4"/>
+    <rect x="20" y="44" width="16" height="14" rx="3" fill="none" stroke="#17324a" stroke-width="4"/>
+    <line x1="52" y1="54" x2="78" y2="36" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <line x1="78" y1="36" x2="88" y2="54" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M84 54 L96 58 L90 68 L80 62 Z" fill="none" stroke="#0b5cad" stroke-width="3.5" stroke-linejoin="round"/>
+    </g>
+<text x="315.0" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">油圧ショベル（バックホウ）</text>
+<rect x="412.6666666666667" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(462.33333333333337,158.0) scale(0.72)">
+    <path d="M38 82 L62 82 L56 38 L44 38 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M62 82 L74 82" stroke="#5c6b78" stroke-width="2.5" stroke-dasharray="2 3"/>
+    <path d="M74 38 L74 82" stroke="#5c6b78" stroke-width="2.5" stroke-dasharray="2 3"/>
+    <path d="M56 38 L74 38" stroke="#5c6b78" stroke-width="2.5" stroke-dasharray="2 3"/>
+    <path d="M76 60 L84 60" stroke="#1b8a6b" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrow)"/>
+    </g>
+<text x="498.33333333333337" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">スランプ試験</text>
+<rect x="596.0" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(645.6666666666666,158.0) scale(0.72)">
+    <circle cx="50" cy="16" r="4" fill="none" stroke="#17324a" stroke-width="3.5"/>
+    <line x1="50" y1="20" x2="50" y2="56" stroke="#17324a" stroke-width="2.5"/>
+    <path d="M42 56 L58 56 L50 84 Z" fill="none" stroke="#0b5cad" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="50" y1="20" x2="50" y2="90" stroke="#5c6b78" stroke-width="1.5" stroke-dasharray="1 4"/>
+    </g>
+<text x="681.6666666666666" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">下げ振り</text>
+<rect x="779.3333333333334" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(829.0,158.0) scale(0.72)">
+    <rect x="34" y="54" width="32" height="20" rx="4" fill="none" stroke="#17324a" stroke-width="4"/>
+    <path d="M42 54 Q50 42 58 54" fill="none" stroke="#17324a" stroke-width="3.5"/>
+    <line x1="10" y1="64" x2="90" y2="64" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="4 3"/>
+    <line x1="50" y1="20" x2="50" y2="54" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="4 3"/>
+    </g>
+<text x="865.0" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">レーザー墨出し器</text>
+<rect x="962.6666666666667" y="150" width="171.33333333333334" height="116" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(1012.3333333333335,158.0) scale(0.72)">
+    <line x1="16" y1="34" x2="84" y2="34" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <line x1="16" y1="74" x2="84" y2="74" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="36" cy="54" r="10" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    <circle cx="36" cy="54" r="3" fill="#0b5cad"/>
+    <circle cx="64" cy="54" r="10" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    <circle cx="64" cy="54" r="3" fill="#0b5cad"/>
+    <line x1="36" y1="44" x2="36" y2="34" stroke="#17324a" stroke-width="3"/>
+    <line x1="36" y1="64" x2="36" y2="74" stroke="#17324a" stroke-width="3"/>
+    <line x1="64" y1="44" x2="64" y2="34" stroke="#17324a" stroke-width="3"/>
+    <line x1="64" y1="64" x2="64" y2="74" stroke="#17324a" stroke-width="3"/>
+    </g>
+<text x="1048.3333333333335" y="254" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">スペーサー</text>
+
+<rect x="24" y="290" width="1132" height="34" rx="10" fill="#eef3f7"/>
+<text x="40" y="313" font-size="17" font-weight="700" fill="#1b8a6b">工具 &#8212; Alat tangan &amp; elektrik umum</text>
+
+<rect x="46.0" y="340" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(116.0,348.0) scale(0.68)">
+    <line x1="18" y1="82" x2="46" y2="54" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <line x1="18" y1="54" x2="46" y2="82" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="46" cy="68" r="5" fill="#17324a"/>
+    <path d="M46 60 L82 40" stroke="#17324a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M46 76 L82 60" stroke="#17324a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="64" y1="42" x2="70" y2="60" stroke="#0b5cad" stroke-width="4" stroke-linecap="round"/>
+    </g>
+<text x="150.0" y="440" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">鉄筋カッター</text>
+<rect x="266.0" y="340" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(336.0,348.0) scale(0.68)">
+    <line x1="50" y1="46" x2="50" y2="84" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <rect x="42" y="80" width="16" height="8" rx="2" fill="#17324a"/>
+    <path d="M50 46 C50 30 34 30 34 42 C34 50 44 50 46 42" fill="none" stroke="#0b5cad" stroke-width="4.5" stroke-linecap="round"/>
+    </g>
+<text x="370.0" y="440" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">ハッカー</text>
+<rect x="486.0" y="340" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(556.0,348.0) scale(0.68)">
+    <path d="M22 78 L78 78 L22 34 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="30" y1="68" x2="46" y2="68" stroke="#5c6b78" stroke-width="2.5"/>
+    <line x1="30" y1="58" x2="40" y2="58" stroke="#5c6b78" stroke-width="2.5"/>
+    </g>
+<text x="590.0" y="440" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">くさび</text>
+<rect x="706.0" y="340" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(776.0,348.0) scale(0.68)">
+    <path d="M16 66 Q16 54 30 54 L74 54 Q84 54 84 64 L84 70 Q84 78 74 78 L26 78 Q16 78 16 68 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="44" y="40" width="8" height="20" rx="1" fill="#0b5cad" transform="rotate(-8 48 50)"/>
+    <line x1="16" y1="78" x2="84" y2="78" stroke="#5c6b78" stroke-width="2.5"/>
+    </g>
+<text x="810.0" y="440" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">かんな</text>
+<rect x="926.0" y="340" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(996.0,348.0) scale(0.68)">
+    <line x1="30" y1="82" x2="72" y2="22" stroke="#17324a" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="76" cy="16" r="7" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    </g>
+<text x="1030.0" y="440" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">打診棒</text>
+<rect x="46.0" y="472" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(116.0,480.0) scale(0.68)">
+    <rect x="24" y="56" width="44" height="26" rx="2" fill="none" stroke="#17324a" stroke-width="3.5"/>
+    <line x1="24" y1="70" x2="68" y2="56" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <line x1="66" y1="52" x2="90" y2="24" stroke="#17324a" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="66" cy="52" r="6" fill="none" stroke="#0b5cad" stroke-width="3.5"/>
+    </g>
+<text x="150.0" y="572" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">タイルカッター</text>
+<rect x="266.0" y="472" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(336.0,480.0) scale(0.68)">
+    <path d="M28 58 Q28 48 38 48 L64 48 Q74 48 74 58 L74 62 Q74 68 66 68 L40 68 Q28 68 28 58 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M40 68 L34 90 L46 90 L48 68" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="74" y1="56" x2="94" y2="56" stroke="#0b5cad" stroke-width="5" stroke-linecap="round"/>
+    <line x1="88" y1="50" x2="94" y2="56" stroke="#0b5cad" stroke-width="3" stroke-linecap="round"/>
+    <line x1="88" y1="62" x2="94" y2="56" stroke="#0b5cad" stroke-width="3" stroke-linecap="round"/>
+    </g>
+<text x="370.0" y="572" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">インパクトドライバー</text>
+<rect x="486.0" y="472" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(556.0,480.0) scale(0.68)">
+    <circle cx="46" cy="54" r="26" fill="none" stroke="#17324a" stroke-width="4"/>
+    <circle cx="46" cy="54" r="26" fill="none" stroke="#0b5cad" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="46" cy="54" r="5" fill="#17324a"/>
+    <path d="M60 40 Q80 30 86 46 L70 56 Z" fill="none" stroke="#17324a" stroke-width="3.5" stroke-linejoin="round"/>
+    <line x1="70" y1="56" x2="70" y2="82" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    </g>
+<text x="590.0" y="572" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">丸のこ</text>
+<rect x="706.0" y="472" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(776.0,480.0) scale(0.68)">
+    <rect x="30" y="76" width="40" height="10" rx="2" fill="none" stroke="#17324a" stroke-width="4"/>
+    <line x1="50" y1="76" x2="50" y2="46" stroke="#17324a" stroke-width="4"/>
+    <rect x="38" y="26" width="24" height="22" rx="4" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    <line x1="50" y1="26" x2="50" y2="14" stroke="#17324a" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="40" y1="14" x2="60" y2="14" stroke="#17324a" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+<text x="810.0" y="572" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">ランマ</text>
+<rect x="926.0" y="472" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(996.0,480.0) scale(0.68)">
+    <path d="M40 14 Q50 8 60 14" fill="none" stroke="#17324a" stroke-width="4"/>
+    <rect x="38" y="14" width="24" height="18" rx="3" fill="none" stroke="#17324a" stroke-width="4"/>
+    <line x1="46" y1="32" x2="46" y2="60" stroke="#5c6b78" stroke-width="3" stroke-dasharray="3 3"/>
+    <line x1="54" y1="32" x2="54" y2="60" stroke="#5c6b78" stroke-width="3" stroke-dasharray="3 3"/>
+    <rect x="40" y="60" width="20" height="14" rx="2" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    <path d="M44 74 Q44 88 56 88 Q64 88 64 80" fill="none" stroke="#0b5cad" stroke-width="4" stroke-linecap="round"/>
+    </g>
+<text x="1030.0" y="572" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">チェーンブロック</text>
+<rect x="46.0" y="604" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(116.0,612.0) scale(0.68)">
+    <line x1="18" y1="82" x2="46" y2="56" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <line x1="18" y1="56" x2="46" y2="82" stroke="#17324a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="46" cy="69" r="5" fill="#17324a"/>
+    <path d="M46 61 L70 46 L82 46 L82 58 L58 68 Z" fill="none" stroke="#0b5cad" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M46 77 L70 92" stroke="#17324a" stroke-width="0" opacity="0"/>
+    <path d="M46 77 L64 88 L80 88 L80 76 L58 70 Z" fill="none" stroke="#0b5cad" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+<text x="150.0" y="704" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">圧着ペンチ</text>
+<rect x="266.0" y="604" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(336.0,612.0) scale(0.68)">
+    <path d="M20 76 L66 40 L78 52 L32 88 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="66" y1="40" x2="80" y2="26" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 66 Q40 58 50 66 Q56 70 48 76 Q40 80 34 74 Z" fill="none" stroke="#1b8a6b" stroke-width="3"/>
+    </g>
+<text x="370.0" y="704" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">パテ</text>
+<rect x="486.0" y="604" width="208.0" height="112" rx="14" fill="#ffffff" stroke="#c7d2da" stroke-width="1.5"/>
+<g transform="translate(556.0,612.0) scale(0.68)">
+    <path d="M18 40 L82 40 L74 62 L26 62 Z" fill="none" stroke="#17324a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="50" y1="40" x2="50" y2="24" stroke="#17324a" stroke-width="4" stroke-linecap="round"/>
+    <rect x="40" y="14" width="20" height="10" rx="4" fill="none" stroke="#0b5cad" stroke-width="4"/>
+    </g>
+<text x="590.0" y="704" text-anchor="middle" font-size="14" font-family="'Noto Sans JP','Hiragino Sans',sans-serif" fill="#17324a" font-weight="600">こて</text>
+</svg>
