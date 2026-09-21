@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic','Meiryo',sans-serif">
+  <title id="t">Urutan prioritas langkah pengurangan risiko</title>
+  <desc id="d">Piramida empat tingkat dari yang paling diutamakan: langkah dasar, langkah rekayasa, langkah manajerial, alat pelindung diri.</desc>
+  <rect width="900" height="520" rx="16" fill="#f7f9fb"/>
+  <text x="32" y="40" font-size="20" font-weight="700" fill="#16202a">Urutan langkah pengurangan risiko</text>
+  <text x="32" y="62" font-size="14" fill="#4a5966" font-style="italic">Risuku teigen sochi kentō no yūsen junni · リスク低減措置検討の優先順位</text>
+
+  <!-- piramida 4 tingkat, sempit di atas (prioritas tertinggi) -->
+  <polygon points="330,90 430,90 465,160 295,160" fill="#1f5fa8"/>
+  <polygon points="295,160 465,160 500,240 260,240" fill="#1b8a6b"/>
+  <polygon points="260,240 500,240 540,335 220,335" fill="#d98b0c"/>
+  <polygon points="220,335 540,335 585,440 175,440" fill="#c0332b"/>
+
+  <text x="380" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">①</text>
+  <text x="380" y="205" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">②</text>
+  <text x="380" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">③</text>
+  <text x="380" y="392" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">④</text>
+
+  <g stroke="#7a8794" stroke-width="1.5" fill="none">
+    <polyline points="430,120 600,120"/>
+    <polyline points="465,195 600,195"/>
+    <polyline points="500,282 600,282"/>
+    <polyline points="540,382 600,382"/>
+  </g>
+
+  <g font-size="15.5" font-weight="700" fill="#16202a">
+    <text x="610" y="110">Langkah dasar</text>
+    <text x="610" y="185">Langkah rekayasa</text>
+    <text x="610" y="272">Langkah manajerial</text>
+    <text x="610" y="372">Alat pelindung diri</text>
+  </g>
+  <g font-size="12.5" fill="#4a5966" font-style="italic">
+    <text x="610" y="126">honshitsuteki taisaku</text>
+    <text x="610" y="201">kōgakuteki taisaku</text>
+    <text x="610" y="288">kanriteki taisaku</text>
+    <text x="610" y="388">kojin-yō hogogu shiyō</text>
+  </g>
+  <g font-size="13" fill="#16202a">
+    <text x="610" y="144">Menghentikan atau mengubah</text>
+    <text x="610" y="160">pekerjaan berbahaya itu sendiri</text>
+    <text x="610" y="219">Memasang pagar atau</text>
+    <text x="610" y="235">alat bantu kerja yang lebih aman</text>
+    <text x="610" y="306">Aturan kerja, larangan masuk,</text>
+    <text x="610" y="322">pendidikan bagi pekerja</text>
+    <text x="610" y="406">Sarung tangan, kacamata,</text>
+    <text x="610" y="422">dan alat pelindung diri lain</text>
+  </g>
+
+  <text x="32" y="480" font-size="14" fill="#16202a" font-weight="700">Diutamakan dari atas ke bawah: hilangkan bahayanya dulu &#8212;</text>
+  <text x="32" y="498" font-size="14" fill="#16202a">alat pelindung diri adalah langkah terakhir, bukan yang pertama.</text>
+</svg>
