@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 590" font-family="Source Sans 3,sans-serif">
+<rect width="900" height="590" fill="#f7f9fb"/>
+<text x="450.0" y="32" font-size="18" font-weight="700" text-anchor="middle" fill="#15202b">Jenis Kecelakaan Fatal di Konstruksi &#8226; 死亡災害の種類</text>
+<text x="450.0" y="52" font-size="12.5" text-anchor="middle" fill="#5b6b7a">Data Reiwa 3 (2021) &#8226; jumlah kasus per jenis kecelakaan, industri konstruksi Jepang</text>
+<text x="316" y="100.0" font-size="13" text-anchor="end" fill="#15202b">Jatuh dari ketinggian / terjatuh</text>
+<text x="316" y="117.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">墜落・転落</text>
+<rect x="330" y="92.0" width="510.0" height="22" rx="4" fill="#0b5cad"/>
+<text x="850.0" y="108.0" font-size="13" font-weight="700" fill="#15202b">110</text>
+<text x="316" y="146.0" font-size="13" text-anchor="end" fill="#15202b">Longsor/runtuh/robohnya struktur</text>
+<text x="316" y="163.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">崩壊・倒壊</text>
+<rect x="330" y="138.0" width="143.7" height="22" rx="4" fill="#6fa3d6"/>
+<text x="483.7" y="154.0" font-size="13" font-weight="700" fill="#15202b">31</text>
+<text x="316" y="192.0" font-size="13" text-anchor="end" fill="#15202b">Tertabrak alat berat</text>
+<text x="316" y="209.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">激突され</text>
+<rect x="330" y="184.0" width="125.2" height="22" rx="4" fill="#6fa3d6"/>
+<text x="465.2" y="200.0" font-size="13" font-weight="700" fill="#15202b">27</text>
+<text x="316" y="238.0" font-size="13" text-anchor="end" fill="#15202b">Kecelakaan lalu lintas (jalan raya)</text>
+<text x="316" y="255.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">交通事故（道路）</text>
+<rect x="330" y="230.0" width="115.9" height="22" rx="4" fill="#6fa3d6"/>
+<text x="455.9" y="246.0" font-size="13" font-weight="700" fill="#15202b">25</text>
+<text x="316" y="284.0" font-size="13" text-anchor="end" fill="#15202b">Terjepit / tergulung mesin</text>
+<text x="316" y="301.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">はさまれ・巻き込まれ</text>
+<rect x="330" y="276.0" width="88.1" height="22" rx="4" fill="#6fa3d6"/>
+<text x="428.1" y="292.0" font-size="13" font-weight="700" fill="#15202b">19</text>
+<text x="316" y="330.0" font-size="13" text-anchor="end" fill="#15202b">Kontak dengan zat berbahaya</text>
+<text x="316" y="347.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">有害物等との接触</text>
+<rect x="330" y="322.0" width="51.0" height="22" rx="4" fill="#6fa3d6"/>
+<text x="391.0" y="338.0" font-size="13" font-weight="700" fill="#15202b">11</text>
+<text x="316" y="376.0" font-size="13" text-anchor="end" fill="#15202b">Tertimpa benda jatuh/terbang</text>
+<text x="316" y="393.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">飛来・落下</text>
+<rect x="330" y="368.0" width="46.4" height="22" rx="4" fill="#6fa3d6"/>
+<text x="386.4" y="384.0" font-size="13" font-weight="700" fill="#15202b">10</text>
+<text x="316" y="422.0" font-size="13" text-anchor="end" fill="#15202b">Tersengat listrik</text>
+<text x="316" y="439.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">感電</text>
+<rect x="330" y="414.0" width="37.1" height="22" rx="4" fill="#6fa3d6"/>
+<text x="377.1" y="430.0" font-size="13" font-weight="700" fill="#15202b">8</text>
+<text x="316" y="468.0" font-size="13" text-anchor="end" fill="#15202b">Terpeleset/tersandung/jatuh datar</text>
+<text x="316" y="485.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">転倒</text>
+<rect x="330" y="460.0" width="23.2" height="22" rx="4" fill="#6fa3d6"/>
+<text x="363.2" y="476.0" font-size="13" font-weight="700" fill="#15202b">5</text>
+<text x="316" y="514.0" font-size="13" text-anchor="end" fill="#15202b">Tertabrak (benturan)</text>
+<text x="316" y="531.0" font-size="12" text-anchor="end" fill="#5b6b7a" font-family="Noto Sans JP,sans-serif">激突</text>
+<rect x="330" y="506.0" width="4.6" height="22" rx="4" fill="#6fa3d6"/>
+<text x="344.6" y="522.0" font-size="13" font-weight="700" fill="#15202b">1</text>
+</svg>
