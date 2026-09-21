@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 296" font-family="Source Sans 3,sans-serif">
+<rect width="720" height="296" fill="#f7f9fb"/>
+<text x="360.0" y="32" font-size="18" font-weight="700" text-anchor="middle" fill="#15202b">Jenis Struktur Bangunan &#8226; 建物の構造</text>
+<text x="360.0" y="52" font-size="12.5" text-anchor="middle" fill="#5b6b7a">Bab 9.2.9 &#8212; empat istilah struktur yang sering diujikan</text>
+<rect x="26" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(55.0,84) scale(0.8333333333333334)">
+    <rect x="20" y="20" width="26" height="88" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <rect x="20" y="20" width="88" height="26" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <g fill="#0b5cad">
+      <circle cx="28" cy="30" r="2.6"/><circle cx="38" cy="30" r="2.6"/>
+      <circle cx="28" cy="100" r="2.6"/><circle cx="38" cy="100" r="2.6"/>
+      <circle cx="28" cy="60" r="2.6"/><circle cx="38" cy="60" r="2.6"/>
+      <circle cx="60" cy="28" r="2.6"/><circle cx="60" cy="38" r="2.6"/>
+      <circle cx="100" cy="28" r="2.6"/><circle cx="100" cy="38" r="2.6"/>
+    </g>
+    </g>
+<text x="99.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>RC造</text>
+<text x="99.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">RC-zō</text>
+<text x="99.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Beton bertulang</text>
+<rect x="196" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(225.0,84) scale(0.8333333333333334)">
+    <g fill="none" stroke="#0b5cad" stroke-width="4" stroke-linejoin="round">
+      <path d="M22,20 L22,108 M22,20 L40,20 M22,64 L38,64 M22,108 L40,108"/>
+      <path d="M22,32 L108,32 M22,32 L22,20 M100,32 L100,20 M100,20 L108,20 L108,32"/>
+    </g>
+    <rect x="16" y="14" width="12" height="12" fill="#e7f0fa" stroke="#0b5cad" stroke-width="2.5"/>
+    </g>
+<text x="269.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>S造</text>
+<text x="269.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">S-zō</text>
+<text x="269.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Rangka baja</text>
+<rect x="366" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(395.0,84) scale(0.8333333333333334)">
+    <rect x="18" y="18" width="30" height="92" rx="2" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <rect x="18" y="18" width="92" height="30" rx="2" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <g fill="none" stroke="#15202b" stroke-width="3">
+      <path d="M27,26 L27,102 M22,26 L34,26 M22,64 L32,64 M22,102 L34,102"/>
+      <path d="M27,33 L102,33 M95,26 L95,40 M22,26 L34,26"/>
+    </g>
+    </g>
+<text x="439.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>SRC造</text>
+<text x="439.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">SRC-zō</text>
+<text x="439.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Baja + beton bertulang</text>
+<rect x="536" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(565.0,84) scale(0.8333333333333334)">
+    <rect x="24" y="18" width="20" height="90" rx="2" fill="#e8d3ba" stroke="#a9764a" stroke-width="3"/>
+    <rect x="24" y="18" width="86" height="20" rx="2" fill="#e8d3ba" stroke="#a9764a" stroke-width="3"/>
+    <g stroke="#a9764a" stroke-width="1.4" opacity="0.6">
+      <line x1="28" y1="24" x2="28" y2="104"/><line x1="34" y1="22" x2="34" y2="106"/>
+      <line x1="40" y1="24" x2="40" y2="104"/>
+      <line x1="46" y1="24" x2="104" y2="24"/><line x1="46" y1="30" x2="106" y2="30"/>
+    </g>
+    </g>
+<text x="609.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>木造</text>
+<text x="609.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">mokuzō</text>
+<text x="609.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Rangka kayu</text>
+</svg>

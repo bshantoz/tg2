@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 676" font-family="Source Sans 3,sans-serif">
+<rect width="550" height="676" fill="#f7f9fb"/>
+<text x="275.0" y="32" font-size="18" font-weight="700" text-anchor="middle" fill="#15202b">Alat Perkakas &amp; Alat Ukur &#8226; 工具・計測器</text>
+<text x="275.0" y="52" font-size="12.5" text-anchor="middle" fill="#5b6b7a">Bab 10.2 &#8212; alat tangan dan alat ukur yang umum dipakai lintas bidang pekerjaan</text>
+<rect x="26" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(55.0,84) scale(0.8333333333333334)">
+    <line x1="40" y1="20" x2="80" y2="90" stroke="#0b5cad" stroke-width="6" stroke-linecap="round"/>
+    <path d="M74,78 L100,98 L86,112 L64,90 Z" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="38" cy="16" rx="10" ry="7" fill="none" stroke="#0b5cad" stroke-width="5"/>
+    </g>
+<text x="99.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>スコップ</text>
+<text x="99.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">sukoppu</text>
+<text x="99.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Sekop</text>
+<rect x="196" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(225.0,84) scale(0.8333333333333334)">
+    <line x1="44" y1="100" x2="82" y2="40" stroke="#0b5cad" stroke-width="7" stroke-linecap="round"/>
+    <path d="M70,34 L100,20 L112,40 L90,58 Z" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+<text x="269.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>ハンマー</text>
+<text x="269.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">hanmā</text>
+<text x="269.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Palu</text>
+<rect x="366" y="76" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(395.0,84) scale(0.8333333333333334)">
+    <rect x="30" y="46" width="34" height="18" rx="6" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <line x1="64" y1="55" x2="106" y2="55" stroke="#0b5cad" stroke-width="6" stroke-linecap="round"/>
+    <line x1="102" y1="49" x2="110" y2="61" stroke="#0b5cad" stroke-width="4" stroke-linecap="round"/>
+    <line x1="102" y1="61" x2="110" y2="49" stroke="#0b5cad" stroke-width="4" stroke-linecap="round"/>
+    </g>
+<text x="439.0" y="206" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>ドライバー</text>
+<text x="439.0" y="224" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">doraibā</text>
+<text x="439.0" y="240" font-size="11.5" text-anchor="middle" fill="#0b5cad">Obeng</text>
+<rect x="26" y="266" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(55.0,274) scale(0.8333333333333334)">
+    <circle cx="60" cy="60" r="38" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <circle cx="60" cy="60" r="10" fill="#ffffff" stroke="#0b5cad" stroke-width="3"/>
+    <g stroke="#0b5cad" stroke-width="3">
+      <line x1="60" y1="22" x2="64" y2="30"/><line x1="90" y1="35" x2="82" y2="40"/>
+      <line x1="98" y1="60" x2="88" y2="60"/><line x1="90" y1="85" x2="82" y2="80"/>
+      <line x1="60" y1="98" x2="64" y2="90"/><line x1="30" y1="85" x2="38" y2="80"/>
+      <line x1="22" y1="60" x2="32" y2="60"/><line x1="30" y1="35" x2="38" y2="40"/>
+    </g>
+    </g>
+<text x="99.0" y="396" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>丸のこ</text>
+<text x="99.0" y="414" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">marunoko</text>
+<text x="99.0" y="430" font-size="11.5" text-anchor="middle" fill="#0b5cad">Gergaji bundar</text>
+<rect x="196" y="266" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(225.0,274) scale(0.8333333333333334)">
+    <path d="M28,30 a16,16 0 1,0 20,20 L84,94 a8,8 0 0,0 11,-11 L61,49 a16,16 0 0,0 -33,-19 l10,10 -6,6 -10,-10 a16,16 0 0,0 6,14 z"
+      fill="#e7f0fa" stroke="#0b5cad" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+<text x="269.0" y="396" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>モンキーレンチ</text>
+<text x="269.0" y="414" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">monkī renchi</text>
+<text x="269.0" y="430" font-size="11.5" text-anchor="middle" fill="#0b5cad">Kunci Inggris</text>
+<rect x="366" y="266" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(395.0,274) scale(0.8333333333333334)">
+    <line x1="40" y1="30" x2="66" y2="66" stroke="#0b5cad" stroke-width="7" stroke-linecap="round"/>
+    <line x1="80" y1="30" x2="54" y2="66" stroke="#0b5cad" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="60" cy="66" r="7" fill="#ffffff" stroke="#0b5cad" stroke-width="3"/>
+    <line x1="52" y1="72" x2="34" y2="100" stroke="#0b5cad" stroke-width="8" stroke-linecap="round"/>
+    <line x1="68" y1="72" x2="86" y2="100" stroke="#0b5cad" stroke-width="8" stroke-linecap="round"/>
+    </g>
+<text x="439.0" y="396" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>ペンチ</text>
+<text x="439.0" y="414" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">penchi</text>
+<text x="439.0" y="430" font-size="11.5" text-anchor="middle" fill="#0b5cad">Tang</text>
+<rect x="26" y="456" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(55.0,464) scale(0.8333333333333334)">
+    <circle cx="46" cy="70" r="30" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <circle cx="46" cy="70" r="9" fill="#ffffff" stroke="#0b5cad" stroke-width="3"/>
+    <path d="M74,50 L104,20" stroke="#5b6b7a" stroke-width="3" stroke-dasharray="4,3"/>
+    <rect x="98" y="14" width="14" height="10" fill="#ffffff" stroke="#0b5cad" stroke-width="2"/>
+    </g>
+<text x="99.0" y="586" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>メジャー</text>
+<text x="99.0" y="604" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">mejā</text>
+<text x="99.0" y="620" font-size="11.5" text-anchor="middle" fill="#0b5cad">Meteran</text>
+<rect x="196" y="456" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(225.0,464) scale(0.8333333333333334)">
+    <rect x="14" y="52" width="96" height="18" rx="4" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3"/>
+    <circle cx="60" cy="61" r="8" fill="#ffffff" stroke="#0b5cad" stroke-width="2.5"/>
+    <circle cx="60" cy="61" r="3" fill="#5b6b7a"/>
+    </g>
+<text x="269.0" y="586" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>水平器</text>
+<text x="269.0" y="604" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">suiheiki</text>
+<text x="269.0" y="620" font-size="11.5" text-anchor="middle" fill="#0b5cad">Waterpas</text>
+<rect x="366" y="456" width="158" height="174" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="1.5"/>
+<g transform="translate(395.0,464) scale(0.8333333333333334)">
+    <line x1="60" y1="18" x2="60" y2="78" stroke="#5b6b7a" stroke-width="2" stroke-dasharray="3,3"/>
+    <circle cx="60" cy="14" r="6" fill="#ffffff" stroke="#0b5cad" stroke-width="3"/>
+    <path d="M60,78 L46,102 L74,102 Z" fill="#e7f0fa" stroke="#0b5cad" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+<text x="439.0" y="586" font-size="15" font-weight="700" text-anchor="middle" fill="#15202b" font-family='Noto Sans JP,sans-serif'>下げ振り</text>
+<text x="439.0" y="604" font-size="11.5" font-style="italic" text-anchor="middle" fill="#5b6b7a">sagefuri</text>
+<text x="439.0" y="620" font-size="11.5" text-anchor="middle" fill="#0b5cad">Unting-unting</text>
+</svg>
