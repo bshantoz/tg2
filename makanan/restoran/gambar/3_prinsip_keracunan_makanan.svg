@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#FFF8F0"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">3 Prinsip Pencegahan Keracunan Makanan</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#7A6F63">食中毒予防の3原則</text>
+
+  <g font-size="13" fill="#2D2A26">
+    <!-- 1 tsukenai -->
+    <g transform="translate(40,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <circle cx="110" cy="70" r="44" fill="#FFE3D2"/>
+      <path d="M92 60 q18 -18 36 0 M88 78 a22 14 0 0 0 44 0" fill="none" stroke="#FF6B35" stroke-width="5" stroke-linecap="round"/>
+      <path d="M78 92 q32 22 64 0" fill="none" stroke="#3BA776" stroke-width="5" stroke-linecap="round"/>
+      <text x="110" y="150" text-anchor="middle" font-weight="700" font-size="17">つけない</text>
+      <text x="110" y="172" text-anchor="middle" font-size="12" fill="#7A6F63">Jangan Mencemari</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Cuci tangan bersih,</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">pisahkan alat mentah</text>
+      <text x="110" y="234" text-anchor="middle" font-size="11" fill="#4A433C">dan matang</text>
+    </g>
+
+    <!-- 2 fuyasanai -->
+    <g transform="translate(290,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <rect x="80" y="30" width="60" height="90" rx="8" fill="#DCEFEA" stroke="#3BA776" stroke-width="3"/>
+      <line x1="80" y1="65" x2="140" y2="65" stroke="#3BA776" stroke-width="2"/>
+      <text x="110" y="150" text-anchor="middle" font-weight="700" font-size="17">増やさない</text>
+      <text x="110" y="172" text-anchor="middle" font-size="12" fill="#7A6F63">Jangan Membiarkan Berkembang</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Simpan bahan di suhu</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">dingin, jangan biarkan</text>
+      <text x="110" y="234" text-anchor="middle" font-size="11" fill="#4A433C">makanan lama di suhu ruang</text>
+    </g>
+
+    <!-- 3 yattsukeru -->
+    <g transform="translate(540,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <path d="M110 30 q-18 30 0 40 q18 -10 0 -40 z" fill="#E8483D"/>
+      <path d="M110 45 q-10 18 0 25 q10 -7 0 -25 z" fill="#F2A93B"/>
+      <text x="110" y="150" text-anchor="middle" font-weight="700" font-size="17">やっつける</text>
+      <text x="110" y="172" text-anchor="middle" font-size="12" fill="#7A6F63">Membasmi Bakteri</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Masak/panaskan hingga</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">suhu dan waktu yang</text>
+      <text x="110" y="234" text-anchor="middle" font-size="11" fill="#4A433C">cukup untuk membunuh kuman</text>
+    </g>
+  </g>
+</svg>

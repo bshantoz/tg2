@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="560" fill="#FFF8F0"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">5 Langkah Penanganan Komplain</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#7A6F63">クレーム対応の5ステップ</text>
+
+  <line x1="120" y1="100" x2="120" y2="500" stroke="#FFCBAA" stroke-width="6" stroke-linecap="round"/>
+
+  <g font-size="13" fill="#2D2A26">
+    <!-- step 1 -->
+    <circle cx="120" cy="110" r="26" fill="#FF6B35"/>
+    <text x="120" y="118" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="20">1</text>
+    <rect x="180" y="80" width="580" height="70" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <text x="205" y="112" font-weight="700" font-size="16">Minta Maaf</text>
+    <text x="205" y="134" font-size="12" fill="#7A6F63">まず謝罪する — sampaikan permintaan maaf dengan tulus</text>
+
+    <!-- step 2 -->
+    <circle cx="120" cy="200" r="26" fill="#FF6B35"/>
+    <text x="120" y="208" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="20">2</text>
+    <rect x="180" y="170" width="580" height="70" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <text x="205" y="202" font-weight="700" font-size="16">Dengar Keluhan</text>
+    <text x="205" y="224" font-size="12" fill="#7A6F63">話をよく聞く — dengarkan keluhan tamu sampai selesai</text>
+
+    <!-- step 3 -->
+    <circle cx="120" cy="290" r="26" fill="#FF6B35"/>
+    <text x="120" y="298" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="20">3</text>
+    <rect x="180" y="260" width="580" height="70" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <text x="205" y="292" font-weight="700" font-size="16">Tangani Cepat</text>
+    <text x="205" y="314" font-size="12" fill="#7A6F63">迅速に対応 — selesaikan masalah dengan cepat dan tepat</text>
+
+    <!-- step 4 -->
+    <circle cx="120" cy="380" r="26" fill="#FF6B35"/>
+    <text x="120" y="388" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="20">4</text>
+    <rect x="180" y="350" width="580" height="70" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <text x="205" y="382" font-weight="700" font-size="16">Lapor Atasan</text>
+    <text x="205" y="404" font-size="12" fill="#7A6F63">上司に報告 — laporkan kejadian kepada atasan/manajer</text>
+
+    <!-- step 5 -->
+    <circle cx="120" cy="470" r="26" fill="#FF6B35"/>
+    <text x="120" y="478" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="20">5</text>
+    <rect x="180" y="440" width="580" height="70" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <text x="205" y="472" font-weight="700" font-size="16">Laporan Tertulis ke Pusat</text>
+    <text x="205" y="494" font-size="12" fill="#7A6F63">本部へ書面報告 — buat laporan tertulis untuk kantor pusat</text>
+  </g>
+</svg>

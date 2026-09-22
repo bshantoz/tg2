@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#FFF8F0"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">Tanggap Darurat</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#7A6F63">緊急時対応</text>
+
+  <g font-size="13" fill="#2D2A26">
+    <!-- AED -->
+    <g transform="translate(40,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <path d="M110 30 l30 45 h-20 l20 40 l-55 -55 h22 z" fill="#3BA776"/>
+      <path d="M85 100 a35 35 0 1 1 70 0" fill="none" stroke="#E8483D" stroke-width="4" stroke-linecap="round"/>
+      <path d="M75 105 l-8 15 l16 0 z" fill="#E8483D"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="16">Lokasi AED</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#7A6F63">AEDの場所</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Kenali lokasi AED</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">terdekat di tempat kerja</text>
+    </g>
+
+    <!-- CPR -->
+    <g transform="translate(290,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <ellipse cx="110" cy="70" rx="34" ry="14" fill="#FFD8A8"/>
+      <path d="M85 70 q25 -18 50 0" fill="none" stroke="#F2A93B" stroke-width="6" stroke-linecap="round"/>
+      <path d="M78 95 l64 0 l-10 20 l-44 0 z" fill="#F2A93B"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="16">CPR &amp; Tersedak</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#7A6F63">心肺蘇生・応急処置</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Ketahui langkah dasar</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">pertolongan pertama</text>
+    </g>
+
+    <!-- 119 -->
+    <g transform="translate(540,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+      <rect x="80" y="30" width="60" height="34" rx="8" fill="#E8483D"/>
+      <path d="M92 47 q18 -14 36 0 M98 47 h24 M105 55 h10" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <text x="110" y="115" text-anchor="middle" font-weight="700" font-size="34" fill="#E8483D">119</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#7A6F63">緊急通報番号</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A433C">Nomor darurat</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A433C">ambulans &amp; pemadam</text>
+    </g>
+  </g>
+</svg>
