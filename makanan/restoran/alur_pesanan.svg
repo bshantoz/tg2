@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="260" fill="#FFF8F0"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">Alur Proses Pemesanan</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6F63">注文の流れ</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#E8483D"/>
+    </marker>
+  </defs>
+
+  <g font-size="12" fill="#2D2A26">
+    <rect x="20" y="100" width="170" height="110" rx="16" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="105" cy="132" r="18" fill="#FF6B35"/>
+    <path d="M96 132 h18 M96 126 h18 M96 138 h12" stroke="#FFFFFF" stroke-width="2.5"/>
+    <text x="105" y="168" text-anchor="middle" font-weight="700" font-size="13">Terima Order</text>
+    <text x="105" y="186" text-anchor="middle" font-size="11" fill="#7A6F63">注文を受ける</text>
+
+    <line x1="190" y1="155" x2="220" y2="155" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow2)"/>
+
+    <rect x="225" y="100" width="170" height="110" rx="16" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="310" cy="132" r="18" fill="#FF6B35"/>
+    <path d="M300 132 a10 10 0 1 1 4 8" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <path d="M300 136 l3 8 l-8 -3 z" fill="#FFFFFF"/>
+    <text x="310" y="168" text-anchor="middle" font-weight="700" font-size="13">Ulang Konfirmasi</text>
+    <text x="310" y="186" text-anchor="middle" font-size="11" fill="#7A6F63">復唱確認</text>
+
+    <line x1="395" y1="155" x2="425" y2="155" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow2)"/>
+
+    <rect x="430" y="100" width="170" height="110" rx="16" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="515" cy="132" r="18" fill="#FF6B35"/>
+    <path d="M505 126 h20 v14 h-20 z M508 126 v-6 h14 v6" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <text x="515" y="168" text-anchor="middle" font-weight="700" font-size="13">Kirim ke Dapur</text>
+    <text x="515" y="186" text-anchor="middle" font-size="11" fill="#7A6F63">厨房へ伝達</text>
+
+    <line x1="600" y1="155" x2="630" y2="155" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow2)"/>
+
+    <rect x="635" y="100" width="150" height="110" rx="16" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="710" cy="132" r="18" fill="#FF6B35"/>
+    <ellipse cx="710" cy="134" rx="12" ry="4" fill="#FFFFFF"/>
+    <path d="M700 134 q10 8 20 0" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <text x="710" y="168" text-anchor="middle" font-weight="700" font-size="13">Sajikan</text>
+    <text x="710" y="186" text-anchor="middle" font-size="11" fill="#7A6F63">配膳</text>
+  </g>
+</svg>

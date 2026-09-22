@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#FFF8F0"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">Suhu Kritis Keamanan Pangan</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#7A6F63">HACCP 重要温度管理</text>
+
+  <g font-size="13" fill="#2D2A26">
+    <!-- bar 1: freezer -->
+    <rect x="60" y="100" width="160" height="300" rx="14" fill="#FFFFFF" stroke="#8AB6E8" stroke-width="3"/>
+    <rect x="80" y="330" width="120" height="50" rx="8" fill="#8AB6E8"/>
+    <text x="140" y="140" text-anchor="middle" font-weight="700" font-size="14">Freezer</text>
+    <text x="140" y="158" text-anchor="middle" font-size="11" fill="#7A6F63">冷凍庫</text>
+    <text x="140" y="250" text-anchor="middle" font-size="22" font-weight="700" fill="#3468A8">≤ -15°C</text>
+    <text x="140" y="360" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="700">Beku</text>
+
+    <!-- bar 2: kulkas -->
+    <rect x="240" y="100" width="160" height="300" rx="14" fill="#FFFFFF" stroke="#7EC9C4" stroke-width="3"/>
+    <rect x="260" y="290" width="120" height="90" rx="8" fill="#7EC9C4"/>
+    <text x="320" y="140" text-anchor="middle" font-weight="700" font-size="14">Kulkas</text>
+    <text x="320" y="158" text-anchor="middle" font-size="11" fill="#7A6F63">冷蔵庫</text>
+    <text x="320" y="250" text-anchor="middle" font-size="22" font-weight="700" fill="#1F7A73">≤ 10°C</text>
+    <text x="320" y="340" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="700">Dingin</text>
+
+    <!-- bar 3: pemanasan umum -->
+    <rect x="420" y="100" width="160" height="300" rx="14" fill="#FFFFFF" stroke="#F2A93B" stroke-width="3"/>
+    <rect x="440" y="180" width="120" height="200" rx="8" fill="#F2A93B"/>
+    <text x="500" y="140" text-anchor="middle" font-weight="700" font-size="14">Pemanasan</text>
+    <text x="500" y="158" text-anchor="middle" font-size="11" fill="#7A6F63">通常加熱</text>
+    <text x="500" y="230" text-anchor="middle" font-size="20" font-weight="700" fill="#8A5A12">75°C</text>
+    <text x="500" y="252" text-anchor="middle" font-size="12" fill="#8A5A12">/ 1 menit</text>
+    <text x="500" y="360" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="700">Umum</text>
+
+    <!-- bar 4: norovirus -->
+    <rect x="600" y="100" width="160" height="300" rx="14" fill="#FFFFFF" stroke="#E8483D" stroke-width="3"/>
+    <rect x="620" y="150" width="120" height="230" rx="8" fill="#E8483D"/>
+    <text x="680" y="140" text-anchor="middle" font-weight="700" font-size="14">Norovirus</text>
+    <text x="680" y="158" text-anchor="middle" font-size="11" fill="#7A6F63">ノロウイルス</text>
+    <text x="680" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">85–90°C</text>
+    <text x="680" y="222" text-anchor="middle" font-size="12" fill="#FFFFFF">/ 90 detik</text>
+    <text x="680" y="360" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="700">Standar Khusus</text>
+  </g>
+
+  <text x="400" y="430" text-anchor="middle" font-size="12" fill="#7A6F63">Panaskan makanan hingga bagian tengah mencapai suhu aman sebelum disajikan</text>
+</svg>

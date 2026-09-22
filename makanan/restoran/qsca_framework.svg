@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#FFF8F0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#2D2A26">4 Pilar Layanan Restoran</text>
+  <text x="400" y="66" text-anchor="middle" font-size="15" fill="#7A6F63">QSCA — Kunci Sukses Bisnis Kuliner</text>
+
+  <!-- Quality -->
+  <g>
+    <rect x="40" y="100" width="340" height="150" rx="18" fill="#FFFFFF" stroke="#FFB08A" stroke-width="3"/>
+    <circle cx="100" cy="150" r="34" fill="#FF6B35"/>
+    <path d="M85 150 l10 12 l20 -26" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="150" y="140" font-size="22" font-weight="700" fill="#2D2A26">Quality</text>
+    <text x="150" y="163" font-size="15" fill="#7A6F63">Kualitas (品質)</text>
+    <text x="150" y="188" font-size="13" fill="#4A433C">Rasa dan mutu makanan</text>
+    <text x="150" y="207" font-size="13" fill="#4A433C">selalu konsisten dan terbaik</text>
+  </g>
+
+  <!-- Service -->
+  <g>
+    <rect x="420" y="100" width="340" height="150" rx="18" fill="#FFFFFF" stroke="#FFB08A" stroke-width="3"/>
+    <circle cx="480" cy="150" r="34" fill="#E8483D"/>
+    <path d="M462 165 q18 -30 36 0" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="480" cy="138" r="8" fill="#FFFFFF"/>
+    <text x="530" y="140" font-size="22" font-weight="700" fill="#2D2A26">Service</text>
+    <text x="530" y="163" font-size="15" fill="#7A6F63">Pelayanan (接客)</text>
+    <text x="530" y="188" font-size="13" fill="#4A433C">Ramah, sopan, dan cepat</text>
+    <text x="530" y="207" font-size="13" fill="#4A433C">tanggap kepada tamu</text>
+  </g>
+
+  <!-- Cleanliness -->
+  <g>
+    <rect x="40" y="270" width="340" height="150" rx="18" fill="#FFFFFF" stroke="#FFB08A" stroke-width="3"/>
+    <circle cx="100" cy="320" r="34" fill="#3BA776"/>
+    <path d="M100 300 v14 M100 322 l0 2 M90 320 h4 M110 320 h-4" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M85 335 q15 12 30 0" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <text x="150" y="310" font-size="22" font-weight="700" fill="#2D2A26">Cleanliness</text>
+    <text x="150" y="333" font-size="15" fill="#7A6F63">Kebersihan (清潔)</text>
+    <text x="150" y="358" font-size="13" fill="#4A433C">Dapur, meja, dan seragam</text>
+    <text x="150" y="377" font-size="13" fill="#4A433C">selalu bersih dan higienis</text>
+  </g>
+
+  <!-- Atmosphere -->
+  <g>
+    <rect x="420" y="270" width="340" height="150" rx="18" fill="#FFFFFF" stroke="#FFB08A" stroke-width="3"/>
+    <circle cx="480" cy="320" r="34" fill="#F2A93B"/>
+    <path d="M465 335 h30 M465 335 q-4 -22 15 -22 q19 0 15 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="530" y="310" font-size="22" font-weight="700" fill="#2D2A26">Atmosphere</text>
+    <text x="530" y="333" font-size="15" fill="#7A6F63">Suasana (雰囲気)</text>
+    <text x="530" y="358" font-size="13" fill="#4A433C">Suasana nyaman, hangat,</text>
+    <text x="530" y="377" font-size="13" fill="#4A433C">dan menyenangkan bagi tamu</text>
+  </g>
+</svg>

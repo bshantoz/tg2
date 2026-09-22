@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#FFF8F0"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">Jadwal Harian Restoran</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#7A6F63">1日のスケジュール</text>
+
+  <!-- timeline track -->
+  <rect x="40" y="150" width="720" height="26" rx="13" fill="#FFE3D2"/>
+
+  <!-- segments -->
+  <rect x="40" y="150" width="90" height="26" fill="#F2A93B"/>
+  <rect x="130" y="150" width="180" height="26" fill="#E8483D"/>
+  <rect x="310" y="150" width="140" height="26" fill="#FFD8A8"/>
+  <rect x="450" y="150" width="180" height="26" fill="#3BA776"/>
+  <rect x="630" y="150" width="130" height="26" rx="13" fill="#6B6259"/>
+  <rect x="40" y="150" width="720" height="26" rx="13" fill="none" stroke="#2D2A26" stroke-width="2"/>
+
+  <g font-size="11" fill="#2D2A26">
+    <!-- markers/labels above -->
+    <circle cx="40" cy="163" r="6" fill="#2D2A26"/>
+    <text x="40" y="130" text-anchor="middle" font-weight="700" font-size="12">09:00</text>
+    <text x="40" y="200" text-anchor="middle" font-size="11">Persiapan Buka</text>
+    <text x="40" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">開店準備</text>
+
+    <circle cx="130" cy="163" r="6" fill="#2D2A26"/>
+    <text x="130" y="130" text-anchor="middle" font-weight="700" font-size="12">11:00</text>
+    <text x="130" y="200" text-anchor="middle" font-size="11">Jam Sibuk</text>
+    <text x="130" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">ランチタイム</text>
+
+    <circle cx="310" cy="163" r="6" fill="#2D2A26"/>
+    <text x="310" y="130" text-anchor="middle" font-weight="700" font-size="12">14:00</text>
+    <text x="310" y="200" text-anchor="middle" font-size="11">Jam Tenang</text>
+    <text x="310" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">アイドルタイム</text>
+
+    <circle cx="450" cy="163" r="6" fill="#2D2A26"/>
+    <text x="450" y="130" text-anchor="middle" font-weight="700" font-size="12">18:00</text>
+    <text x="450" y="200" text-anchor="middle" font-size="11">Makan Malam</text>
+    <text x="450" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">ディナータイム</text>
+
+    <circle cx="630" cy="163" r="6" fill="#2D2A26"/>
+    <text x="630" y="130" text-anchor="middle" font-weight="700" font-size="12">23:00</text>
+    <text x="630" y="200" text-anchor="middle" font-size="11">Bersih-bersih</text>
+    <text x="630" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">閉店準備</text>
+
+    <circle cx="760" cy="163" r="6" fill="#2D2A26"/>
+    <text x="760" y="130" text-anchor="middle" font-weight="700" font-size="12">01:30</text>
+    <text x="760" y="200" text-anchor="middle" font-size="11">Tutup</text>
+    <text x="760" y="215" text-anchor="middle" font-size="10" fill="#7A6F63">深夜・閉店</text>
+  </g>
+
+  <text x="400" y="270" text-anchor="middle" font-size="12" fill="#7A6F63">Jadwal dapat berbeda tergantung jenis restoran dan lokasi</text>
+</svg>

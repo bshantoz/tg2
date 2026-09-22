@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#FFF8F0"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2D2A26">Alur 7 Tahap Layanan Tamu</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6F63">接客の流れ</text>
+
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#E8483D"/>
+    </marker>
+  </defs>
+
+  <!-- 4 top boxes -->
+  <g font-size="12" fill="#2D2A26">
+    <!-- 1 -->
+    <rect x="20" y="100" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="95" cy="128" r="16" fill="#FF6B35"/>
+    <text x="95" y="133" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">1</text>
+    <text x="95" y="160" text-anchor="middle" font-weight="700" font-size="13">Salam</text>
+    <text x="95" y="177" text-anchor="middle" font-size="11" fill="#7A6F63">いらっしゃいませ</text>
+
+    <line x1="170" y1="145" x2="205" y2="145" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 2 -->
+    <rect x="210" y="100" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="285" cy="128" r="16" fill="#FF6B35"/>
+    <text x="285" y="133" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">2</text>
+    <text x="285" y="160" text-anchor="middle" font-weight="700" font-size="13">Antar Meja</text>
+    <text x="285" y="177" text-anchor="middle" font-size="11" fill="#7A6F63">席へ案内</text>
+
+    <line x1="360" y1="145" x2="395" y2="145" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 3 -->
+    <rect x="400" y="100" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="475" cy="128" r="16" fill="#FF6B35"/>
+    <text x="475" y="133" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">3</text>
+    <text x="475" y="160" text-anchor="middle" font-weight="700" font-size="13">Ambil Order</text>
+    <text x="475" y="177" text-anchor="middle" font-size="11" fill="#7A6F63">注文を受ける</text>
+
+    <line x1="550" y1="145" x2="585" y2="145" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 4 -->
+    <rect x="590" y="100" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="665" cy="128" r="16" fill="#FF6B35"/>
+    <text x="665" y="133" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">4</text>
+    <text x="665" y="160" text-anchor="middle" font-weight="700" font-size="13">Sajikan</text>
+    <text x="665" y="177" text-anchor="middle" font-size="11" fill="#7A6F63">配膳</text>
+
+    <!-- connector down -->
+    <path d="M665 190 v20 h-590 v20" fill="none" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 5 -->
+    <rect x="20" y="250" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="95" cy="278" r="16" fill="#FF6B35"/>
+    <text x="95" y="283" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">5</text>
+    <text x="95" y="310" text-anchor="middle" font-weight="700" font-size="13">Perhatian</text>
+    <text x="95" y="327" text-anchor="middle" font-size="11" fill="#7A6F63">様子を確認</text>
+
+    <line x1="170" y1="295" x2="205" y2="295" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 6 -->
+    <rect x="210" y="250" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="285" cy="278" r="16" fill="#FF6B35"/>
+    <text x="285" y="283" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">6</text>
+    <text x="285" y="310" text-anchor="middle" font-weight="700" font-size="13">Bayar</text>
+    <text x="285" y="327" text-anchor="middle" font-size="11" fill="#7A6F63">会計</text>
+
+    <line x1="360" y1="295" x2="395" y2="295" stroke="#E8483D" stroke-width="3" marker-end="url(#arrow1)"/>
+
+    <!-- 7 -->
+    <rect x="400" y="250" width="150" height="90" rx="14" fill="#FFFFFF" stroke="#FF8A5B" stroke-width="3"/>
+    <circle cx="475" cy="278" r="16" fill="#FF6B35"/>
+    <text x="475" y="283" text-anchor="middle" fill="#FFFFFF" font-weight="700" font-size="14">7</text>
+    <text x="475" y="310" text-anchor="middle" font-weight="700" font-size="13">Antar Pulang</text>
+    <text x="475" y="327" text-anchor="middle" font-size="11" fill="#7A6F63">見送り</text>
+  </g>
+
+  <text x="400" y="395" text-anchor="middle" font-size="13" fill="#7A6F63">Setiap tahap dilakukan dengan senyum dan sikap sopan</text>
+</svg>
