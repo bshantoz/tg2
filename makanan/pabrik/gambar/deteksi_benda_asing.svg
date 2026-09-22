@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#F2F7F8"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Deteksi Benda Asing</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#5C7480">異物検出</text>
+
+  <g font-size="13" fill="#22313A">
+    <!-- Metal detector -->
+    <g transform="translate(40,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="45" y="30" width="130" height="50" rx="6" fill="none" stroke="#2E6E82" stroke-width="6"/>
+      <line x1="30" y1="55" x2="45" y2="55" stroke="#B9C9CE" stroke-width="8"/>
+      <line x1="175" y1="55" x2="190" y2="55" stroke="#B9C9CE" stroke-width="8"/>
+      <path d="M55 55 h110" stroke="#7FB6B0" stroke-width="3" stroke-dasharray="4 4"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="16">Metal Detector</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">金属探知機</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Mendeteksi serpihan</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">logam pada produk</text>
+    </g>
+
+    <!-- X-ray machine -->
+    <g transform="translate(290,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="55" y="25" width="110" height="60" rx="6" fill="none" stroke="#2E6E82" stroke-width="5"/>
+      <rect x="70" y="45" width="80" height="16" rx="3" fill="#7FB6B0"/>
+      <path d="M60 30 l14 14 M150 30 l-14 14 M60 80 l14 -14 M150 80 l-14 -14" stroke="#D9534F" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="16">Mesin X-Ray</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">X線検査装置</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Mendeteksi benda</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">asing di dalam kemasan</text>
+    </g>
+
+    <!-- Manual visual inspection -->
+    <g transform="translate(540,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <circle cx="110" cy="45" r="16" fill="#2E6E82"/>
+      <path d="M85 100 q25 -30 50 0 z" fill="#3E8E9E"/>
+      <ellipse cx="90" cy="72" rx="16" ry="10" fill="none" stroke="#2E6E82" stroke-width="3"/>
+      <circle cx="90" cy="72" r="4" fill="#2E6E82"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="16">Inspeksi Visual</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">目視検査</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Pemeriksaan manual</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">sebelum pengemasan akhir</text>
+    </g>
+  </g>
+</svg>

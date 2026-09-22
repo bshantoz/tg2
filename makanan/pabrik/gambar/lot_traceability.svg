@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#F2F7F8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Traceability Nomor Lot</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7480">ロット番号トレーサビリティ</text>
+
+  <defs>
+    <marker id="lt" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7FB6B0"/>
+    </marker>
+  </defs>
+
+  <!-- central package -->
+  <g transform="translate(315,185)">
+    <rect width="170" height="110" rx="14" fill="#2E6E82" stroke="#22313A" stroke-width="2"/>
+    <rect x="15" y="15" width="140" height="30" rx="4" fill="#FFFFFF"/>
+    <text x="85" y="35" text-anchor="middle" font-size="12" font-weight="700" fill="#2E6E82">LOT No.</text>
+    <text x="85" y="68" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">24A0917-03</text>
+    <text x="85" y="90" text-anchor="middle" font-size="10" fill="#DFF0F1">Kemasan Produk / 製品パッケージ</text>
+  </g>
+
+  <!-- Arrows from center to 3 cards -->
+  <line x1="400" y1="185" x2="400" y2="120" stroke="#7FB6B0" stroke-width="3" marker-end="url(#lt)"/>
+  <line x1="315" y1="240" x2="150" y2="280" stroke="#7FB6B0" stroke-width="3" marker-end="url(#lt)"/>
+  <line x1="485" y1="240" x2="650" y2="280" stroke="#7FB6B0" stroke-width="3" marker-end="url(#lt)"/>
+
+  <g font-size="11" fill="#22313A">
+    <!-- Card 1: tanggal produksi (top) -->
+    <g transform="translate(310,20)">
+      <rect width="180" height="90" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="14" y="14" width="20" height="20" rx="3" fill="none" stroke="#2E6E82" stroke-width="2.5"/>
+      <line x1="14" y1="20" x2="34" y2="20" stroke="#2E6E82" stroke-width="2"/>
+      <text x="46" y="28" font-weight="700" font-size="12">Tanggal Produksi</text>
+      <text x="46" y="44" font-size="9.5" fill="#5C7480">製造日</text>
+      <text x="14" y="68" font-size="10" fill="#4A5A62">Catatan waktu &amp;</text>
+      <text x="14" y="82" font-size="10" fill="#4A5A62">shift produksi</text>
+    </g>
+
+    <!-- Card 2: sumber bahan baku (bottom left) -->
+    <g transform="translate(20,285)">
+      <rect width="200" height="110" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <path d="M20 20 h30 v14 l-6 8 v18 a2.5 2.5 0 0 1 -2.5 2.5 h-13 a2.5 2.5 0 0 1 -2.5 -2.5 v-18 l-6 -8 z" fill="#7FB6B0"/>
+      <text x="65" y="30" font-weight="700" font-size="12">Sumber Bahan Baku</text>
+      <text x="65" y="46" font-size="9.5" fill="#5C7480">原材料の仕入先</text>
+      <text x="20" y="72" font-size="10" fill="#4A5A62">Nama pemasok, tanggal</text>
+      <text x="20" y="88" font-size="10" fill="#4A5A62">kedatangan, no. batch</text>
+      <text x="20" y="104" font-size="10" fill="#4A5A62">bahan mentah</text>
+    </g>
+
+    <!-- Card 3: jalur distribusi (bottom right) -->
+    <g transform="translate(590,285)">
+      <rect width="200" height="110" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="20" y="16" width="22" height="14" rx="2" fill="#2E6E82"/>
+      <rect x="42" y="20" width="12" height="10" rx="1" fill="#3E8E9E"/>
+      <circle cx="27" cy="34" r="4" fill="#22313A"/>
+      <circle cx="47" cy="34" r="4" fill="#22313A"/>
+      <text x="65" y="28" font-weight="700" font-size="12">Jalur Distribusi</text>
+      <text x="65" y="44" font-size="9.5" fill="#5C7480">流通経路</text>
+      <text x="20" y="72" font-size="10" fill="#4A5A62">Rute pengiriman untuk</text>
+      <text x="20" y="88" font-size="10" fill="#4A5A62">penarikan produk (recall)</text>
+      <text x="20" y="104" font-size="10" fill="#4A5A62">bila diperlukan</text>
+    </g>
+  </g>
+</svg>

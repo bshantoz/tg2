@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#F2F7F8"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Struktur Organisasi Pabrik</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#5C7480">工場の組織構造</text>
+
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6E8892"/>
+    </marker>
+  </defs>
+
+  <g font-size="12" fill="#22313A">
+    <!-- Top: Manajer Pabrik -->
+    <rect x="300" y="90" width="200" height="90" rx="16" fill="#FFFFFF" stroke="#2E6E82" stroke-width="3"/>
+    <circle cx="345" cy="123" r="20" fill="#2E6E82"/>
+    <path d="M335 128 q10 -14 20 0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="345" cy="115" r="6" fill="#FFFFFF"/>
+    <text x="395" y="122" font-weight="700" font-size="14">Manajer Pabrik</text>
+    <text x="395" y="140" font-size="11" fill="#5C7480">工場長</text>
+    <text x="395" y="158" font-size="10" fill="#5C7480">Bertanggung jawab penuh</text>
+
+    <!-- Lines top to middle -->
+    <line x1="400" y1="180" x2="400" y2="210" stroke="#6E8892" stroke-width="3"/>
+
+    <!-- Middle: Shokucho / supervisor -->
+    <rect x="300" y="210" width="200" height="90" rx="16" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+    <circle cx="345" cy="243" r="18" fill="#3E8E9E"/>
+    <path d="M336 248 q9 -12 18 0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="345" cy="236" r="5" fill="#FFFFFF"/>
+    <text x="390" y="238" font-weight="700" font-size="13">Shokucho / Supervisor</text>
+    <text x="390" y="256" font-size="11" fill="#5C7480">職長</text>
+    <text x="390" y="274" font-size="10" fill="#5C7480">Mengawasi lini produksi</text>
+
+    <!-- distribution line to operators -->
+    <line x1="400" y1="300" x2="400" y2="325" stroke="#6E8892" stroke-width="3"/>
+    <line x1="120" y1="325" x2="680" y2="325" stroke="#6E8892" stroke-width="3"/>
+    <line x1="120" y1="325" x2="120" y2="345" stroke="#6E8892" stroke-width="3" marker-end="url(#a1)"/>
+    <line x1="307" y1="325" x2="307" y2="345" stroke="#6E8892" stroke-width="3" marker-end="url(#a1)"/>
+    <line x1="493" y1="325" x2="493" y2="345" stroke="#6E8892" stroke-width="3" marker-end="url(#a1)"/>
+    <line x1="680" y1="325" x2="680" y2="345" stroke="#6E8892" stroke-width="3" marker-end="url(#a1)"/>
+
+    <!-- 4 operators bottom row -->
+    <g transform="translate(60,350)">
+      <rect width="120" height="60" rx="14" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <circle cx="30" cy="30" r="14" fill="#7FB6B0"/>
+      <path d="M23 33 q7 -9 14 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="70" y="27" font-weight="700" font-size="11">Operator 1</text>
+      <text x="70" y="44" font-size="10" fill="#5C7480">作業員</text>
+    </g>
+    <g transform="translate(247,350)">
+      <rect width="120" height="60" rx="14" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <circle cx="30" cy="30" r="14" fill="#7FB6B0"/>
+      <path d="M23 33 q7 -9 14 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="70" y="27" font-weight="700" font-size="11">Operator 2</text>
+      <text x="70" y="44" font-size="10" fill="#5C7480">作業員</text>
+    </g>
+    <g transform="translate(433,350)">
+      <rect width="120" height="60" rx="14" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <circle cx="30" cy="30" r="14" fill="#7FB6B0"/>
+      <path d="M23 33 q7 -9 14 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="70" y="27" font-weight="700" font-size="11">Operator 3</text>
+      <text x="70" y="44" font-size="10" fill="#5C7480">作業員</text>
+    </g>
+    <g transform="translate(620,350)">
+      <rect width="120" height="60" rx="14" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <circle cx="30" cy="30" r="14" fill="#7FB6B0"/>
+      <path d="M23 33 q7 -9 14 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="70" y="27" font-weight="700" font-size="11">Operator 4</text>
+      <text x="70" y="44" font-size="10" fill="#5C7480">作業員</text>
+    </g>
+  </g>
+</svg>

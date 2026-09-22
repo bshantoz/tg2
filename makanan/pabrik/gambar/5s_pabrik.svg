@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#F2F7F8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Siklus 5S Pabrik</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7480">5S活動サイクル</text>
+
+  <defs>
+    <marker id="c5" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7FB6B0"/>
+    </marker>
+  </defs>
+
+  <g>
+    <circle cx="400" cy="250" r="150" fill="none" stroke="#B9C9CE" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+    <path d="M400,100 A150,150 0 0,1 543,204" fill="none" stroke="#7FB6B0" stroke-width="4" marker-end="url(#c5)"/>
+    <path d="M543,204 A150,150 0 0,1 488,371" fill="none" stroke="#7FB6B0" stroke-width="4" marker-end="url(#c5)"/>
+    <path d="M488,371 A150,150 0 0,1 312,371" fill="none" stroke="#7FB6B0" stroke-width="4" marker-end="url(#c5)"/>
+    <path d="M312,371 A150,150 0 0,1 257,204" fill="none" stroke="#7FB6B0" stroke-width="4" marker-end="url(#c5)"/>
+    <path d="M257,204 A150,150 0 0,1 400,100" fill="none" stroke="#7FB6B0" stroke-width="4" marker-end="url(#c5)"/>
+
+    <circle cx="400" cy="250" r="60" fill="#2E6E82"/>
+    <text x="400" y="244" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">5S</text>
+    <text x="400" y="264" text-anchor="middle" font-size="10" fill="#DFF0F1">整理整頓清掃</text>
+    <text x="400" y="278" text-anchor="middle" font-size="10" fill="#DFF0F1">清潔・躾</text>
+  </g>
+
+  <g font-size="12" fill="#22313A">
+    <!-- 1 Seiri top -->
+    <g transform="translate(340,20)">
+      <rect width="120" height="72" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <text x="60" y="26" text-anchor="middle" font-weight="700" font-size="12.5">Ringkas</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#5C7480">整理 (Seiri)</text>
+      <text x="60" y="60" text-anchor="middle" font-size="9.5" fill="#4A5A62">Pisahkan barang</text>
+    </g>
+
+    <!-- 2 Seiton right -->
+    <g transform="translate(600,144)">
+      <rect width="140" height="72" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <text x="70" y="26" text-anchor="middle" font-weight="700" font-size="12.5">Rapi</text>
+      <text x="70" y="42" text-anchor="middle" font-size="10" fill="#5C7480">整頓 (Seiton)</text>
+      <text x="70" y="60" text-anchor="middle" font-size="9.5" fill="#4A5A62">Tata letak teratur</text>
+    </g>
+
+    <!-- 3 Seiso bottom right -->
+    <g transform="translate(508,375)">
+      <rect width="140" height="72" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <text x="70" y="26" text-anchor="middle" font-weight="700" font-size="12.5">Resik</text>
+      <text x="70" y="42" text-anchor="middle" font-size="10" fill="#5C7480">清掃 (Seiso)</text>
+      <text x="70" y="60" text-anchor="middle" font-size="9.5" fill="#4A5A62">Bersihkan area kerja</text>
+    </g>
+
+    <!-- 4 Seiketsu bottom left -->
+    <g transform="translate(152,375)">
+      <rect width="140" height="72" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <text x="70" y="26" text-anchor="middle" font-weight="700" font-size="12.5">Rawat</text>
+      <text x="70" y="42" text-anchor="middle" font-size="10" fill="#5C7480">清潔 (Seiketsu)</text>
+      <text x="70" y="60" text-anchor="middle" font-size="9.5" fill="#4A5A62">Jaga standar bersih</text>
+    </g>
+
+    <!-- 5 Shitsuke left -->
+    <g transform="translate(60,144)">
+      <rect width="140" height="72" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <text x="70" y="26" text-anchor="middle" font-weight="700" font-size="12.5">Rajin</text>
+      <text x="70" y="42" text-anchor="middle" font-size="10" fill="#5C7480">躾 (Shitsuke)</text>
+      <text x="70" y="60" text-anchor="middle" font-size="9.5" fill="#4A5A62">Disiplin menjalankannya</text>
+    </g>
+  </g>
+</svg>

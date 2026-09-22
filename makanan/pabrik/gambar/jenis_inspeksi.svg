@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#F2F7F8"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Tiga Jenis Inspeksi Produk</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#5C7480">検査の種類</text>
+
+  <g font-size="13" fill="#22313A">
+    <!-- 100% inspection -->
+    <g transform="translate(40,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <g>
+        <rect x="35" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="55" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="75" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="95" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="115" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="135" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="155" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="175" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="35" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="55" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="75" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="95" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="115" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="135" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="155" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="175" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+      </g>
+      <path d="M28 90 l7 7 l12 -14" stroke="#3BA776" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Inspeksi 100%</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">全数検査</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Memeriksa seluruh</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">unit produk satu per satu</text>
+    </g>
+
+    <!-- Sampling -->
+    <g transform="translate(290,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <g>
+        <rect x="35" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="55" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="75" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="95" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="115" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="135" y="25" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="155" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="175" y="25" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="35" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="55" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="75" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="95" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="115" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="135" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+        <rect x="155" y="45" width="16" height="16" rx="2" fill="#2E6E82"/>
+        <rect x="175" y="45" width="16" height="16" rx="2" fill="#B9C9CE"/>
+      </g>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Inspeksi Sampling</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">抜取検査</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Memeriksa sejumlah</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">unit acak dari satu lot</text>
+    </g>
+
+    <!-- Sensory inspection -->
+    <g transform="translate(540,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <circle cx="110" cy="38" r="15" fill="#2E6E82"/>
+      <path d="M88 88 q22 -26 44 0 z" fill="#3E8E9E"/>
+      <ellipse cx="92" cy="60" rx="14" ry="9" fill="none" stroke="#2E6E82" stroke-width="3"/>
+      <circle cx="92" cy="60" r="3.5" fill="#2E6E82"/>
+      <path d="M116 60 q6 -4 12 0 M116 60 q6 4 12 0" stroke="#2E6E82" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Inspeksi Sensori</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">官能検査</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Diperiksa petugas terlatih</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">dengan indra (rasa/bau/rupa)</text>
+    </g>
+  </g>
+</svg>

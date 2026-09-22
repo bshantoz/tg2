@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#F2F7F8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Label Kemasan &amp; 8 Alergen Wajib</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7480">特定原材料8品目の表示</text>
+
+  <!-- Package mockup left -->
+  <g transform="translate(30,90)">
+    <rect width="220" height="330" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+    <rect x="18" y="18" width="184" height="70" rx="8" fill="#2E6E82"/>
+    <text x="110" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Produk Olahan</text>
+    <text x="110" y="68" text-anchor="middle" font-size="11" fill="#DFF0F1">加工食品</text>
+
+    <text x="18" y="108" font-size="10.5" fill="#22313A" font-weight="700">Komposisi:</text>
+    <text x="18" y="124" font-size="9.5" fill="#5C7480">Tepung, gula, minyak nabati,</text>
+    <text x="18" y="138" font-size="9.5" fill="#5C7480">garam, bumbu (perisa)</text>
+
+    <!-- Allergen section highlighted -->
+    <rect x="14" y="152" width="192" height="150" rx="8" fill="#FFF3E0" stroke="#D9534F" stroke-width="3" stroke-dasharray="5 4"/>
+    <text x="110" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#8A2E2A">Mengandung Alergen</text>
+    <text x="110" y="186" text-anchor="middle" font-size="9.5" fill="#8A2E2A">アレルギー物質を含む</text>
+    <text x="24" y="204" font-size="9" fill="#4A433C">Udang, Kepiting, Kenari,</text>
+    <text x="24" y="218" font-size="9" fill="#4A433C">Gandum, Soba, Telur,</text>
+    <text x="24" y="232" font-size="9" fill="#4A433C">Susu, Kacang Tanah</text>
+    <rect x="24" y="244" width="164" height="1" fill="#E8B9B6"/>
+    <text x="110" y="262" text-anchor="middle" font-size="9" fill="#8A2E2A">Lihat detail 8 ikon alergen</text>
+    <text x="110" y="276" text-anchor="middle" font-size="9" fill="#8A2E2A">di sisi kanan →</text>
+
+    <text x="18" y="322" font-size="9" fill="#5C7480">Diproduksi di Jepang / 製造：日本</text>
+  </g>
+
+  <!-- 8 allergen icons grid on right, 4x2, 120x115, gap10, start x=290 y=90 -->
+  <g font-size="10" fill="#22313A">
+    <!-- 1 Udang -->
+    <g transform="translate(290,90)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <path d="M60 34 q16 -14 22 4 q3 10 -9 15 q-13 4 -16 -6 q-2 -8 3 -13" fill="#3E8E9E" stroke="#2E6E82" stroke-width="1.5"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Udang</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">えび</text>
+    </g>
+    <!-- 2 Kepiting -->
+    <g transform="translate(420,90)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <ellipse cx="60" cy="38" rx="18" ry="11" fill="#3E8E9E"/>
+      <path d="M42 34 l-10 -8 M78 34 l10 -8 M46 48 l-8 10 M74 48 l8 10" stroke="#3E8E9E" stroke-width="3" stroke-linecap="round"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Kepiting</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">かに</text>
+    </g>
+    <!-- 3 Kenari -->
+    <g transform="translate(550,90)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <circle cx="60" cy="38" r="17" fill="#7FB6B0"/>
+      <path d="M60 22 v32 M48 38 q12 -8 24 0 M48 38 q12 8 24 0" stroke="#2E6E82" stroke-width="1.5" fill="none"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Kenari</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">くるみ</text>
+    </g>
+    <!-- 4 Gandum -->
+    <g transform="translate(680,90)">
+      <rect width="90" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <path d="M45 22 v32" stroke="#2E6E82" stroke-width="2.5"/>
+      <ellipse cx="45" cy="26" rx="4.5" ry="7" fill="#7FB6B0"/>
+      <ellipse cx="37" cy="32" rx="4.5" ry="7" fill="#7FB6B0" transform="rotate(-30 37 32)"/>
+      <ellipse cx="53" cy="32" rx="4.5" ry="7" fill="#7FB6B0" transform="rotate(30 53 32)"/>
+      <ellipse cx="37" cy="42" rx="4.5" ry="7" fill="#7FB6B0" transform="rotate(-30 37 42)"/>
+      <ellipse cx="53" cy="42" rx="4.5" ry="7" fill="#7FB6B0" transform="rotate(30 53 42)"/>
+      <text x="45" y="75" text-anchor="middle" font-weight="700" font-size="10.5">Gandum</text>
+      <text x="45" y="91" text-anchor="middle" font-size="9" fill="#5C7480">小麦</text>
+    </g>
+    <!-- 5 Soba -->
+    <g transform="translate(290,215)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <ellipse cx="45" cy="36" rx="11" ry="8" fill="#7FB6B0"/>
+      <ellipse cx="65" cy="42" rx="11" ry="8" fill="#2E6E82"/>
+      <ellipse cx="78" cy="30" rx="11" ry="8" fill="#7FB6B0"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Soba</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">そば</text>
+    </g>
+    <!-- 6 Telur -->
+    <g transform="translate(420,215)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <ellipse cx="60" cy="38" rx="16" ry="21" fill="#DFF0F1" stroke="#3E8E9E" stroke-width="3"/>
+      <circle cx="60" cy="40" r="7" fill="#3E8E9E"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Telur</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">卵</text>
+    </g>
+    <!-- 7 Susu -->
+    <g transform="translate(550,215)">
+      <rect width="120" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <path d="M50 20 h20 v8 l5 6 v26 a3 3 0 0 1 -3 3 h-24 a3 3 0 0 1 -3 -3 v-26 l5 -6 z" fill="#FFFFFF" stroke="#2E6E82" stroke-width="3"/>
+      <text x="60" y="75" text-anchor="middle" font-weight="700" font-size="11">Susu</text>
+      <text x="60" y="91" text-anchor="middle" font-size="9.5" fill="#5C7480">乳</text>
+    </g>
+    <!-- 8 Kacang tanah -->
+    <g transform="translate(680,215)">
+      <rect width="90" height="115" rx="12" fill="#FFFFFF" stroke="#7FB6B0" stroke-width="3"/>
+      <ellipse cx="38" cy="30" rx="11" ry="14" fill="#7FB6B0"/>
+      <ellipse cx="52" cy="46" rx="11" ry="14" fill="#7FB6B0"/>
+      <text x="45" y="75" text-anchor="middle" font-weight="700" font-size="10">Kacang</text>
+      <text x="45" y="89" text-anchor="middle" font-size="9" fill="#5C7480">落花生</text>
+    </g>
+  </g>
+</svg>

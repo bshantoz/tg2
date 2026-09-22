@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#F2F7F8"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Keselamatan Pabrik</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#5C7480">工場の安全対策</text>
+
+  <g font-size="13" fill="#22313A">
+    <!-- Emergency stop location -->
+    <g transform="translate(40,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <circle cx="110" cy="55" r="30" fill="#D9534F" stroke="#8A2E2A" stroke-width="4"/>
+      <text x="110" y="61" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="700">STOP</text>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Tombol Darurat</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">非常停止ボタン</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Ketahui lokasi tombol</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">pada setiap mesin</text>
+    </g>
+
+    <!-- Chemical storage -->
+    <g transform="translate(290,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="70" y="25" width="80" height="65" rx="6" fill="none" stroke="#2E6E82" stroke-width="4"/>
+      <line x1="110" y1="25" x2="110" y2="90" stroke="#2E6E82" stroke-width="3"/>
+      <rect x="78" y="34" width="24" height="26" rx="2" fill="#7FB6B0"/>
+      <rect x="118" y="34" width="24" height="26" rx="2" fill="#F2A93B"/>
+      <text x="90" y="53" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">!</text>
+      <text x="130" y="53" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">A</text>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Penyimpanan Kimia</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">化学物質保管庫</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Terpisah, berlabel,</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">dan terkunci rapi</text>
+    </g>
+
+    <!-- Fire evacuation route -->
+    <g transform="translate(540,90)">
+      <rect width="220" height="250" rx="18" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="60" y="25" width="100" height="55" rx="6" fill="#3BA776"/>
+      <path d="M75 52 l20 -14 l20 14 M85 52 v12 h20 v-12" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M118 40 l24 12" stroke="#FFFFFF" stroke-width="3" marker-end="url(#kp)"/>
+      <defs>
+        <marker id="kp" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+          <path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF"/>
+        </marker>
+      </defs>
+      <text x="110" y="155" text-anchor="middle" font-weight="700" font-size="15">Jalur Evakuasi</text>
+      <text x="110" y="176" text-anchor="middle" font-size="11" fill="#5C7480">避難経路</text>
+      <text x="110" y="200" text-anchor="middle" font-size="11" fill="#4A5A62">Kenali rute evakuasi</text>
+      <text x="110" y="217" text-anchor="middle" font-size="11" fill="#4A5A62">kebakaran terdekat</text>
+    </g>
+  </g>
+</svg>

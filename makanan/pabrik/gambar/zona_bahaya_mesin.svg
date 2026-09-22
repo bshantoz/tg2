@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#F2F7F8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#22313A">Zona Bahaya pada Mesin</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7480">機械の危険ゾーン</text>
+
+  <g font-size="11" fill="#22313A">
+    <!-- Conveyor belt -->
+    <g transform="translate(40,110)">
+      <rect width="300" height="150" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <rect x="20" y="70" width="260" height="24" rx="4" fill="#DFF0F1" stroke="#7FB6B0" stroke-width="2"/>
+      <circle cx="35" cy="82" r="16" fill="#2E6E82"/>
+      <circle cx="265" cy="82" r="16" fill="#2E6E82"/>
+      <!-- pinch point marker at roller -->
+      <path d="M35 55 l11 18 h-22 z" fill="#D9534F"/>
+      <text x="35" y="52" text-anchor="middle" font-size="10" fill="#D9534F" font-weight="700">!</text>
+      <text x="35" y="68" text-anchor="middle" font-size="8" fill="#D9534F" font-weight="700"> </text>
+      <!-- emergency stop -->
+      <circle cx="265" cy="30" r="16" fill="#D9534F" stroke="#8A2E2A" stroke-width="3"/>
+      <text x="265" y="35" text-anchor="middle" font-size="10" fill="#FFFFFF" font-weight="700">STOP</text>
+      <text x="150" y="135" text-anchor="middle" font-weight="700" font-size="13">Conveyor Belt</text>
+      <text x="150" y="152" text-anchor="middle" font-size="10" fill="#5C7480">コンベア</text>
+    </g>
+    <text x="75" y="285" font-size="9.5" fill="#8A2E2A">▲ Titik jepit roller</text>
+    <text x="75" y="298" font-size="8.5" fill="#5C7480">ローラー挟まれ点</text>
+    <text x="245" y="285" font-size="9.5" fill="#8A2E2A">● Tombol darurat</text>
+    <text x="245" y="298" font-size="8.5" fill="#5C7480">非常停止ボタン</text>
+
+    <!-- Mixer -->
+    <g transform="translate(430,90)">
+      <rect width="330" height="180" rx="14" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="3"/>
+      <ellipse cx="120" cy="90" rx="70" ry="55" fill="#DFF0F1" stroke="#2E6E82" stroke-width="4"/>
+      <!-- guard grate over mixer opening -->
+      <line x1="70" y1="55" x2="70" y2="125" stroke="#7FB6B0" stroke-width="3"/>
+      <line x1="95" y1="45" x2="95" y2="135" stroke="#7FB6B0" stroke-width="3"/>
+      <line x1="120" y1="40" x2="120" y2="140" stroke="#7FB6B0" stroke-width="3"/>
+      <line x1="145" y1="45" x2="145" y2="135" stroke="#7FB6B0" stroke-width="3"/>
+      <line x1="170" y1="55" x2="170" y2="125" stroke="#7FB6B0" stroke-width="3"/>
+      <!-- gear icon marking pinch -->
+      <circle cx="120" cy="90" r="14" fill="#2E6E82"/>
+      <path d="M120 76 l3 6 l6 -3 l-1 7 l7 1 l-6 3 l3 6 l-6 -3 l-3 6 l-3 -6 l-6 3 l3 -6 l-6 -3 l7 -1 l-1 -7 l6 3 z" fill="#7FB6B0"/>
+      <path d="M120 60 l10 16 h-20 z" fill="#D9534F"/>
+      <text x="120" y="58" text-anchor="middle" font-size="9" fill="#D9534F" font-weight="700">!</text>
+      <!-- emergency stop button -->
+      <circle cx="285" cy="40" r="18" fill="#D9534F" stroke="#8A2E2A" stroke-width="3"/>
+      <text x="285" y="45" text-anchor="middle" font-size="10" fill="#FFFFFF" font-weight="700">STOP</text>
+      <text x="120" y="162" text-anchor="middle" font-weight="700" font-size="13">Mesin Mixer</text>
+      <text x="120" y="178" text-anchor="middle" font-size="10" fill="#5C7480">ミキサー機</text>
+    </g>
+    <text x="470" y="288" font-size="9.5" fill="#8A2E2A">▲ Titik jepit gear (berpelindung)</text>
+    <text x="470" y="301" font-size="8.5" fill="#5C7480">ギア挟まれ点（安全カバー付）</text>
+    <text x="670" y="288" font-size="9.5" fill="#8A2E2A">● Tombol darurat</text>
+    <text x="670" y="301" font-size="8.5" fill="#5C7480">非常停止ボタン</text>
+  </g>
+
+  <g>
+    <rect x="40" y="335" width="720" height="60" rx="12" fill="#FFFFFF" stroke="#3E8E9E" stroke-width="2"/>
+    <path d="M65 350 l8 14 h-16 z" fill="#D9534F"/>
+    <text x="65" y="349" text-anchor="middle" font-size="8" fill="#D9534F" font-weight="700"> </text>
+    <text x="90" y="358" font-size="11" fill="#22313A">Tanda segitiga = titik jepit / bahaya. Selalu gunakan pelindung (guard) dan jangan</text>
+    <text x="90" y="376" font-size="11" fill="#22313A">melepas pengaman mesin. Ketahui posisi tombol darurat (emergency stop) di setiap mesin.</text>
+  </g>
+</svg>
