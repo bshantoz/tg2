@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Keselamatan Kerja di Ketinggian (2m ke Atas)</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">高所作業（2m以上）における安全対策</text>
+
+  <!-- ground -->
+  <rect x="0" y="360" width="800" height="40" fill="#E4DBF0"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#6A3FA0" stroke-width="2"/>
+
+  <!-- platform / scaffold -->
+  <rect x="150" y="230" width="380" height="18" fill="#4E2C7A"/>
+  <g stroke="#4E2C7A" stroke-width="6">
+    <line x1="170" y1="248" x2="170" y2="360"/>
+    <line x1="510" y1="248" x2="510" y2="360"/>
+    <line x1="340" y1="248" x2="340" y2="360"/>
+  </g>
+  <g stroke="#7A6E8C" stroke-width="3">
+    <line x1="170" y1="304" x2="340" y2="284"/>
+    <line x1="340" y1="284" x2="510" y2="304"/>
+    <line x1="170" y1="360" x2="340" y2="330"/>
+    <line x1="340" y1="330" x2="510" y2="360"/>
+  </g>
+
+  <!-- guardrail (tesuri) -->
+  <g stroke="#6A3FA0" stroke-width="4" fill="none">
+    <line x1="170" y1="230" x2="170" y2="180"/>
+    <line x1="340" y1="230" x2="340" y2="180"/>
+    <line x1="510" y1="230" x2="510" y2="180"/>
+    <line x1="170" y1="182" x2="510" y2="182"/>
+    <line x1="170" y1="206" x2="510" y2="206"/>
+  </g>
+  <text x="560" y="196" font-size="11" fill="#2E2438" font-weight="700">手すり</text>
+  <text x="560" y="210" font-size="9" fill="#7A6E8C">(pagar pengaman)</text>
+
+  <!-- height measurement marker -->
+  <g stroke="#6A3FA0" stroke-width="2">
+    <line x1="620" y1="248" x2="620" y2="360"/>
+    <line x1="610" y1="248" x2="630" y2="248"/>
+    <line x1="610" y1="360" x2="630" y2="360"/>
+  </g>
+  <text x="655" y="300" font-size="16" font-weight="700" fill="#6A3FA0">2m</text>
+  <text x="655" y="316" font-size="9" fill="#7A6E8C">以上</text>
+  <text x="655" y="330" font-size="9" fill="#7A6E8C">ambang wajib APD</text>
+
+  <!-- worker with harness -->
+  <g transform="translate(255,150)">
+    <circle cx="0" cy="0" r="14" fill="#4E2C7A"/>
+    <rect x="-16" y="14" width="32" height="46" rx="8" fill="#6A3FA0"/>
+    <!-- harness straps -->
+    <path d="M-14 16 L14 50 M14 16 L-14 50 M-14 30 h28" stroke="#4E2C7A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <rect x="-6" y="36" width="12" height="10" rx="2" fill="#F5F2FA" stroke="#4E2C7A" stroke-width="2"/>
+    <rect x="-10" y="58" width="10" height="34" rx="4" fill="#4E2C7A"/>
+    <rect x="2" y="58" width="10" height="34" rx="4" fill="#4E2C7A"/>
+    <rect x="-13" y="90" width="16" height="8" rx="3" fill="#2E2438"/>
+    <rect x="-1" y="90" width="16" height="8" rx="3" fill="#2E2438"/>
+    <rect x="-30" y="18" width="10" height="30" rx="4" fill="#4E2C7A"/>
+    <rect x="20" y="18" width="10" height="30" rx="4" fill="#4E2C7A"/>
+  </g>
+  <!-- lanyard from harness to anchor point -->
+  <path d="M270,192 Q330,150 400,170" stroke="#6A3FA0" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <circle cx="400" cy="172" r="6" fill="#4E2C7A"/>
+  <text x="400" y="158" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">titik jangkar</text>
+
+  <text x="255" y="130" text-anchor="middle" font-size="11" font-weight="700" fill="#2E2438">フルハーネス型安全帯</text>
+  <text x="255" y="115" text-anchor="middle" font-size="9" fill="#7A6E8C">(full body harness)</text>
+
+  <text x="400" y="386" text-anchor="middle" font-size="11" fill="#2E2438">労働安全衛生法：pekerjaan pada ketinggian 2m atau lebih wajib pakai pagar pengaman &amp; harness</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Perbandingan Metode Uji Ketahanan Korosi</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">耐食性試験方法の比較（遅い → 速い）</text>
+
+  <!-- Card 1: outdoor exposure -->
+  <g transform="translate(30,85)">
+    <rect width="175" height="200" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <circle cx="87" cy="34" r="20" fill="#4E2C7A"/>
+    <circle cx="87" cy="34" r="10" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <g stroke="#FFFFFF" stroke-width="2">
+      <line x1="87" y1="14" x2="87" y2="8"/>
+      <line x1="87" y1="60" x2="87" y2="54"/>
+      <line x1="67" y1="34" x2="61" y2="34"/>
+      <line x1="113" y1="34" x2="107" y2="34"/>
+    </g>
+    <text x="87" y="76" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">屋外暴露試験</text>
+    <text x="87" y="90" text-anchor="middle" font-size="8" fill="#7A6E8C">Uji Paparan Luar</text>
+    <text x="87" y="115" text-anchor="middle" font-size="8" fill="#2E2438">Paparan cuaca nyata</text>
+    <text x="87" y="128" text-anchor="middle" font-size="8" fill="#2E2438">di luar ruangan</text>
+    <rect x="20" y="150" width="134" height="24" rx="6" fill="#E4DBF0"/>
+    <text x="87" y="166" text-anchor="middle" font-size="9" font-weight="700" fill="#4E2C7A">bulan–tahun</text>
+    <text x="87" y="200" text-anchor="middle" font-size="8" fill="#7A6E8C">paling akurat,</text>
+    <text x="87" y="212" text-anchor="middle" font-size="8" fill="#7A6E8C">validasi jangka panjang</text>
+  </g>
+
+  <!-- Card 2: NSS -->
+  <g transform="translate(215,85)">
+    <rect width="175" height="200" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <circle cx="87" cy="34" r="20" fill="#4E2C7A"/>
+    <path d="M75 40 q4 -16 12 -16 q3 -6 8 -2 q6 -3 8 5 q5 0 4 7 q0 3 -3 3 h-25 q-4 0 -4 -3" fill="#FFFFFF"/>
+    <text x="87" y="76" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">中性塩水噴霧試験</text>
+    <text x="87" y="90" text-anchor="middle" font-size="8" fill="#7A6E8C">NSS Test</text>
+    <text x="87" y="115" text-anchor="middle" font-size="8" fill="#2E2438">Kabut larutan garam</text>
+    <text x="87" y="128" text-anchor="middle" font-size="8" fill="#2E2438">netral (NaCl)</text>
+    <rect x="20" y="150" width="134" height="24" rx="6" fill="#E4DBF0"/>
+    <text x="87" y="166" text-anchor="middle" font-size="9" font-weight="700" fill="#4E2C7A">jam–hari</text>
+    <text x="87" y="200" text-anchor="middle" font-size="8" fill="#7A6E8C">standar rutin QC</text>
+    <text x="87" y="212" text-anchor="middle" font-size="8" fill="#7A6E8C">produksi</text>
+  </g>
+
+  <!-- Card 3: AASS -->
+  <g transform="translate(400,85)">
+    <rect width="175" height="200" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <circle cx="87" cy="34" r="20" fill="#4E2C7A"/>
+    <path d="M75 40 q4 -16 12 -16 q3 -6 8 -2 q6 -3 8 5 q5 0 4 7 q0 3 -3 3 h-25 q-4 0 -4 -3" fill="#FFFFFF"/>
+    <text x="100" y="24" font-size="12" font-weight="700" fill="#FFFFFF">酢</text>
+    <text x="87" y="76" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">酢酸酸性塩水噴霧</text>
+    <text x="87" y="90" text-anchor="middle" font-size="8" fill="#7A6E8C">AASS Test</text>
+    <text x="87" y="115" text-anchor="middle" font-size="8" fill="#2E2438">Garam + asam asetat</text>
+    <text x="87" y="128" text-anchor="middle" font-size="8" fill="#2E2438">(korosi lebih cepat)</text>
+    <rect x="20" y="150" width="134" height="24" rx="6" fill="#E4DBF0"/>
+    <text x="87" y="166" text-anchor="middle" font-size="9" font-weight="700" fill="#4E2C7A">jam (lebih cepat)</text>
+    <text x="87" y="200" text-anchor="middle" font-size="8" fill="#7A6E8C">evaluasi cepat lapisan</text>
+    <text x="87" y="212" text-anchor="middle" font-size="8" fill="#7A6E8C">dekoratif tipis</text>
+  </g>
+
+  <!-- Card 4: CASS -->
+  <g transform="translate(585,85)">
+    <rect width="175" height="200" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3.5"/>
+    <circle cx="87" cy="34" r="20" fill="#4E2C7A"/>
+    <path d="M75 40 q4 -16 12 -16 q3 -6 8 -2 q6 -3 8 5 q5 0 4 7 q0 3 -3 3 h-25 q-4 0 -4 -3" fill="#FFFFFF"/>
+    <circle cx="100" cy="20" r="5" fill="#FFFFFF"/>
+    <text x="87" y="76" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">キャス試験（CASS）</text>
+    <text x="87" y="90" text-anchor="middle" font-size="8" fill="#7A6E8C">+ 塩化第二銅</text>
+    <text x="87" y="115" text-anchor="middle" font-size="8" fill="#2E2438">Ditambah cupric</text>
+    <text x="87" y="128" text-anchor="middle" font-size="8" fill="#2E2438">chloride (CuCl₂)</text>
+    <rect x="20" y="150" width="134" height="24" rx="6" fill="#4E2C7A"/>
+    <text x="87" y="166" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">paling cepat</text>
+    <text x="87" y="200" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">korosi paling agresif</text>
+    <text x="87" y="212" text-anchor="middle" font-size="8" fill="#7A6E8C">di antara ke-4nya</text>
+  </g>
+
+  <line x1="30" y1="310" x2="760" y2="310" stroke="#6A3FA0" stroke-width="2" marker-end="url(#af2)"/>
+  <defs><marker id="af2" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6A3FA0"/></marker></defs>
+  <text x="30" y="328" font-size="9" fill="#7A6E8C">lambat</text>
+  <text x="760" y="328" text-anchor="end" font-size="9" fill="#7A6E8C">cepat (korosi dipercepat)</text>
+</svg>

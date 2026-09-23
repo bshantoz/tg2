@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Histogram Mutu vs Batas Spesifikasi</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">ヒストグラムと規格（上限・下限）の関係</text>
+
+  <!-- Card 1: narrow, ideal -->
+  <g transform="translate(45,85)">
+    <rect width="340" height="255" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <text x="170" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2438">Sempit &amp; Terpusat — IDEAL</text>
+    <text x="170" y="42" text-anchor="middle" font-size="9" fill="#7A6E8C">variasi kecil, semua sesuai spesifikasi</text>
+    <g transform="translate(35,60)">
+      <!-- spec limit lines -->
+      <line x1="20" y1="0" x2="20" y2="180" stroke="#4E2C7A" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="250" y1="0" x2="250" y2="180" stroke="#4E2C7A" stroke-width="2" stroke-dasharray="5,3"/>
+      <text x="20" y="-4" text-anchor="middle" font-size="8" fill="#4E2C7A">下限規格</text>
+      <text x="250" y="-4" text-anchor="middle" font-size="8" fill="#4E2C7A">上限規格</text>
+      <line x1="0" y1="180" x2="270" y2="180" stroke="#7A6E8C" stroke-width="1.5"/>
+      <g fill="#6A3FA0">
+        <rect x="110" y="150" width="16" height="30"/>
+        <rect x="126" y="110" width="16" height="70"/>
+        <rect x="142" y="60" width="16" height="120"/>
+        <rect x="158" y="105" width="16" height="75"/>
+        <rect x="174" y="148" width="16" height="32"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Card 2: wide, centered but out of bounds -->
+  <g transform="translate(415,85)">
+    <rect width="340" height="255" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <text x="170" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2438">Terpusat tapi Terlalu Lebar</text>
+    <text x="170" y="42" text-anchor="middle" font-size="9" fill="#7A6E8C">ばらつき besar → 不適合品 di kedua sisi</text>
+    <g transform="translate(35,60)">
+      <line x1="60" y1="0" x2="60" y2="180" stroke="#4E2C7A" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="210" y1="0" x2="210" y2="180" stroke="#4E2C7A" stroke-width="2" stroke-dasharray="5,3"/>
+      <text x="60" y="-4" text-anchor="middle" font-size="8" fill="#4E2C7A">下限規格</text>
+      <text x="210" y="-4" text-anchor="middle" font-size="8" fill="#4E2C7A">上限規格</text>
+      <line x1="0" y1="180" x2="270" y2="180" stroke="#7A6E8C" stroke-width="1.5"/>
+      <g>
+        <rect x="20" y="160" width="16" height="20" fill="#6A3FA0" opacity="0.55"/>
+        <rect x="36" y="140" width="16" height="40" fill="#6A3FA0" opacity="0.55"/>
+        <rect x="52" y="115" width="16" height="65" fill="#6A3FA0" opacity="0.85"/>
+        <rect x="68" y="95" width="16" height="85" fill="#6A3FA0"/>
+        <rect x="84" y="75" width="16" height="105" fill="#6A3FA0"/>
+        <rect x="100" y="60" width="16" height="120" fill="#6A3FA0"/>
+        <rect x="116" y="75" width="16" height="105" fill="#6A3FA0"/>
+        <rect x="132" y="95" width="16" height="85" fill="#6A3FA0"/>
+        <rect x="148" y="115" width="16" height="65" fill="#6A3FA0" opacity="0.85"/>
+        <rect x="164" y="140" width="16" height="40" fill="#6A3FA0" opacity="0.55"/>
+        <rect x="180" y="160" width="16" height="20" fill="#6A3FA0" opacity="0.55"/>
+      </g>
+      <text x="28" y="200" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">gagal</text>
+      <text x="200" y="200" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">gagal</text>
+    </g>
+  </g>
+</svg>

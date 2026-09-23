@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Penampang: Anodizing vs Electroplating vs Buffing</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">陽極酸化処理・めっき・バフ研磨の断面比較</text>
+
+  <!-- Card 1: Anodizing -->
+  <g transform="translate(60,90)">
+    <rect width="210" height="260" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2438">陽極酸化処理</text>
+    <text x="105" y="44" text-anchor="middle" font-size="9" fill="#7A6E8C">Anodizing (Alumite)</text>
+    <!-- cross section: base metal with oxide growing both in and out -->
+    <rect x="30" y="110" width="150" height="80" fill="#6A3FA0"/>
+    <path d="M30 110 q75 -18 150 0 v14 q-75 -14 -150 0 z" fill="#4E2C7A"/>
+    <path d="M30 110 q75 12 150 0 v-14 q-75 14 -150 0 z" fill="#4E2C7A" opacity="0.7"/>
+    <text x="105" y="205" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">Lapisan oksida tumbuh</text>
+    <text x="105" y="218" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">SEBAGIAN KE DALAM</text>
+    <text x="105" y="231" text-anchor="middle" font-size="8" fill="#7A6E8C">+ ke luar permukaan Al</text>
+    <text x="105" y="252" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">unik dibanding 3 metode lain</text>
+  </g>
+
+  <!-- Card 2: Electroplating -->
+  <g transform="translate(295,90)">
+    <rect width="210" height="260" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2438">めっき</text>
+    <text x="105" y="44" text-anchor="middle" font-size="9" fill="#7A6E8C">Electroplating</text>
+    <rect x="30" y="120" width="150" height="70" fill="#6A3FA0"/>
+    <rect x="30" y="112" width="150" height="10" fill="#4E2C7A"/>
+    <text x="105" y="205" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">Lapisan logam baru</text>
+    <text x="105" y="218" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">MENUMPUK DI ATAS</text>
+    <text x="105" y="231" text-anchor="middle" font-size="8" fill="#7A6E8C">permukaan logam dasar</text>
+    <text x="105" y="252" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">sama dengan 溶射 &amp; 塗装</text>
+  </g>
+
+  <!-- Card 3: Buffing -->
+  <g transform="translate(530,90)">
+    <rect width="210" height="260" rx="14" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2438">バフ研磨</text>
+    <text x="105" y="44" text-anchor="middle" font-size="9" fill="#7A6E8C">Buffing/Polishing</text>
+    <rect x="30" y="110" width="150" height="80" fill="#6A3FA0"/>
+    <path d="M30 110 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0 q10 -6 20 0" fill="none" stroke="#2E2438" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="105" cy="70" r="22" fill="none" stroke="#4E2C7A" stroke-width="4"/>
+    <line x1="105" y1="48" x2="105" y2="30" stroke="#4E2C7A" stroke-width="4"/>
+    <text x="105" y="205" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">Roda kain/kulit berputar</text>
+    <text x="105" y="218" text-anchor="middle" font-size="9" fill="#2E2438" font-weight="700">MENGHALUSKAN permukaan</text>
+    <text x="105" y="231" text-anchor="middle" font-size="8" fill="#7A6E8C">sebelum/sesudah mekki</text>
+    <text x="105" y="252" text-anchor="middle" font-size="8" fill="#6A3FA0" font-weight="700">bukan proses pelapisan</text>
+  </g>
+
+  <text x="400" y="380" text-anchor="middle" font-size="11" fill="#2E2438">Hanya anodizing (陽極酸化) yang lapisannya tumbuh sebagian masuk ke dalam logam dasar</text>
+</svg>

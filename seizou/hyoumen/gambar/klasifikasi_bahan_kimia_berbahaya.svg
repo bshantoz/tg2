@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Klasifikasi &amp; Penyimpanan Bahan Kimia Berbahaya</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">毒物及び劇物取締法に基づく薬品の分類と保管</text>
+
+  <!-- shelf structure -->
+  <g stroke="#6A3FA0" stroke-width="3" fill="none">
+    <line x1="60" y1="90" x2="740" y2="90"/>
+    <line x1="60" y1="200" x2="740" y2="200"/>
+    <line x1="60" y1="310" x2="740" y2="310"/>
+    <line x1="60" y1="90" x2="60" y2="310"/>
+    <line x1="740" y1="90" x2="740" y2="310"/>
+  </g>
+
+  <!-- Top shelf: regulated dangerous substances (locked, separate) -->
+  <text x="70" y="82" font-size="12" font-weight="700" fill="#6A3FA0">RAK TERKUNCI &amp; TERPISAH — 毒物・劇物（法規制）</text>
+  <g font-size="10">
+    <!-- bottle: methanol -->
+    <g transform="translate(100,110)">
+      <rect x="0" y="10" width="46" height="70" rx="6" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <rect x="14" y="0" width="18" height="14" rx="3" fill="#4E2C7A"/>
+      <polygon points="23,20 33,38 13,38" fill="#F5F2FA" stroke="#6A3FA0" stroke-width="1.5"/>
+      <text x="23" y="34" text-anchor="middle" font-size="9" font-weight="700" fill="#6A3FA0">!</text>
+      <text x="23" y="58" text-anchor="middle" font-weight="700" fill="#2E2438">劇物</text>
+      <text x="23" y="70" text-anchor="middle" font-size="8" fill="#7A6E8C">メチル</text>
+      <text x="23" y="80" text-anchor="middle" font-size="8" fill="#7A6E8C">アルコール</text>
+    </g>
+    <text x="123" y="200" text-anchor="middle" font-size="9" fill="#2E2438">Metanol (metil alkohol)</text>
+
+    <!-- bottle: cupric chloride (uji korosi context, hazard) -->
+    <g transform="translate(230,110)">
+      <rect x="0" y="10" width="46" height="70" rx="6" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <rect x="14" y="0" width="18" height="14" rx="3" fill="#4E2C7A"/>
+      <polygon points="23,20 33,38 13,38" fill="#F5F2FA" stroke="#6A3FA0" stroke-width="1.5"/>
+      <text x="23" y="34" text-anchor="middle" font-size="9" font-weight="700" fill="#6A3FA0">!</text>
+      <text x="23" y="58" text-anchor="middle" font-weight="700" fill="#2E2438">劇物</text>
+      <text x="23" y="70" text-anchor="middle" font-size="8" fill="#7A6E8C">塩化第二銅</text>
+      <text x="23" y="80" text-anchor="middle" font-size="8" fill="#7A6E8C">(CuCl₂)</text>
+    </g>
+    <text x="253" y="200" text-anchor="middle" font-size="9" fill="#2E2438">Tembaga(II) klorida</text>
+
+    <!-- padlock icon -->
+    <g transform="translate(340,130)">
+      <rect x="0" y="18" width="34" height="26" rx="4" fill="#4E2C7A"/>
+      <path d="M6 18 v-8 a11 11 0 0 1 22 0 v8" fill="none" stroke="#4E2C7A" stroke-width="5"/>
+      <circle cx="17" cy="31" r="3.5" fill="#FFFFFF"/>
+    </g>
+    <text x="357" y="200" text-anchor="middle" font-size="9" fill="#2E2438">Terkunci &amp; berlabel</text>
+
+    <!-- SDS sheet -->
+    <g transform="translate(430,110)">
+      <rect x="0" y="0" width="50" height="66" rx="4" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <line x1="8" y1="14" x2="42" y2="14" stroke="#7A6E8C" stroke-width="2"/>
+      <line x1="8" y1="26" x2="42" y2="26" stroke="#7A6E8C" stroke-width="2"/>
+      <line x1="8" y1="38" x2="42" y2="38" stroke="#7A6E8C" stroke-width="2"/>
+      <line x1="8" y1="50" x2="30" y2="50" stroke="#7A6E8C" stroke-width="2"/>
+      <text x="25" y="8" text-anchor="middle" font-size="7" font-weight="700" fill="#6A3FA0">SDS</text>
+    </g>
+    <text x="455" y="200" text-anchor="middle" font-size="9" fill="#2E2438">Lembar data keselamatan</text>
+
+    <!-- hazard triangle big -->
+    <g transform="translate(560,115)">
+      <polygon points="35,5 68,62 2,62" fill="#4E2C7A"/>
+      <text x="35" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">!</text>
+    </g>
+    <text x="595" y="200" text-anchor="middle" font-size="9" fill="#2E2438">Lambang bahaya kimia</text>
+  </g>
+
+  <!-- Bottom shelf: general/non-regulated -->
+  <text x="70" y="192" font-size="12" font-weight="700" fill="#7A6E8C">RAK UMUM — bukan 毒物・劇物 (contoh: etil alkohol, asam asetat encer, air berkarbonasi)</text>
+  <g font-size="9">
+    <g transform="translate(110,225)">
+      <rect x="0" y="10" width="42" height="60" rx="6" fill="#FFFFFF" stroke="#7A6E8C" stroke-width="2"/>
+      <rect x="12" y="0" width="18" height="12" rx="3" fill="#7A6E8C"/>
+      <text x="21" y="48" text-anchor="middle" fill="#2E2438">エチル</text>
+      <text x="21" y="60" text-anchor="middle" fill="#2E2438">アルコール</text>
+    </g>
+    <g transform="translate(230,225)">
+      <rect x="0" y="10" width="42" height="60" rx="6" fill="#FFFFFF" stroke="#7A6E8C" stroke-width="2"/>
+      <rect x="12" y="0" width="18" height="12" rx="3" fill="#7A6E8C"/>
+      <text x="21" y="48" text-anchor="middle" fill="#2E2438">酢酸</text>
+      <text x="21" y="60" text-anchor="middle" fill="#2E2438">(encer)</text>
+    </g>
+    <g transform="translate(350,225)">
+      <rect x="0" y="10" width="42" height="60" rx="6" fill="#FFFFFF" stroke="#7A6E8C" stroke-width="2"/>
+      <rect x="12" y="0" width="18" height="12" rx="3" fill="#7A6E8C"/>
+      <text x="21" y="48" text-anchor="middle" fill="#2E2438">炭酸水</text>
+    </g>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-size="12" fill="#2E2438" font-weight="700">Jangan menilai bahaya zat hanya dari bau/kemiripan — cek klasifikasi resminya.</text>
+  <text x="400" y="348" text-anchor="middle" font-size="11" fill="#7A6E8C">名前・匂いだけで薬品の危険性を判断してはいけない</text>
+</svg>

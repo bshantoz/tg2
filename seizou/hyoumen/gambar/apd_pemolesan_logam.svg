@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="500" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">APD Wajib Pemolesan &amp; Penggerindaan Logam</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">研磨/表面処理作業の保護具（保護ゴーグル・手袋は特に必須）</text>
+
+  <!-- connector lines drawn first, under everything -->
+  <g stroke="#6A3FA0" stroke-width="1.6" fill="none" stroke-dasharray="3,3">
+    <line x1="382" y1="98" x2="270" y2="118"/>
+    <line x1="392" y1="116" x2="270" y2="168"/>
+    <line x1="378" y1="182" x2="270" y2="247"/>
+    <line x1="384" y1="220" x2="270" y2="327"/>
+    <line x1="438" y1="244" x2="530" y2="118"/>
+    <line x1="410" y1="120" x2="530" y2="197"/>
+    <line x1="420" y1="320" x2="530" y2="327"/>
+    <line x1="410" y1="398" x2="530" y2="407"/>
+  </g>
+
+  <!-- person silhouette -->
+  <g>
+    <circle cx="400" cy="118" r="26" fill="#4E2C7A"/>
+    <rect x="374" y="146" width="52" height="18" rx="6" fill="#4E2C7A"/>
+    <path d="M362 164 h76 l14 92 h-30 l-8 -60 h-28 l-8 60 h-30 z" fill="#6A3FA0"/>
+    <rect x="352" y="168" width="20" height="70" rx="9" fill="#4E2C7A"/>
+    <rect x="428" y="168" width="20" height="70" rx="9" fill="#4E2C7A"/>
+    <circle cx="362" cy="244" r="11" fill="#2E2438"/>
+    <circle cx="438" cy="244" r="11" fill="#2E2438"/>
+    <rect x="368" y="256" width="26" height="120" rx="8" fill="#4E2C7A"/>
+    <rect x="406" y="256" width="26" height="120" rx="8" fill="#4E2C7A"/>
+    <rect x="360" y="372" width="32" height="20" rx="6" fill="#2E2438"/>
+    <rect x="408" y="372" width="32" height="20" rx="6" fill="#2E2438"/>
+    <ellipse cx="376" cy="398" rx="24" ry="10" fill="#2E2438"/>
+    <ellipse cx="424" cy="398" rx="24" ry="10" fill="#2E2438"/>
+    <!-- goggles -->
+    <rect x="382" y="108" width="36" height="14" rx="6" fill="#FFFFFF" stroke="#2E2438" stroke-width="2"/>
+    <!-- apron -->
+    <path d="M374 186 h52 l-6 76 h-40 z" fill="#F5F2FA" stroke="#6A3FA0" stroke-width="2"/>
+  </g>
+
+  <!-- callout boxes -->
+  <g font-size="10.5">
+    <!-- Helm (top-left) -->
+    <g transform="translate(30,88)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <path d="M18 30 a8 8 0 0 1 16 0 M14 30 h20" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Helm Pelindung</text>
+      <text x="50" y="38" fill="#7A6E8C">ヘルメット</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Melindungi kepala dari benturan</text>
+    </g>
+    <!-- Kacamata (mid-left, WAJIB) -->
+    <g transform="translate(30,138)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <ellipse cx="20" cy="29" rx="6" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <ellipse cx="32" cy="29" rx="6" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="50" y="20" font-weight="700" fill="#2E2438">Kacamata Pelindung *</text>
+      <text x="50" y="35" fill="#7A6E8C">保護ゴーグル</text>
+      <text x="50" y="49" fill="#6A3FA0" font-size="9" font-weight="700">* Mutlak wajib saat menggerinda</text>
+    </g>
+    <!-- Pakaian kerja -->
+    <g transform="translate(30,218)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <path d="M18 22 h16 l4 6 v14 h-24 v-14 z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Pakaian Kerja</text>
+      <text x="50" y="38" fill="#7A6E8C">作業服</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Melindungi tubuh dari percikan</text>
+    </g>
+    <!-- Celemek -->
+    <g transform="translate(30,298)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <path d="M18 22 h16 v6 h4 v20 h-24 v-20 h4 z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Celemek (Apron)</text>
+      <text x="50" y="38" fill="#7A6E8C">前掛け</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Pelindung depan tubuh dari panas</text>
+    </g>
+
+    <!-- Penyumbat telinga (top-right) -->
+    <g transform="translate(530,88)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <path d="M22 22 q-8 4 -8 12 q0 6 6 6 q4 0 4 -5 v-13 z" fill="#FFFFFF"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Sarung Tangan *</text>
+      <text x="50" y="35" fill="#7A6E8C">手袋</text>
+      <text x="50" y="49" fill="#6A3FA0" font-size="9" font-weight="700">* Mutlak wajib saat menggerinda</text>
+    </g>
+    <!-- (moved sarung tangan up visually, keep second box distinct: earplug not required label) -->
+    <g transform="translate(530,168)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <circle cx="26" cy="29" r="7" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Penyumbat Telinga</text>
+      <text x="50" y="38" fill="#7A6E8C">耳栓</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Melindungi pendengaran</text>
+    </g>
+    <!-- Pembungkus kaki (kyahan) -->
+    <g transform="translate(530,298)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <rect x="18" y="18" width="16" height="22" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Pembungkus Kaki (Kyahan)</text>
+      <text x="50" y="38" fill="#7A6E8C">脚絆</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Melindungi betis dari serpihan panas</text>
+    </g>
+    <!-- Sepatu keselamatan -->
+    <g transform="translate(530,378)">
+      <rect width="240" height="58" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+      <circle cx="26" cy="29" r="15" fill="#4E2C7A"/>
+      <path d="M16 34 h8 l6 -10 h6 v10 h-20 z" fill="#FFFFFF"/>
+      <text x="50" y="22" font-weight="700" fill="#2E2438">Sepatu Keselamatan</text>
+      <text x="50" y="38" fill="#7A6E8C">安全靴</text>
+      <text x="50" y="50" fill="#7A6E8C" font-size="9">Pelindung kaki dari benda jatuh</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#F5F2FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2438">Alur Pengolahan Limbah Cair (凝集沈殿法)</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#7A6E8C">廃水処理：中和槽 → 凝集槽 → 沈殿槽</text>
+
+  <defs>
+    <marker id="af" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6A3FA0"/>
+    </marker>
+  </defs>
+
+  <!-- Limbah masuk -->
+  <g transform="translate(20,140)">
+    <rect width="80" height="70" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <path d="M20 20 q10 -14 20 0 q10 -14 20 0 v20 h-40 z" fill="#4E2C7A"/>
+    <text x="40" y="55" text-anchor="middle" font-size="9" font-weight="700" fill="#2E2438">廃水</text>
+    <text x="40" y="67" text-anchor="middle" font-size="7.5" fill="#7A6E8C">limbah masuk</text>
+  </g>
+  <line x1="100" y1="175" x2="126" y2="175" stroke="#6A3FA0" stroke-width="3" marker-end="url(#af)"/>
+
+  <!-- Tank 1: neutralization -->
+  <g transform="translate(128,110)">
+    <circle cx="66" cy="18" r="15" fill="#4E2C7A"/>
+    <text x="66" y="23" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">①</text>
+    <rect y="40" width="132" height="90" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <rect x="8" y="58" width="116" height="64" fill="#E4DBF0"/>
+    <text x="66" y="95" text-anchor="middle" font-size="9" fill="#4E2C7A">中和剤</text>
+    <text x="66" y="145" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">中和槽</text>
+    <text x="66" y="158" text-anchor="middle" font-size="8.5" fill="#7A6E8C">Tangki Netralisasi</text>
+  </g>
+  <line x1="260" y1="175" x2="286" y2="175" stroke="#6A3FA0" stroke-width="3" marker-end="url(#af)"/>
+
+  <!-- Tank 2: coagulation -->
+  <g transform="translate(288,110)">
+    <circle cx="66" cy="18" r="15" fill="#4E2C7A"/>
+    <text x="66" y="23" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">②</text>
+    <rect y="40" width="132" height="90" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <rect x="8" y="58" width="116" height="64" fill="#E4DBF0"/>
+    <circle cx="50" cy="90" r="4" fill="#6A3FA0"/>
+    <circle cx="66" cy="98" r="5" fill="#6A3FA0"/>
+    <circle cx="82" cy="88" r="4" fill="#6A3FA0"/>
+    <circle cx="70" cy="105" r="3" fill="#6A3FA0"/>
+    <text x="66" y="145" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">凝集槽</text>
+    <text x="66" y="158" text-anchor="middle" font-size="8.5" fill="#7A6E8C">Tangki Koagulasi</text>
+  </g>
+  <line x1="420" y1="175" x2="446" y2="175" stroke="#6A3FA0" stroke-width="3" marker-end="url(#af)"/>
+
+  <!-- Tank 3: sedimentation -->
+  <g transform="translate(448,110)">
+    <rect y="40" width="150" height="90" rx="10" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="3"/>
+    <rect x="8" y="58" width="134" height="40" fill="#E4DBF0"/>
+    <rect x="8" y="98" width="134" height="24" fill="#4E2C7A"/>
+    <text x="75" y="145" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E2438">沈殿槽</text>
+    <text x="75" y="158" text-anchor="middle" font-size="8.5" fill="#7A6E8C">Tangki Sedimentasi</text>
+  </g>
+  <line x1="622" y1="150" x2="648" y2="150" stroke="#6A3FA0" stroke-width="3" marker-end="url(#af)"/>
+  <line x1="622" y1="195" x2="648" y2="195" stroke="#6A3FA0" stroke-width="3" marker-end="url(#af)"/>
+
+  <!-- outputs -->
+  <g transform="translate(650,120)">
+    <rect width="120" height="56" rx="8" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+    <text x="60" y="24" text-anchor="middle" font-size="10" font-weight="700" fill="#2E2438">処理水</text>
+    <text x="60" y="38" text-anchor="middle" font-size="8" fill="#7A6E8C">air olahan (atas)</text>
+    <text x="60" y="50" text-anchor="middle" font-size="7.5" fill="#7A6E8C">dibuang/didaur ulang</text>
+  </g>
+  <g transform="translate(650,182)">
+    <circle cx="60" cy="12" r="12" fill="#4E2C7A"/>
+    <text x="60" y="17" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">③</text>
+    <rect y="26" width="120" height="42" rx="8" fill="#FFFFFF" stroke="#6A3FA0" stroke-width="2.5"/>
+    <text x="60" y="46" text-anchor="middle" font-size="10" font-weight="700" fill="#2E2438">スラッジ</text>
+    <text x="60" y="59" text-anchor="middle" font-size="7.5" fill="#7A6E8C">sludge (dasar) — limbah B3</text>
+  </g>
+
+  <text x="400" y="350" text-anchor="middle" font-size="11" fill="#2E2438">Urutan wajib: 中和 → 凝集 → 沈殿. Netralisasi dulu agar koagulan polimer bekerja optimal.</text>
+</svg>
