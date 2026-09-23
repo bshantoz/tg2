@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Jenis Bunga Potong Populer di Jepang</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">人気の切り花の種類</text>
+
+  <g font-size="10" fill="#2A2F22">
+    <!-- Krisan -->
+    <g transform="translate(30,68)">
+      <rect width="176" height="200" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <line x1="88" y1="150" x2="88" y2="196" stroke="#4E7A34" stroke-width="4"/>
+      <path d="M88 150 q-14 8 -18 -2 M88 150 q14 8 18 -2" stroke="#4E7A34" stroke-width="3" fill="none"/>
+      <g fill="#E8D96A">
+        <g transform="translate(88,110)">
+          <circle r="10" fill="#C9A227"/>
+          <g stroke="#E8D96A" stroke-width="4" stroke-linecap="round">
+            <line x1="0" y1="0" x2="0" y2="-22"/><line x1="0" y1="0" x2="15" y2="-16"/>
+            <line x1="0" y1="0" x2="21" y2="0"/><line x1="0" y1="0" x2="15" y2="16"/>
+            <line x1="0" y1="0" x2="0" y2="22"/><line x1="0" y1="0" x2="-15" y2="16"/>
+            <line x1="0" y1="0" x2="-21" y2="0"/><line x1="0" y1="0" x2="-15" y2="-16"/>
+          </g>
+        </g>
+      </g>
+      <text x="88" y="222" text-anchor="middle" font-weight="700" font-size="12">Krisan</text>
+      <text x="88" y="238" text-anchor="middle" font-size="9.5" fill="#6B7A5E">キク / kiku</text>
+      <text x="88" y="256" text-anchor="middle" font-size="8.5" fill="#2A2F22">nilai produksi tertinggi</text>
+    </g>
+
+    <!-- Mawar -->
+    <g transform="translate(216,68)">
+      <rect width="176" height="200" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <line x1="88" y1="150" x2="88" y2="196" stroke="#4E7A34" stroke-width="4"/>
+      <path d="M78 178 l-8 -6 M98 178 l8 -6" stroke="#4E7A34" stroke-width="2" fill="none"/>
+      <g transform="translate(88,112)">
+        <circle r="16" fill="#C0392B"/>
+        <circle r="10" fill="#D8564A"/>
+        <circle r="5" fill="#E9776C"/>
+      </g>
+      <text x="88" y="222" text-anchor="middle" font-weight="700" font-size="12">Mawar</text>
+      <text x="88" y="238" text-anchor="middle" font-size="9.5" fill="#6B7A5E">バラ / bara</text>
+      <text x="88" y="256" text-anchor="middle" font-size="8.5" fill="#2A2F22">budidaya hidroponik wol batu</text>
+    </g>
+
+    <!-- Lili -->
+    <g transform="translate(402,68)">
+      <rect width="176" height="200" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <line x1="88" y1="150" x2="88" y2="196" stroke="#4E7A34" stroke-width="4"/>
+      <g transform="translate(88,116)" fill="#F3EAD8" stroke="#C9A227" stroke-width="1.5">
+        <path d="M0 -20 Q16 -8 0 8 Q-16 -8 0 -20 Z"/>
+        <path d="M0 -20 Q-10 0 4 18 Q18 -2 0 -20 Z" transform="rotate(60)"/>
+        <path d="M0 -20 Q-10 0 4 18 Q18 -2 0 -20 Z" transform="rotate(-60)"/>
+      </g>
+      <circle cx="88" cy="116" r="4" fill="#C9A227"/>
+      <text x="88" y="222" text-anchor="middle" font-weight="700" font-size="12">Lili</text>
+      <text x="88" y="238" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ユリ / yuri</text>
+      <text x="88" y="256" text-anchor="middle" font-size="8.5" fill="#2A2F22">ditanam dari umbi</text>
+    </g>
+
+    <!-- Anyelir -->
+    <g transform="translate(588,68)">
+      <rect width="176" height="200" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <line x1="88" y1="150" x2="88" y2="196" stroke="#4E7A34" stroke-width="4"/>
+      <g transform="translate(88,114)" fill="#E88FAE">
+        <path d="M-14 -4 q4 -10 14 -10 q10 0 14 10 q-6 -2 -14 6 q-8 -8 -14 -6 z"/>
+        <path d="M-12 6 q4 -8 12 -6 q8 -2 12 6 q-6 4 -12 -2 q-6 6 -12 2 z"/>
+      </g>
+      <text x="88" y="222" text-anchor="middle" font-weight="700" font-size="12">Anyelir</text>
+      <text x="88" y="238" text-anchor="middle" font-size="9.5" fill="#6B7A5E">カーネーション</text>
+      <text x="88" y="256" text-anchor="middle" font-size="8.5" fill="#2A2F22">diperbanyak dengan stek</text>
+    </g>
+  </g>
+</svg>

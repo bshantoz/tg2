@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Siklus Pertumbuhan Tanaman</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">作物の生育サイクル</text>
+
+  <defs>
+    <marker id="apc" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4E7A34"/>
+    </marker>
+  </defs>
+
+  <!-- cycle arrows -->
+  <g fill="none" stroke="#4E7A34" stroke-width="3">
+    <path d="M456,110 A120,120 0 0,1 512,205" marker-end="url(#apc)"/>
+    <path d="M492,245 A120,120 0 0,1 400,283" marker-end="url(#apc)"/>
+    <path d="M340,270 A120,120 0 0,1 260,190" marker-end="url(#apc)"/>
+    <path d="M270,140 A120,120 0 0,1 356,90" marker-end="url(#apc)"/>
+  </g>
+
+  <!-- center label -->
+  <circle cx="400" cy="185" r="46" fill="#DCE7CB"/>
+  <text x="400" y="181" text-anchor="middle" font-size="11" font-weight="700" fill="#2A2F22">Tanaman</text>
+  <text x="400" y="195" text-anchor="middle" font-size="9" fill="#6B7A5E">作物</text>
+
+  <!-- N: germination -->
+  <g transform="translate(340,52)">
+    <rect width="120" height="72" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+    <circle cx="60" cy="22" r="15" fill="#365523"/>
+    <path d="M60 30 v-14 M52 22 q8 -6 16 0" stroke="#FFFFFF" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <text x="60" y="48" text-anchor="middle" font-weight="700" font-size="10.5">Perkecambahan</text>
+    <text x="60" y="62" text-anchor="middle" font-size="9" fill="#6B7A5E">発芽 / hatsuga</text>
+  </g>
+
+  <!-- E: vegetative -->
+  <g transform="translate(560,150)">
+    <rect width="126" height="72" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+    <circle cx="63" cy="22" r="15" fill="#365523"/>
+    <path d="M63 32 v-20 M56 22 q7 -8 7 -16 M70 22 q-7 -8 -7 -16" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <text x="63" y="48" text-anchor="middle" font-weight="700" font-size="10.5">Vegetatif</text>
+    <text x="63" y="62" text-anchor="middle" font-size="9" fill="#6B7A5E">栄養成長 / eiyou seichou</text>
+  </g>
+
+  <!-- S: generative -->
+  <g transform="translate(340,214)">
+    <rect width="120" height="72" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+    <circle cx="60" cy="22" r="15" fill="#E0A93A"/>
+    <circle cx="60" cy="22" r="6" fill="#FFFFFF"/>
+    <path d="M60 16 l3 6 l6 1 l-4.5 4.5 l1 6 l-5.5 -3 l-5.5 3 l1 -6 l-4.5 -4.5 l6 -1 z" fill="#FFFFFF" opacity="0"/>
+    <text x="60" y="48" text-anchor="middle" font-weight="700" font-size="10.5">Generatif</text>
+    <text x="60" y="62" text-anchor="middle" font-size="9" fill="#6B7A5E">生殖成長 / seishoku seichou</text>
+  </g>
+
+  <!-- W: harvest -->
+  <g transform="translate(112,150)">
+    <rect width="126" height="72" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+    <circle cx="63" cy="22" r="15" fill="#4E7A34"/>
+    <path d="M55 26 h16 l-3 -14 h-10 z" fill="#FFFFFF"/>
+    <text x="63" y="48" text-anchor="middle" font-weight="700" font-size="10.5">Panen</text>
+    <text x="63" y="62" text-anchor="middle" font-size="9" fill="#6B7A5E">収穫 / shuukaku</text>
+  </g>
+</svg>

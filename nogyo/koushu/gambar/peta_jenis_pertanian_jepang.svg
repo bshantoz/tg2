@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Ragam Usaha Pertanian di Jepang</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">日本各地の農業の種類</text>
+
+  <!-- simplified archipelago -->
+  <g>
+    <ellipse cx="175" cy="88" rx="34" ry="24" fill="#C9DCB0"/>
+    <path d="M150,104 C170,120 130,140 158,158 C182,172 140,196 168,214 C185,226 155,244 172,258"
+          fill="none" stroke="#C9DCB0" stroke-width="34" stroke-linecap="round"/>
+    <ellipse cx="200" cy="240" rx="16" ry="10" fill="#C9DCB0"/>
+    <ellipse cx="150" cy="262" rx="22" ry="18" fill="#C9DCB0"/>
+  </g>
+
+  <!-- markers -->
+  <g font-size="9" fill="#FFFFFF" font-weight="700">
+    <circle cx="180" cy="92" r="12" fill="#4E7A34"/>
+    <text x="180" y="96" text-anchor="middle">1</text>
+
+    <circle cx="148" cy="128" r="12" fill="#365523"/>
+    <text x="148" y="132" text-anchor="middle">2</text>
+
+    <circle cx="172" cy="168" r="12" fill="#A9702F"/>
+    <text x="172" y="172" text-anchor="middle">3</text>
+
+    <circle cx="150" cy="210" r="12" fill="#E0A93A"/>
+    <text x="150" y="214" text-anchor="middle">4</text>
+
+    <circle cx="150" cy="258" r="12" fill="#C0708A"/>
+    <text x="150" y="262" text-anchor="middle">5</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="10.5" fill="#2A2F22">
+    <g transform="translate(300,68)">
+      <rect width="470" height="40" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="24" cy="20" r="12" fill="#4E7A34"/>
+      <text x="24" y="24" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">1</text>
+      <text x="46" y="17" font-weight="700" font-size="11">稲作 / Budidaya Padi</text>
+      <text x="46" y="31" font-size="9" fill="#6B7A5E">inasaku — sawah tergenang air, banyak di dataran rendah</text>
+    </g>
+    <g transform="translate(300,114)">
+      <rect width="470" height="40" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="24" cy="20" r="12" fill="#365523"/>
+      <text x="24" y="24" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">2</text>
+      <text x="46" y="17" font-weight="700" font-size="11">畑作 / Ladang &amp; Sayuran</text>
+      <text x="46" y="31" font-size="9" fill="#6B7A5E">hatasaku — gandum, kedelai, kentang, kubis (banyak di Hokkaido)</text>
+    </g>
+    <g transform="translate(300,160)">
+      <rect width="470" height="40" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="24" cy="20" r="12" fill="#A9702F"/>
+      <text x="24" y="24" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">3</text>
+      <text x="46" y="17" font-weight="700" font-size="11">果樹栽培 / Kebun Buah</text>
+      <text x="46" y="31" font-size="9" fill="#6B7A5E">kaju saibai — jeruk unshu, apel, anggur, pir Jepang</text>
+    </g>
+    <g transform="translate(300,206)">
+      <rect width="470" height="40" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="24" cy="20" r="12" fill="#E0A93A"/>
+      <text x="24" y="24" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">4</text>
+      <text x="46" y="17" font-weight="700" font-size="11">施設園芸 / Rumah Kaca</text>
+      <text x="46" y="31" font-size="9" fill="#6B7A5E">shisetsu engei — tomat, stroberi, mentimun bertumbuh terkendali</text>
+    </g>
+    <g transform="translate(300,252)">
+      <rect width="470" height="40" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="24" cy="20" r="12" fill="#C0708A"/>
+      <text x="24" y="24" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">5</text>
+      <text x="46" y="17" font-weight="700" font-size="11">花き栽培 / Kebun Bunga</text>
+      <text x="46" y="31" font-size="9" fill="#6B7A5E">kaki saibai — krisan, mawar, lili, anyelir, bunga potong</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Jenis Pupuk &amp; Pengelolaan Limbah Pertanian</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">肥料の種類・農業廃棄物の分類</text>
+
+  <!-- TOP: motogoe vs tsuihi -->
+  <g>
+    <text x="200" y="66" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2A2F22">元肥 / Pupuk Dasar (motogoe)</text>
+    <g transform="translate(60,72)">
+      <rect width="280" height="66" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <!-- field with seedling and bag icon -->
+      <rect x="16" y="14" width="44" height="38" rx="4" fill="#A9702F"/>
+      <path d="M22 20 h32 M22 28 h32" stroke="#F3F7ED" stroke-width="2"/>
+      <path d="M38 48 v-14 M32 40 q6 -6 6 -14 M44 40 q-6 -6 -6 -14" stroke="#4E7A34" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <text x="150" y="30" text-anchor="middle" font-size="10" fill="#2A2F22">Diberikan sebelum/saat tanam</text>
+      <text x="150" y="44" text-anchor="middle" font-size="10" fill="#2A2F22">sebagai bekal awal pertumbuhan</text>
+      <text x="150" y="58" text-anchor="middle" font-size="9" fill="#6B7A5E">植え付け前に施す</text>
+    </g>
+
+    <text x="600" y="66" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2A2F22">追肥 / Pupuk Susulan (tsuihi)</text>
+    <g transform="translate(460,72)">
+      <rect width="280" height="66" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <!-- growing plant with scoop -->
+      <circle cx="38" cy="33" r="22" fill="#DCE7CB"/>
+      <path d="M38 48 v-24 M30 36 q8 -8 8 -18 M46 36 q-8 -8 -8 -18" stroke="#365523" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <path d="M50 20 l10 -6 l4 8 l-10 6 z" fill="#A9702F"/>
+      <text x="150" y="30" text-anchor="middle" font-size="10" fill="#2A2F22">Diberikan saat tanaman</text>
+      <text x="150" y="44" text-anchor="middle" font-size="10" fill="#2A2F22">tumbuh, menambah unsur hara</text>
+      <text x="150" y="58" text-anchor="middle" font-size="9" fill="#6B7A5E">生育中に追加で施す</text>
+    </g>
+  </g>
+
+  <line x1="24" y1="152" x2="776" y2="152" stroke="#DCE7CB" stroke-width="2"/>
+
+  <!-- BOTTOM: waste sorting flow -->
+  <text x="400" y="172" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Pemilahan Limbah Pertanian &#8194;/&#8194; 農業廃棄物の分別</text>
+
+  <defs>
+    <marker id="ap3" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4E7A34"/>
+    </marker>
+  </defs>
+
+  <g font-size="8.5" fill="#2A2F22">
+    <!-- oli -->
+    <g transform="translate(30,188)">
+      <rect width="94" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <path d="M40 14 h14 v6 l6 6 v22 q0 4 -4 4 h-22 q-4 0 -4 -4 v-22 l6 -6 z" fill="#5C4A2E"/>
+      <text x="47" y="58" text-anchor="middle" font-weight="700">Oli / BBM</text>
+      <text x="47" y="68" text-anchor="middle" font-size="7.5" fill="#6B7A5E">廃油</text>
+    </g>
+    <line x1="124" y1="222" x2="140" y2="222" stroke="#4E7A34" stroke-width="2" marker-end="url(#ap3)"/>
+    <!-- plastik -->
+    <g transform="translate(140,188)">
+      <rect width="94" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <path d="M32 42 q0 -18 15 -18 q15 0 15 18 z" fill="none" stroke="#4E7A34" stroke-width="2.4"/>
+      <path d="M32 42 h30" stroke="#4E7A34" stroke-width="2.4"/>
+      <text x="47" y="58" text-anchor="middle" font-weight="700">Plastik Bekas</text>
+      <text x="47" y="68" text-anchor="middle" font-size="7.5" fill="#6B7A5E">廃プラスチック</text>
+    </g>
+    <line x1="234" y1="222" x2="250" y2="222" stroke="#4E7A34" stroke-width="2" marker-end="url(#ap3)"/>
+    <!-- logam -->
+    <g transform="translate(250,188)">
+      <rect width="94" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <rect x="32" y="24" width="30" height="20" rx="3" fill="none" stroke="#5C6B78" stroke-width="3"/>
+      <line x1="32" y1="34" x2="62" y2="34" stroke="#5C6B78" stroke-width="2"/>
+      <text x="47" y="58" text-anchor="middle" font-weight="700">Logam Bekas</text>
+      <text x="47" y="68" text-anchor="middle" font-size="7.5" fill="#6B7A5E">金属くず</text>
+    </g>
+    <line x1="344" y1="222" x2="360" y2="222" stroke="#4E7A34" stroke-width="2" marker-end="url(#ap3)"/>
+    <!-- kotoran ternak -->
+    <g transform="translate(360,188)">
+      <rect width="94" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="47" cy="34" r="12" fill="#8A6A3D"/>
+      <circle cx="40" cy="30" r="6" fill="#8A6A3D"/>
+      <circle cx="55" cy="30" r="6" fill="#8A6A3D"/>
+      <text x="47" y="58" text-anchor="middle" font-weight="700">Kotoran Ternak</text>
+      <text x="47" y="68" text-anchor="middle" font-size="7.5" fill="#6B7A5E">動物ふん尿</text>
+    </g>
+    <line x1="454" y1="222" x2="470" y2="222" stroke="#4E7A34" stroke-width="2" marker-end="url(#ap3)"/>
+    <!-- sisa tanaman -->
+    <g transform="translate(470,188)">
+      <rect width="94" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <path d="M47 46 v-24 M38 38 q9 -8 9 -18 M56 38 q-9 -8 -9 -18" stroke="#4E7A34" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <text x="47" y="58" text-anchor="middle" font-weight="700">Sisa Tanaman</text>
+      <text x="47" y="68" text-anchor="middle" font-size="7.5" fill="#6B7A5E">木くず・残さ</text>
+    </g>
+    <line x1="564" y1="222" x2="586" y2="222" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#ap3)"/>
+  </g>
+
+  <!-- disposal bin -->
+  <g transform="translate(590,190)">
+    <rect width="180" height="66" rx="12" fill="#365523"/>
+    <path d="M22 18 h20 v8 h24 v30 q0 4 -4 4 h-40 q-4 0 -4 -4 v-30 h4 z" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+    <text x="105" y="32" text-anchor="middle" font-size="9.5" font-weight="700" fill="#FFFFFF">Pengelola Limbah</text>
+    <text x="105" y="45" text-anchor="middle" font-size="9.5" font-weight="700" fill="#FFFFFF">Berizin</text>
+    <text x="105" y="58" text-anchor="middle" font-size="8" fill="#DCE7CB">許可業者へ処理委託</text>
+  </g>
+</svg>

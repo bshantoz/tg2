@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Klasifikasi Sayuran Berdasarkan Organ</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">野菜の分類（利用器官による）</text>
+
+  <!-- Column 1: leaf/stem -->
+  <g transform="translate(30,66)">
+    <rect width="234" height="212" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="3"/>
+    <rect width="234" height="40" rx="14" fill="#4E7A34"/>
+    <rect y="26" width="234" height="14" fill="#4E7A34"/>
+    <text x="117" y="26" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">葉茎菜類 / Daun &amp; Batang</text>
+
+    <!-- leafy vegetable icon -->
+    <g transform="translate(97,58)">
+      <path d="M20 60 v-36" stroke="#365523" stroke-width="4" stroke-linecap="round"/>
+      <path d="M20 44 q-16 -6 -18 -22 q16 2 18 22" fill="#77A052"/>
+      <path d="M20 36 q16 -6 18 -22 q-16 2 -18 22" fill="#4E7A34"/>
+      <path d="M20 50 q-14 -4 -16 -18 q14 2 16 18" fill="#77A052"/>
+      <path d="M20 50 q14 -4 16 -18 q-14 2 -16 18" fill="#4E7A34"/>
+    </g>
+
+    <text x="117" y="150" text-anchor="middle" font-size="10.5" fill="#2A2F22">Bayam, Kubis, Selada,</text>
+    <text x="117" y="164" text-anchor="middle" font-size="10.5" fill="#2A2F22">Asparagus, Brokoli</text>
+    <text x="117" y="182" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ホウレンソウ・キャベツ・</text>
+    <text x="117" y="196" text-anchor="middle" font-size="9.5" fill="#6B7A5E">レタス・アスパラガス</text>
+  </g>
+
+  <!-- Column 2: root/tuber -->
+  <g transform="translate(283,66)">
+    <rect width="234" height="212" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="3"/>
+    <rect width="234" height="40" rx="14" fill="#A9702F"/>
+    <rect y="26" width="234" height="14" fill="#A9702F"/>
+    <text x="117" y="26" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">根菜類 / Akar &amp; Umbi</text>
+
+    <!-- root vegetable icon -->
+    <g transform="translate(97,58)">
+      <path d="M14 6 q10 -6 20 0 q4 12 -4 24 l-6 -6 l-6 6 q-8 -12 -4 -24 z" fill="#77A052"/>
+      <path d="M20 30 q-4 20 2 34 q4 -6 2 -18 M20 30 q4 20 -2 34 q-4 -6 -2 -18" stroke="#A9702F" stroke-width="0" fill="none"/>
+      <path d="M20 30 l-2 34 q10 2 4 -34 z" fill="#E8A65A"/>
+    </g>
+
+    <text x="117" y="150" text-anchor="middle" font-size="10.5" fill="#2A2F22">Kentang, Lobak (Daikon),</text>
+    <text x="117" y="164" text-anchor="middle" font-size="10.5" fill="#2A2F22">Wortel, Ubi Jalar</text>
+    <text x="117" y="182" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ジャガイモ・ダイコン・</text>
+    <text x="117" y="196" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ニンジン・サツマイモ</text>
+  </g>
+
+  <!-- Column 3: fruit -->
+  <g transform="translate(536,66)">
+    <rect width="234" height="212" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="3"/>
+    <rect width="234" height="40" rx="14" fill="#E0A93A"/>
+    <rect y="26" width="234" height="14" fill="#E0A93A"/>
+    <text x="117" y="26" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">果菜類 / Buah &amp; Biji</text>
+
+    <!-- fruit vegetable icon -->
+    <g transform="translate(97,58)">
+      <circle cx="20" cy="26" r="18" fill="#C0392B"/>
+      <path d="M20 8 q4 -8 12 -6" stroke="#365523" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="24" cy="4" rx="6" ry="3" fill="#4E7A34"/>
+    </g>
+
+    <text x="117" y="150" text-anchor="middle" font-size="10.5" fill="#2A2F22">Mentimun, Tomat, Terong,</text>
+    <text x="117" y="164" text-anchor="middle" font-size="10.5" fill="#2A2F22">Paprika, Edamame</text>
+    <text x="117" y="182" text-anchor="middle" font-size="9.5" fill="#6B7A5E">キュウリ・トマト・</text>
+    <text x="117" y="196" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ナス・パプリカ</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Hama &amp; Penyakit Umum pada Tanaman</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">作物の主な病害虫</text>
+
+  <g font-size="9.5" fill="#2A2F22">
+    <!-- leaf spot disease -->
+    <g transform="translate(28,66)">
+      <rect width="182" height="206" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="91" y="18" text-anchor="middle" font-size="10.5" font-weight="700">Bercak Daun</text>
+      <path d="M91 40 q-38 6 -38 46 q0 34 38 40 q38 -6 38 -40 q0 -40 -38 -46 z" fill="#77A052"/>
+      <path d="M91 40 v86" stroke="#4E7A34" stroke-width="2"/>
+      <circle cx="72" cy="72" r="6" fill="#8A6A3D"/>
+      <circle cx="108" cy="86" r="5" fill="#8A6A3D"/>
+      <circle cx="80" cy="102" r="4.5" fill="#8A6A3D"/>
+      <circle cx="105" cy="60" r="4" fill="#8A6A3D"/>
+      <text x="91" y="188" text-anchor="middle" font-size="9.5" fill="#6B7A5E">いもち病 / imochibyou</text>
+      <text x="91" y="200" text-anchor="middle" font-size="8.5">bercak coklat pada daun padi</text>
+    </g>
+
+    <!-- fruit rot -->
+    <g transform="translate(220,66)">
+      <rect width="182" height="206" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="91" y="18" text-anchor="middle" font-size="10.5" font-weight="700">Busuk Buah</text>
+      <circle cx="91" cy="90" r="34" fill="#D8564A"/>
+      <path d="M91 60 q8 -10 16 -6" stroke="#4E7A34" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M70 90 q10 20 30 14 q14 -6 10 -22 q-8 -10 -22 -6 q-14 4 -18 14 z" fill="#6B4A2A" opacity="0.85"/>
+      <circle cx="70" cy="95" r="3" fill="#3E3020"/>
+      <circle cx="88" cy="104" r="3" fill="#3E3020"/>
+      <text x="91" y="188" text-anchor="middle" font-size="9.5" fill="#6B7A5E">灰色カビ病 / haiiro kabibyou</text>
+      <text x="91" y="200" text-anchor="middle" font-size="8.5">jamur abu-abu di buah/bunga</text>
+    </g>
+
+    <!-- powdery mildew -->
+    <g transform="translate(412,66)">
+      <rect width="182" height="206" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="91" y="18" text-anchor="middle" font-size="10.5" font-weight="700">Embun Tepung</text>
+      <path d="M91 40 q-38 6 -38 46 q0 34 38 40 q38 -6 38 -40 q0 -40 -38 -46 z" fill="#77A052"/>
+      <path d="M91 40 v86" stroke="#4E7A34" stroke-width="2"/>
+      <g fill="#F3F3EC" opacity="0.9">
+        <circle cx="70" cy="66" r="3.5"/><circle cx="88" cy="60" r="3"/><circle cx="104" cy="72" r="3.5"/>
+        <circle cx="76" cy="86" r="3"/><circle cx="98" cy="92" r="3.5"/><circle cx="112" cy="80" r="3"/>
+        <circle cx="84" cy="104" r="3.2"/>
+      </g>
+      <text x="91" y="188" text-anchor="middle" font-size="9.5" fill="#6B7A5E">うどんこ病 / udonkobyou</text>
+      <text x="91" y="200" text-anchor="middle" font-size="8.5">lapisan putih pada daun</text>
+    </g>
+
+    <!-- pest bug -->
+    <g transform="translate(604,66)">
+      <rect width="168" height="206" rx="14" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="84" y="18" text-anchor="middle" font-size="10.5" font-weight="700">Hama Pengisap</text>
+      <ellipse cx="84" cy="90" rx="14" ry="22" fill="#5C6B3E"/>
+      <line x1="84" y1="68" x2="84" y2="112" stroke="#2A2F22" stroke-width="1.4"/>
+      <g stroke="#2A2F22" stroke-width="1.6">
+        <line x1="72" y1="80" x2="60" y2="72"/>
+        <line x1="72" y1="94" x2="58" y2="94"/>
+        <line x1="72" y1="106" x2="60" y2="114"/>
+        <line x1="96" y1="80" x2="108" y2="72"/>
+        <line x1="96" y1="94" x2="110" y2="94"/>
+        <line x1="96" y1="106" x2="108" y2="114"/>
+      </g>
+      <line x1="80" y1="70" x2="74" y2="58" stroke="#2A2F22" stroke-width="1.4"/>
+      <line x1="88" y1="70" x2="94" y2="58" stroke="#2A2F22" stroke-width="1.4"/>
+      <text x="84" y="188" text-anchor="middle" font-size="9.5" fill="#6B7A5E">カメムシ / kamemushi</text>
+      <text x="84" y="200" text-anchor="middle" font-size="8.5">mengisap bulir padi</text>
+    </g>
+  </g>
+</svg>

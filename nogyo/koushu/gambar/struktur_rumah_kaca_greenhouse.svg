@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Struktur Rumah Kaca (Greenhouse)</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">施設（温室）の断面構造</text>
+
+  <!-- ground -->
+  <rect x="0" y="248" width="800" height="52" fill="#DCE7CB"/>
+
+  <!-- greenhouse frame -->
+  <g stroke="#365523" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="230" y1="248" x2="230" y2="168"/>
+    <line x1="570" y1="248" x2="570" y2="168"/>
+    <line x1="230" y1="168" x2="388" y2="112"/>
+    <line x1="412" y1="112" x2="570" y2="168"/>
+  </g>
+  <!-- covering panels (light) -->
+  <g fill="#DCEBFA" opacity="0.7" stroke="#8FB6D9" stroke-width="1.5">
+    <rect x="234" y="172" width="332" height="72"/>
+    <polygon points="234,168 388,114 388,168"/>
+    <polygon points="412,168 566,168 412,114"/>
+  </g>
+
+  <!-- roof vent open (hinge at ridge) -->
+  <g stroke="#4E7A34" stroke-width="4" fill="#B8CC9C" stroke-linecap="round">
+    <line x1="400" y1="112" x2="358" y2="86"/>
+    <line x1="400" y1="112" x2="442" y2="86"/>
+  </g>
+  <path d="M420 96 q14 -6 22 4" stroke="#4E7A34" stroke-width="2" fill="none" marker-end="url(#apG)"/>
+  <defs>
+    <marker id="apG" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L5,3 L0,6 Z" fill="#4E7A34"/>
+    </marker>
+  </defs>
+
+  <!-- inside plants -->
+  <g stroke="#4E7A34" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M270 244 v-26 M264 226 q6 -6 6 -14 M276 226 q-6 -6 -6 -14"/>
+    <path d="M330 244 v-26 M324 226 q6 -6 6 -14 M336 226 q-6 -6 -6 -14"/>
+    <path d="M470 244 v-26 M464 226 q6 -6 6 -14 M476 226 q-6 -6 -6 -14"/>
+    <path d="M530 244 v-26 M524 226 q6 -6 6 -14 M536 226 q-6 -6 -6 -14"/>
+  </g>
+
+  <!-- irrigation drip line -->
+  <line x1="250" y1="244" x2="550" y2="244" stroke="#2E6E82" stroke-width="3" stroke-dasharray="2,5"/>
+  <circle cx="270" cy="244" r="2.6" fill="#2E6E82"/>
+  <circle cx="330" cy="244" r="2.6" fill="#2E6E82"/>
+  <circle cx="470" cy="244" r="2.6" fill="#2E6E82"/>
+  <circle cx="530" cy="244" r="2.6" fill="#2E6E82"/>
+
+  <!-- callouts -->
+  <g stroke="#4E7A34" stroke-width="2" fill="none">
+    <line x1="140" y1="90" x2="234" y2="190"/>
+    <line x1="140" y1="200" x2="400" y2="244"/>
+    <line x1="660" y1="80" x2="420" y2="100"/>
+  </g>
+  <g fill="#4E7A34">
+    <circle cx="234" cy="190" r="3.4"/>
+    <circle cx="400" cy="244" r="3.4"/>
+    <circle cx="420" cy="100" r="3.4"/>
+  </g>
+
+  <g font-size="10.5" fill="#2A2F22">
+    <g transform="translate(40,66)">
+      <rect width="152" height="40" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.2"/>
+      <text x="76" y="17" text-anchor="middle" font-weight="700" font-size="10.5">Bahan Penutup</text>
+      <text x="76" y="31" text-anchor="middle" font-size="9" fill="#6B7A5E">被覆資材（ガラス・プラスチック）</text>
+    </g>
+    <g transform="translate(40,176)">
+      <rect width="152" height="40" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.2"/>
+      <text x="76" y="17" text-anchor="middle" font-weight="700" font-size="10.5">Sistem Irigasi</text>
+      <text x="76" y="31" text-anchor="middle" font-size="9" fill="#6B7A5E">灌水（点滴）システム</text>
+    </g>
+    <g transform="translate(608,56)">
+      <rect width="152" height="40" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.2"/>
+      <text x="76" y="17" text-anchor="middle" font-weight="700" font-size="10.5">Ventilasi Atap</text>
+      <text x="76" y="31" text-anchor="middle" font-size="9" fill="#6B7A5E">屋根換気（自然換気）</text>
+    </g>
+  </g>
+</svg>

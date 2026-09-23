@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="30" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Label Pestisida &amp; APD Saat Menyemprot</text>
+  <text x="400" y="50" text-anchor="middle" font-size="13" fill="#6B7A5E">農薬の表示・散布時の保護具</text>
+
+  <defs>
+    <marker id="ap2" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4E7A34"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT: label mock -->
+  <g transform="translate(24,68)">
+    <rect width="330" height="210" rx="12" fill="#FFFFFF" stroke="#365523" stroke-width="3"/>
+    <rect x="14" y="14" width="302" height="30" rx="6" fill="#365523"/>
+    <text x="165" y="34" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">農薬 / Label Pestisida</text>
+
+    <text x="26" y="66" font-size="10.5" fill="#2A2F22">登録番号 No. Registrasi: 12345</text>
+    <text x="26" y="82" font-size="10.5" fill="#2A2F22">希釈倍率 Pengenceran: 1000x</text>
+    <text x="26" y="98" font-size="10.5" fill="#2A2F22">適用作物 Tanaman: トマト/Tomat</text>
+    <text x="26" y="114" font-size="10.5" fill="#2A2F22">収穫前日数 Batas Panen: 7 hari</text>
+
+    <line x1="14" y1="126" x2="316" y2="126" stroke="#DCE7CB" stroke-width="2"/>
+
+    <!-- warning symbols row -->
+    <g transform="translate(26,138)">
+      <!-- mandatory blue -->
+      <circle cx="20" cy="20" r="20" fill="#2E6E82"/>
+      <path d="M12 24 q8 -14 16 0 M14 16 h12 v4 h-12 z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <text x="20" y="52" text-anchor="middle" font-size="8.5" fill="#2A2F22">Wajib Masker</text>
+      <text x="20" y="63" text-anchor="middle" font-size="7.5" fill="#6B7A5E">マスク着用</text>
+    </g>
+    <g transform="translate(100,138)">
+      <!-- prohibition red -->
+      <circle cx="20" cy="20" r="20" fill="#FFFFFF" stroke="#C0392B" stroke-width="4"/>
+      <path d="M8 32 L32 8" stroke="#C0392B" stroke-width="4"/>
+      <path d="M10 26 q10 -12 20 -14" stroke="#4E7A34" stroke-width="3" fill="none"/>
+      <text x="20" y="52" text-anchor="middle" font-size="8.5" fill="#2A2F22">Dilarang Dekat Air</text>
+      <text x="20" y="63" text-anchor="middle" font-size="7.5" fill="#6B7A5E">水辺禁止</text>
+    </g>
+    <g transform="translate(174,138)">
+      <!-- warning triangle -->
+      <path d="M20 2 L38 36 H2 Z" fill="#E0A93A"/>
+      <rect x="18.5" y="14" width="3" height="12" fill="#2A2F22"/>
+      <circle cx="20" cy="30" r="2" fill="#2A2F22"/>
+      <text x="20" y="52" text-anchor="middle" font-size="8.5" fill="#2A2F22">Risiko Fatal</text>
+      <text x="20" y="63" text-anchor="middle" font-size="7.5" fill="#6B7A5E">取扱注意</text>
+    </g>
+    <g transform="translate(248,138)">
+      <circle cx="20" cy="20" r="20" fill="#2E6E82"/>
+      <rect x="10" y="12" width="20" height="16" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M10 16 h20" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="20" y="52" text-anchor="middle" font-size="8.5" fill="#2A2F22">Simpan Terkunci</text>
+      <text x="20" y="63" text-anchor="middle" font-size="7.5" fill="#6B7A5E">施錠保管</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: PPE sequence flow -->
+  <g font-size="9.5" fill="#2A2F22">
+    <text x="580" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Urutan APD Sebelum Menyemprot</text>
+    <text x="580" y="94" text-anchor="middle" font-size="9.5" fill="#6B7A5E">散布前の保護具装着順</text>
+
+    <!-- step 1 -->
+    <g transform="translate(372,106)">
+      <rect width="72" height="86" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <circle cx="36" cy="24" r="14" fill="#365523"/>
+      <path d="M28 24 a8 8 0 0 1 16 0 z" fill="#FFFFFF"/>
+      <text x="36" y="50" text-anchor="middle" font-weight="700" font-size="9.5">Topi</text>
+      <text x="36" y="64" text-anchor="middle" font-size="8" fill="#6B7A5E">帽子</text>
+    </g>
+    <line x1="444" y1="149" x2="456" y2="149" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#ap2)"/>
+
+    <!-- step 2 -->
+    <g transform="translate(456,106)">
+      <rect width="72" height="86" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <circle cx="36" cy="24" r="14" fill="#365523"/>
+      <rect x="26" y="20" width="20" height="7" rx="3" fill="#FFFFFF"/>
+      <circle cx="30" cy="23.5" r="2" fill="#365523"/>
+      <circle cx="42" cy="23.5" r="2" fill="#365523"/>
+      <text x="36" y="50" text-anchor="middle" font-weight="700" font-size="9.5">Kacamata</text>
+      <text x="36" y="64" text-anchor="middle" font-size="8" fill="#6B7A5E">保護メガネ</text>
+    </g>
+    <line x1="528" y1="149" x2="540" y2="149" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#ap2)"/>
+
+    <!-- step 3 -->
+    <g transform="translate(540,106)">
+      <rect width="72" height="86" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <circle cx="36" cy="24" r="14" fill="#365523"/>
+      <path d="M28 28 q8 -10 16 0 q0 6 -8 6 q-8 0 -8 -6 z" fill="#FFFFFF"/>
+      <text x="36" y="50" text-anchor="middle" font-weight="700" font-size="9.5">Masker</text>
+      <text x="36" y="64" text-anchor="middle" font-size="8" fill="#6B7A5E">マスク</text>
+    </g>
+    <line x1="612" y1="149" x2="624" y2="149" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#ap2)"/>
+
+    <!-- step 4 -->
+    <g transform="translate(624,106)">
+      <rect width="72" height="86" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <circle cx="36" cy="24" r="14" fill="#365523"/>
+      <path d="M28 18 v8 q0 4 4 4 h8 q4 0 4 -4 v-8" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+      <text x="36" y="46" text-anchor="middle" font-weight="700" font-size="9">Sarung Tangan</text>
+      <text x="36" y="58" text-anchor="middle" font-weight="700" font-size="9">Kedap Air</text>
+      <text x="36" y="72" text-anchor="middle" font-size="8" fill="#6B7A5E">不浸透性手袋</text>
+    </g>
+    <line x1="696" y1="149" x2="708" y2="149" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#ap2)"/>
+
+    <!-- step 5 -->
+    <g transform="translate(708,106)">
+      <rect width="72" height="86" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <circle cx="36" cy="24" r="14" fill="#365523"/>
+      <path d="M28 32 v-14 l8 -6 l8 6 v14 z" fill="#FFFFFF"/>
+      <text x="36" y="50" text-anchor="middle" font-weight="700" font-size="8.5">Baju Kedap</text>
+      <text x="36" y="62" text-anchor="middle" font-weight="700" font-size="8.5">Air &amp; Boots</text>
+      <text x="36" y="74" text-anchor="middle" font-size="7.5" fill="#6B7A5E">不浸透性衣・長靴</text>
+    </g>
+  </g>
+
+  <text x="580" y="270" text-anchor="middle" font-size="10.5" fill="#2A2F22">APD dipakai sejak mengambil pestisida dari gudang, bukan hanya saat menyemprot</text>
+  <text x="580" y="284" text-anchor="middle" font-size="9" fill="#6B7A5E">保管庫から取り出す時から保護具を着用</text>
+</svg>

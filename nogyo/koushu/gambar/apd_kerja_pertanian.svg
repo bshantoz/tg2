@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="34" text-anchor="middle" font-size="24" font-weight="700" fill="#2A2F22">APD Dasar Kerja Pertanian</text>
+  <text x="400" y="56" text-anchor="middle" font-size="14" fill="#6B7A5E">農作業の基本装備</text>
+
+  <!-- ground -->
+  <rect x="0" y="252" width="800" height="48" fill="#DCE7CB"/>
+  <path d="M0,252 Q200,244 400,252 T800,252" fill="none" stroke="#B8CC9C" stroke-width="2"/>
+
+  <!-- leader lines -->
+  <g stroke="#4E7A34" stroke-width="2" fill="none">
+    <line x1="178" y1="98" x2="386" y2="86"/>
+    <line x1="178" y1="150" x2="380" y2="120"/>
+    <line x1="622" y1="98" x2="415" y2="90"/>
+    <line x1="622" y1="150" x2="424" y2="176"/>
+    <line x1="178" y1="205" x2="382" y2="206"/>
+    <line x1="622" y1="205" x2="418" y2="206"/>
+    <line x1="400" y1="266" x2="400" y2="238"/>
+  </g>
+  <g fill="#4E7A34">
+    <circle cx="386" cy="86" r="3.5"/>
+    <circle cx="380" cy="120" r="3.5"/>
+    <circle cx="415" cy="90" r="3.5"/>
+    <circle cx="424" cy="176" r="3.5"/>
+    <circle cx="382" cy="206" r="3.5"/>
+    <circle cx="418" cy="206" r="3.5"/>
+  </g>
+
+  <!-- person -->
+  <g>
+    <!-- legs -->
+    <rect x="384" y="192" width="15" height="46" rx="5" fill="#5C4A2E"/>
+    <rect x="401" y="192" width="15" height="46" rx="5" fill="#5C4A2E"/>
+    <!-- boots -->
+    <path d="M380 234 h22 v10 q0 6 -6 6 h-16 q-4 0 -4 -4 z" fill="#2A2F22"/>
+    <path d="M398 234 h22 v10 q0 6 -6 6 h-16 q-4 0 -4 -4 z" fill="#2A2F22"/>
+    <!-- torso vest -->
+    <rect x="374" y="124" width="52" height="66" rx="10" fill="#4E7A34"/>
+    <path d="M374 138 h52 M374 156 h52" stroke="#E8D96A" stroke-width="3"/>
+    <!-- arms -->
+    <path d="M374 132 q-16 10 -18 40" stroke="#365523" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M426 132 q16 10 18 40" stroke="#365523" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- gloves -->
+    <circle cx="356" cy="176" r="9" fill="#365523"/>
+    <circle cx="444" cy="176" r="9" fill="#365523"/>
+    <!-- neck -->
+    <rect x="393" y="112" width="14" height="12" fill="#E8C39B"/>
+    <!-- head -->
+    <circle cx="400" cy="98" r="20" fill="#E8C39B"/>
+    <!-- goggles -->
+    <rect x="384" y="93" width="32" height="9" rx="4" fill="#2A2F22"/>
+    <circle cx="392" cy="97.5" r="3.2" fill="#BFE0F0"/>
+    <circle cx="408" cy="97.5" r="3.2" fill="#BFE0F0"/>
+    <!-- helmet -->
+    <path d="M378 90 a22 20 0 0 1 44 0 z" fill="#365523"/>
+    <rect x="376" y="88" width="48" height="6" rx="3" fill="#2A2F22"/>
+  </g>
+
+  <!-- callout boxes -->
+  <g font-size="11" fill="#2A2F22">
+    <g transform="translate(50,66)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Helm / Topi Kerja</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">ヘルメット・保護帽</text>
+    </g>
+    <g transform="translate(50,128)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Kacamata Pelindung</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">保護メガネ</text>
+    </g>
+    <g transform="translate(50,183)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Sarung Tangan</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">作業用手袋</text>
+    </g>
+    <g transform="translate(622,66)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Lengan &amp; Celana Panjang</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">長袖・長ズボン</text>
+    </g>
+    <g transform="translate(622,128)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Handuk Dimasukkan</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">タオルは襟の中へ</text>
+    </g>
+    <g transform="translate(622,183)">
+      <rect width="128" height="44" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="64" y="19" text-anchor="middle" font-weight="700" font-size="11.5">Sepatu Boots Anti Slip</text>
+      <text x="64" y="34" text-anchor="middle" font-size="9.5" fill="#6B7A5E">安全靴</text>
+    </g>
+  </g>
+</svg>

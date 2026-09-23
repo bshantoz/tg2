@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Naik-Turun Traktor &amp; Sambungan Pedal Rem</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">トラクターの乗降・ブレーキペダルの連結</text>
+
+  <line x1="400" y1="66" x2="400" y2="286" stroke="#DCE7CB" stroke-width="2"/>
+
+  <!-- LEFT PANEL: mounting the tractor -->
+  <g>
+    <text x="195" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Naik-Turun Menghadap Badan Traktor</text>
+    <text x="195" y="94" text-anchor="middle" font-size="9.5" fill="#6B7A5E">本体に向かって乗り降りする</text>
+
+    <!-- ground -->
+    <rect x="20" y="256" width="350" height="10" fill="#DCE7CB"/>
+
+    <!-- tractor -->
+    <g transform="translate(150,140)">
+      <!-- rear wheel -->
+      <circle cx="30" cy="100" r="42" fill="#365523"/>
+      <circle cx="30" cy="100" r="14" fill="#DCE7CB"/>
+      <!-- front wheel -->
+      <circle cx="150" cy="112" r="24" fill="#365523"/>
+      <circle cx="150" cy="112" r="9" fill="#DCE7CB"/>
+      <!-- body -->
+      <path d="M10 70 h150 v20 h-150 z" fill="#4E7A34"/>
+      <path d="M40 30 h60 v40 h-60 z" fill="#4E7A34"/>
+      <!-- cabin frame -->
+      <path d="M45 30 v-24 h50 v24" fill="none" stroke="#2A2F22" stroke-width="4"/>
+      <!-- seat -->
+      <rect x="55" y="46" width="26" height="16" rx="3" fill="#2A2F22"/>
+      <!-- step -->
+      <rect x="6" y="64" width="18" height="8" rx="2" fill="#2A2F22"/>
+    </g>
+
+    <!-- person facing tractor, climbing -->
+    <g transform="translate(120,168)">
+      <circle cx="10" cy="10" r="10" fill="#E8C39B"/>
+      <rect x="2" y="20" width="16" height="28" rx="5" fill="#4E7A34"/>
+      <line x1="2" y1="28" x2="-10" y2="18" stroke="#365523" stroke-width="6" stroke-linecap="round"/>
+      <line x1="18" y1="28" x2="30" y2="20" stroke="#365523" stroke-width="6" stroke-linecap="round"/>
+      <line x1="6" y1="48" x2="0" y2="70" stroke="#5C4A2E" stroke-width="7" stroke-linecap="round"/>
+      <line x1="14" y1="48" x2="20" y2="70" stroke="#5C4A2E" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <!-- arrow showing facing direction -->
+    <path d="M85 210 l25 0" stroke="#4E7A34" stroke-width="3" marker-end="url(#apL)" />
+    <defs>
+      <marker id="apL" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#4E7A34"/>
+      </marker>
+    </defs>
+    <text x="100" y="234" text-anchor="middle" font-size="9" fill="#2A2F22">menghadap ke badan traktor</text>
+
+    <g transform="translate(30,236)">
+      <rect width="340" height="30" rx="8" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2"/>
+      <text x="170" y="14" text-anchor="middle" font-size="9.5" fill="#2A2F22">Berpegangan &amp; injak 3 titik tumpu (tangan-kaki)</text>
+      <text x="170" y="25" text-anchor="middle" font-size="8" fill="#6B7A5E">3点支持で乗り降りする</text>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: pedal linking -->
+  <g>
+    <text x="605" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Sambung Pedal Rem Sebelum Ke Jalan</text>
+    <text x="605" y="94" text-anchor="middle" font-size="9.5" fill="#6B7A5E">道路走行前にブレーキペダルを連結</text>
+
+    <!-- in-field: separate pedals -->
+    <g transform="translate(430,112)">
+      <rect width="150" height="70" rx="10" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="75" y="16" text-anchor="middle" font-size="9" font-weight="700" fill="#2A2F22">Di Dalam Lahan</text>
+      <path d="M40 30 v26 h14 v-26 z" fill="#365523"/>
+      <path d="M96 30 v26 h14 v-26 z" fill="#365523"/>
+      <text x="47" y="65" text-anchor="middle" font-size="8" fill="#2A2F22">Kiri</text>
+      <text x="103" y="65" text-anchor="middle" font-size="8" fill="#2A2F22">Kanan</text>
+      <text x="75" y="52" text-anchor="middle" font-size="16" fill="#C0392B">||</text>
+    </g>
+    <text x="605" y="200" text-anchor="middle" font-size="9" fill="#6B7A5E">左右別々 &#8594; 鋭く旋回しやすい</text>
+
+    <path d="M605 210 v14" stroke="#4E7A34" stroke-width="3" marker-end="url(#apR)"/>
+    <defs>
+      <marker id="apR" markerWidth="9" markerHeight="9" refX="5" refY="5" orient="auto">
+        <path d="M0,0 L5,10 L10,0 Z" fill="#4E7A34"/>
+      </marker>
+    </defs>
+
+    <!-- on road: linked pedals -->
+    <g transform="translate(430,228)">
+      <rect width="150" height="58" rx="10" fill="#365523"/>
+      <text x="75" y="16" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">Sebelum Ke Jalan Raya</text>
+      <path d="M40 26 v22 h14 v-22 z" fill="#FFFFFF"/>
+      <path d="M96 26 v22 h14 v-22 z" fill="#FFFFFF"/>
+      <rect x="54" y="30" width="42" height="6" fill="#E0A93A"/>
+      <text x="75" y="52" text-anchor="middle" font-size="8" fill="#DCE7CB">連結 / disambung</text>
+    </g>
+  </g>
+</svg>

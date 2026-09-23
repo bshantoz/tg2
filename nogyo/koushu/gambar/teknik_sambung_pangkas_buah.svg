@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F3F7ED"/>
+  <text x="400" y="28" text-anchor="middle" font-size="22" font-weight="700" fill="#2A2F22">Teknik Sambung Batang &amp; Pemangkasan Buah</text>
+  <text x="400" y="47" text-anchor="middle" font-size="13" fill="#6B7A5E">接ぎ木の手順・果樹のせん定</text>
+
+  <line x1="400" y1="62" x2="400" y2="290" stroke="#DCE7CB" stroke-width="2"/>
+
+  <!-- LEFT: grafting steps -->
+  <g>
+    <text x="196" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Sambung Batang (接ぎ木)</text>
+
+    <defs>
+      <marker id="apT" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#4E7A34"/>
+      </marker>
+    </defs>
+
+    <g transform="translate(24,92)">
+      <rect width="104" height="128" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <path d="M52 96 v-40" stroke="#5C4A2E" stroke-width="10" stroke-linecap="round"/>
+      <path d="M40 60 q12 -14 24 0" stroke="#5C4A2E" stroke-width="4" fill="none"/>
+      <text x="52" y="112" text-anchor="middle" font-weight="700" font-size="9.5">Batang Bawah</text>
+      <text x="52" y="126" text-anchor="middle" font-size="8.5" fill="#6B7A5E">台木 / daigi</text>
+      <text x="52" y="16" text-anchor="middle" font-size="9" fill="#2A2F22">1</text>
+    </g>
+    <line x1="128" y1="156" x2="140" y2="156" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#apT)"/>
+
+    <g transform="translate(140,92)">
+      <rect width="104" height="128" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <path d="M52 96 v-30 l-8 -12 l16 0 z" fill="#4E7A34"/>
+      <path d="M44 74 l16 0" stroke="#365523" stroke-width="1.5"/>
+      <text x="52" y="112" text-anchor="middle" font-weight="700" font-size="9.5">Batang Atas</text>
+      <text x="52" y="126" text-anchor="middle" font-size="8.5" fill="#6B7A5E">穂木 / hogi</text>
+      <text x="52" y="16" text-anchor="middle" font-size="9" fill="#2A2F22">2</text>
+    </g>
+    <line x1="244" y1="156" x2="256" y2="156" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#apT)"/>
+
+    <g transform="translate(256,92)">
+      <rect width="120" height="128" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <path d="M60 100 v-24" stroke="#5C4A2E" stroke-width="9" stroke-linecap="round"/>
+      <path d="M60 76 v-22 l-7 -10 l14 0 z" fill="#4E7A34"/>
+      <rect x="52" y="70" width="16" height="12" fill="#E0A93A" opacity="0.85"/>
+      <text x="60" y="112" text-anchor="middle" font-weight="700" font-size="9.5">Diikat / Dibalut</text>
+      <text x="60" y="126" text-anchor="middle" font-size="8.5" fill="#6B7A5E">接合・被覆</text>
+      <text x="60" y="16" text-anchor="middle" font-size="9" fill="#2A2F22">3</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: pruning before/after -->
+  <g>
+    <text x="604" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#2A2F22">Pemangkasan Pohon Buah（せん定）</text>
+
+    <g transform="translate(420,92)">
+      <rect width="170" height="128" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="85" y="16" text-anchor="middle" font-size="9.5" font-weight="700">Sebelum (Rimbun)</text>
+      <line x1="85" y1="100" x2="85" y2="60" stroke="#5C4A2E" stroke-width="6"/>
+      <g stroke="#365523" stroke-width="3" stroke-linecap="round">
+        <line x1="85" y1="90" x2="60" y2="72"/>
+        <line x1="85" y1="82" x2="112" y2="66"/>
+        <line x1="85" y1="74" x2="58" y2="56"/>
+        <line x1="85" y1="68" x2="110" y2="50"/>
+        <line x1="85" y1="60" x2="70" y2="40"/>
+        <line x1="85" y1="60" x2="100" y2="40"/>
+      </g>
+      <g fill="#77A052">
+        <circle cx="60" cy="72" r="7"/><circle cx="112" cy="66" r="7"/>
+        <circle cx="58" cy="56" r="7"/><circle cx="110" cy="50" r="7"/>
+        <circle cx="70" cy="40" r="7"/><circle cx="100" cy="40" r="7"/>
+      </g>
+      <text x="85" y="112" text-anchor="middle" font-size="8.5" fill="#6B7A5E">徒長枝が多く日当たり悪い</text>
+    </g>
+
+    <path d="M594 156 h18" stroke="#4E7A34" stroke-width="2.5" marker-end="url(#apT)"/>
+
+    <g transform="translate(616,92)">
+      <rect width="164" height="128" rx="12" fill="#FFFFFF" stroke="#4E7A34" stroke-width="2.5"/>
+      <text x="82" y="16" text-anchor="middle" font-size="9.5" font-weight="700">Sesudah (Terbuka)</text>
+      <line x1="82" y1="100" x2="82" y2="70" stroke="#5C4A2E" stroke-width="6"/>
+      <g stroke="#365523" stroke-width="3" stroke-linecap="round">
+        <line x1="82" y1="86" x2="55" y2="68"/>
+        <line x1="82" y1="86" x2="109" y2="68"/>
+        <line x1="82" y1="70" x2="62" y2="48"/>
+        <line x1="82" y1="70" x2="102" y2="48"/>
+      </g>
+      <g fill="#77A052">
+        <circle cx="55" cy="68" r="7"/><circle cx="109" cy="68" r="7"/>
+        <circle cx="62" cy="48" r="7"/><circle cx="102" cy="48" r="7"/>
+      </g>
+      <text x="82" y="112" text-anchor="middle" font-size="8.5" fill="#6B7A5E">間引きで風通し・採光改善</text>
+    </g>
+  </g>
+</svg>
