@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Empat Jenis Perawatan Mesin</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">設備保全の4種類</text>
+
+  <!-- Card 1: Teiki hozen (scheduled) -->
+  <g transform="translate(30,90)">
+    <rect width="176" height="210" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <circle cx="88" cy="46" r="26" fill="#8C4008"/>
+    <g stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <circle cx="88" cy="46" r="14"/>
+      <path d="M88 36 v10 l7 5"/>
+      <path d="M88 22 l3 -4 M88 22 l-3 -4"/>
+    </g>
+    <text x="88" y="94" text-anchor="middle" font-weight="700" font-size="11.5">定期保全</text>
+    <text x="88" y="110" text-anchor="middle" font-size="9.5" fill="#6B6459">teiki hozen</text>
+    <line x1="16" y1="122" x2="160" y2="122" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="88" y="142" text-anchor="middle" font-size="9.5" fill="#2E2A26">Perawatan berkala</text>
+    <text x="88" y="156" text-anchor="middle" font-size="9.5" fill="#2E2A26">terjadwal</text>
+    <rect x="30" y="172" width="116" height="20" rx="10" fill="#EAF3E6"/>
+    <text x="88" y="186" text-anchor="middle" font-size="9" fill="#2E8B4A" font-weight="700">Pencegahan</text>
+  </g>
+
+  <!-- Card 2: Nichijo hozen (daily) -->
+  <g transform="translate(216,90)">
+    <rect width="176" height="210" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <circle cx="88" cy="46" r="26" fill="#8C4008"/>
+    <g stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M78 34 h20 v10 h-20 z"/>
+      <path d="M88 44 v12"/>
+      <path d="M80 56 h16"/>
+    </g>
+    <text x="88" y="94" text-anchor="middle" font-weight="700" font-size="11.5">日常保全</text>
+    <text x="88" y="110" text-anchor="middle" font-size="9.5" fill="#6B6459">nichijō hozen</text>
+    <line x1="16" y1="122" x2="160" y2="122" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="88" y="142" text-anchor="middle" font-size="9.5" fill="#2E2A26">Perawatan harian</text>
+    <text x="88" y="156" text-anchor="middle" font-size="9.5" fill="#2E2A26">oleh operator</text>
+    <rect x="30" y="172" width="116" height="20" rx="10" fill="#EAF3E6"/>
+    <text x="88" y="186" text-anchor="middle" font-size="9" fill="#2E8B4A" font-weight="700">Pencegahan</text>
+  </g>
+
+  <!-- Card 3: Jigo hozen (after breakdown) -->
+  <g transform="translate(402,90)">
+    <rect width="176" height="210" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="3"/>
+    <circle cx="88" cy="46" r="26" fill="#C0392B"/>
+    <g stroke="#FFFFFF" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <path d="M78 34 l20 20 M98 34 l-20 20"/>
+    </g>
+    <text x="88" y="94" text-anchor="middle" font-weight="700" font-size="11.5">事後保全</text>
+    <text x="88" y="110" text-anchor="middle" font-size="9.5" fill="#6B6459">jigo hozen</text>
+    <line x1="16" y1="122" x2="160" y2="122" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="88" y="142" text-anchor="middle" font-size="9.5" fill="#2E2A26">Perawatan SETELAH</text>
+    <text x="88" y="156" text-anchor="middle" font-size="9.5" fill="#2E2A26">mesin rusak</text>
+    <rect x="30" y="172" width="116" height="20" rx="10" fill="#FCEEE8"/>
+    <text x="88" y="186" text-anchor="middle" font-size="9" fill="#C0392B" font-weight="700">Reaktif</text>
+  </g>
+
+  <!-- Card 4: Yochi hozen (predictive) -->
+  <g transform="translate(588,90)">
+    <rect width="176" height="210" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <circle cx="88" cy="46" r="26" fill="#8C4008"/>
+    <g stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <polyline points="76,52 82,40 88,48 94,36 100,44"/>
+      <circle cx="88" cy="46" r="16"/>
+    </g>
+    <text x="88" y="94" text-anchor="middle" font-weight="700" font-size="11.5">予知保全</text>
+    <text x="88" y="110" text-anchor="middle" font-size="9.5" fill="#6B6459">yochi hozen</text>
+    <line x1="16" y1="122" x2="160" y2="122" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="88" y="142" text-anchor="middle" font-size="9.5" fill="#2E2A26">Prediktif berbasis</text>
+    <text x="88" y="156" text-anchor="middle" font-size="9.5" fill="#2E2A26">sensor (getaran/suhu)</text>
+    <rect x="30" y="172" width="116" height="20" rx="10" fill="#EAF3E6"/>
+    <text x="88" y="186" text-anchor="middle" font-size="9" fill="#2E8B4A" font-weight="700">Pencegahan</text>
+  </g>
+</svg>

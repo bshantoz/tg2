@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Mesin Perkakas Utama Pemesinan</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">機械加工と工作機械</text>
+
+  <!-- Machine 1: Bubut (senban) -->
+  <g transform="translate(40,90)">
+    <rect width="230" height="200" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <text x="115" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2A26">旋盤 (senban)</text>
+    <text x="115" y="44" text-anchor="middle" font-size="10" fill="#6B6459">Mesin Bubut</text>
+    <!-- lathe bed -->
+    <rect x="20" y="150" width="190" height="14" fill="#8C4008"/>
+    <rect x="30" y="90" width="40" height="60" fill="#8C4008" rx="4"/>
+    <!-- rotating workpiece (circle w/ rotation arrows) -->
+    <circle cx="130" cy="120" r="26" fill="#F5DCC0" stroke="#8C4008" stroke-width="2.5"/>
+    <path d="M130 96 a24 24 0 1 1 -17 7" fill="none" stroke="#B4530A" stroke-width="2" marker-end="url(#rot)"/>
+    <!-- tool -->
+    <rect x="150" y="130" width="30" height="10" fill="#2E2A26"/>
+    <polygon points="156,130 156,140 148,135" fill="#2E2A26"/>
+    <text x="115" y="182" text-anchor="middle" font-size="9.5" fill="#2E2A26">Benda kerja BERPUTAR</text>
+    <text x="115" y="196" text-anchor="middle" font-size="9.5" fill="#6B6459">pahat diam bergerak memotong</text>
+  </g>
+
+  <defs>
+    <marker id="rot" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B4530A"/>
+    </marker>
+  </defs>
+
+  <!-- Machine 2: Frais (furaisu-ban) -->
+  <g transform="translate(290,90)">
+    <rect width="230" height="200" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <text x="115" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2A26">フライス盤</text>
+    <text x="115" y="44" text-anchor="middle" font-size="10" fill="#6B6459">Mesin Frais (furaisu-ban)</text>
+    <!-- vertical spindle with rotating cutter -->
+    <rect x="100" y="60" width="16" height="40" fill="#8C4008"/>
+    <circle cx="108" cy="106" r="16" fill="#F5DCC0" stroke="#8C4008" stroke-width="2.5"/>
+    <path d="M108 92 a14 14 0 1 1 -10 4" fill="none" stroke="#B4530A" stroke-width="2" marker-end="url(#rot)"/>
+    <!-- table with fixed workpiece -->
+    <rect x="40" y="140" width="140" height="16" fill="#8C4008"/>
+    <rect x="80" y="122" width="56" height="18" fill="#DDB58C" stroke="#8C4008" stroke-width="2"/>
+    <rect x="30" y="156" width="160" height="10" fill="#6B6459"/>
+    <text x="115" y="188" text-anchor="middle" font-size="9.5" fill="#2E2A26">Pisau (cutter) BERPUTAR</text>
+    <text x="115" y="202" text-anchor="middle" font-size="9.5" fill="#6B6459">benda kerja diam/bergerak perlahan</text>
+  </g>
+
+  <!-- Machine 3: Mesin bor -->
+  <g transform="translate(540,90)">
+    <rect width="230" height="200" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <text x="115" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#2E2A26">ボール盤</text>
+    <text x="115" y="44" text-anchor="middle" font-size="10" fill="#6B6459">Mesin Bor</text>
+    <!-- drill column -->
+    <rect x="60" y="58" width="12" height="100" fill="#8C4008"/>
+    <rect x="66" y="70" width="60" height="16" fill="#8C4008"/>
+    <!-- spindle + bit -->
+    <rect x="118" y="86" width="10" height="34" fill="#6B6459"/>
+    <polygon points="118,120 128,120 123,134" fill="#2E2A26"/>
+    <!-- base table -->
+    <rect x="40" y="160" width="150" height="14" fill="#8C4008"/>
+    <rect x="100" y="146" width="40" height="16" fill="#DDB58C" stroke="#8C4008" stroke-width="2"/>
+    <text x="115" y="192" text-anchor="middle" font-size="9.5" fill="#2E2A26">Mata bor berputar vertikal</text>
+    <text x="115" y="206" text-anchor="middle" font-size="9.5" fill="#6B6459">membuat lubang presisi</text>
+  </g>
+
+  <text x="400" y="320" text-anchor="middle" font-size="10.5" fill="#B4530A" font-weight="700">旋盤: benda kerja berputar &#8226; フライス盤: pisau berputar &#8226; マシニングセンタ: mesin frais CNC serba-guna</text>
+</svg>

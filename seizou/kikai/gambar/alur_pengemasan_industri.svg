@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Alur Pengemasan Industri Produk Logam</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">工業包装の手順</text>
+
+  <defs>
+    <marker id="pk" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#B4530A"/>
+    </marker>
+  </defs>
+
+  <g font-size="10.5" fill="#2E2A26">
+    <!-- Step 1: 前処理 -->
+    <g transform="translate(24,95)">
+      <rect width="164" height="140" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+      <circle cx="82" cy="34" r="18" fill="#8C4008"/>
+      <path d="M72 34 q10 -14 20 0 q-4 10 -10 10 q-6 0 -10 -10 z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="82" y="70" text-anchor="middle" font-weight="700" font-size="11.5">前処理</text>
+      <text x="82" y="86" text-anchor="middle" font-size="9.5" fill="#6B6459">maeshori</text>
+      <text x="82" y="106" text-anchor="middle" font-size="9" fill="#2E2A26">Pra-perlakuan:</text>
+      <text x="82" y="120" text-anchor="middle" font-size="9" fill="#2E2A26">bersihkan &amp; lapis anti karat</text>
+    </g>
+    <line x1="188" y1="165" x2="210" y2="165" stroke="#B4530A" stroke-width="3" marker-end="url(#pk)"/>
+
+    <!-- Step 2: 内装 -->
+    <g transform="translate(212,95)">
+      <rect width="164" height="140" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+      <circle cx="82" cy="34" r="18" fill="#8C4008"/>
+      <rect x="70" y="24" width="24" height="20" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M70 30 h24" stroke="#FFFFFF" stroke-width="1.5"/>
+      <text x="82" y="70" text-anchor="middle" font-weight="700" font-size="11.5">内装</text>
+      <text x="82" y="86" text-anchor="middle" font-size="9.5" fill="#6B6459">naisō</text>
+      <text x="82" y="106" text-anchor="middle" font-size="9" fill="#2E2A26">Kemasan dalam:</text>
+      <text x="82" y="120" text-anchor="middle" font-size="9" fill="#2E2A26">bantalan pelindung</text>
+    </g>
+    <line x1="376" y1="165" x2="398" y2="165" stroke="#B4530A" stroke-width="3" marker-end="url(#pk)"/>
+
+    <!-- Step 3: 個装 -->
+    <g transform="translate(400,95)">
+      <rect width="164" height="140" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+      <circle cx="82" cy="34" r="18" fill="#8C4008"/>
+      <rect x="72" y="24" width="20" height="20" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M72 30 l20 0 M82 24 l0 20" stroke="#FFFFFF" stroke-width="1.5"/>
+      <text x="82" y="70" text-anchor="middle" font-weight="700" font-size="11.5">個装</text>
+      <text x="82" y="86" text-anchor="middle" font-size="9.5" fill="#6B6459">kosō</text>
+      <text x="82" y="106" text-anchor="middle" font-size="9" fill="#2E2A26">Kemasan satuan:</text>
+      <text x="82" y="120" text-anchor="middle" font-size="9" fill="#2E2A26">1 unit produk jual/kirim</text>
+    </g>
+    <line x1="564" y1="165" x2="586" y2="165" stroke="#B4530A" stroke-width="3" marker-end="url(#pk)"/>
+
+    <!-- Step 4: 外装 -->
+    <g transform="translate(588,95)">
+      <rect width="164" height="140" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+      <circle cx="82" cy="34" r="18" fill="#8C4008"/>
+      <path d="M68 26 l14 -8 l14 8 v16 l-14 8 l-14 -8 z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M68 26 l14 8 l14 -8 M82 34 v16" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+      <text x="82" y="70" text-anchor="middle" font-weight="700" font-size="11.5">外装</text>
+      <text x="82" y="86" text-anchor="middle" font-size="9.5" fill="#6B6459">gaisō</text>
+      <text x="82" y="106" text-anchor="middle" font-size="9" fill="#2E2A26">Kemasan luar:</text>
+      <text x="82" y="120" text-anchor="middle" font-size="9" fill="#2E2A26">peti/kotak transportasi</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="320" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Notasi Dimensi Baut M8&#215;30</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">ボルトの寸法表記</text>
+
+  <!-- Bolt drawing, vertical, head at top -->
+  <g transform="translate(230,90)">
+    <!-- hex head, drawn as hexagon top view above, side rectangle below -->
+    <polygon points="30,0 90,0 120,26 90,52 30,52 0,26" fill="#DDB58C" stroke="#8C4008" stroke-width="2.5"/>
+    <text x="60" y="32" text-anchor="middle" font-size="10" fill="#2E2A26">頭部</text>
+
+    <!-- seating surface line -->
+    <line x1="0" y1="52" x2="120" y2="52" stroke="#B4530A" stroke-width="2" stroke-dasharray="5 3"/>
+    <text x="130" y="56" font-size="9.5" fill="#B4530A">座面 (zamen)</text>
+
+    <!-- shaft with thread hatching -->
+    <rect x="40" y="52" width="40" height="140" fill="#F5DCC0" stroke="#8C4008" stroke-width="2.5"/>
+    <g stroke="#B4530A" stroke-width="1.2">
+      <line x1="40" y1="60" x2="80" y2="66"/>
+      <line x1="40" y1="72" x2="80" y2="78"/>
+      <line x1="40" y1="84" x2="80" y2="90"/>
+      <line x1="40" y1="96" x2="80" y2="102"/>
+      <line x1="40" y1="108" x2="80" y2="114"/>
+      <line x1="40" y1="120" x2="80" y2="126"/>
+      <line x1="40" y1="132" x2="80" y2="138"/>
+      <line x1="40" y1="144" x2="80" y2="150"/>
+      <line x1="40" y1="156" x2="80" y2="162"/>
+      <line x1="40" y1="168" x2="80" y2="174"/>
+      <line x1="40" y1="180" x2="80" y2="186"/>
+    </g>
+    <!-- rounded tip -->
+    <path d="M40 192 q20 14 40 0 z" fill="#F5DCC0" stroke="#8C4008" stroke-width="2.5"/>
+
+    <!-- diameter dimension arrow (M8) -->
+    <line x1="30" y1="30" x2="30" y2="-24" stroke="#2E2A26" stroke-width="1"/>
+    <line x1="90" y1="30" x2="90" y2="-24" stroke="#2E2A26" stroke-width="1"/>
+    <line x1="30" y1="-16" x2="90" y2="-16" stroke="#2E2A26" stroke-width="1.5" marker-start="url(#dmA)" marker-end="url(#dmA)"/>
+    <text x="60" y="-24" text-anchor="middle" font-size="13" font-weight="700" fill="#B4530A">M8</text>
+    <text x="60" y="-40" text-anchor="middle" font-size="9.5" fill="#6B6459">呼び径 (diameter nominal)</text>
+
+    <!-- length dimension arrow (30) -->
+    <line x1="140" y1="52" x2="180" y2="52" stroke="#2E2A26" stroke-width="1"/>
+    <line x1="140" y1="192" x2="180" y2="192" stroke="#2E2A26" stroke-width="1"/>
+    <line x1="170" y1="52" x2="170" y2="192" stroke="#2E2A26" stroke-width="1.5" marker-start="url(#dmA)" marker-end="url(#dmA)"/>
+    <text x="200" y="122" font-size="13" font-weight="700" fill="#B4530A">30</text>
+    <text x="200" y="140" font-size="9.5" fill="#6B6459">長さ (nagasa)</text>
+    <text x="196" y="156" font-size="9" fill="#6B6459">diukur dari</text>
+    <text x="196" y="170" font-size="9" fill="#6B6459">座面 s/d ujung</text>
+  </g>
+
+  <defs>
+    <marker id="dmA" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2E2A26"/>
+    </marker>
+  </defs>
+
+  <!-- Info panel -->
+  <g transform="translate(480,90)">
+    <rect width="290" height="200" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
+    <text x="20" y="32" font-size="14" font-weight="700" fill="#2E2A26">M8 &#215; 30</text>
+    <line x1="20" y1="44" x2="270" y2="44" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="20" y="66" font-size="11" fill="#2E2A26"><tspan font-weight="700" fill="#B4530A">M</tspan> = jenis ulir metrik</text>
+    <text x="34" y="80" font-size="9.5" fill="#6B6459">メートルねじ</text>
+    <text x="20" y="104" font-size="11" fill="#2E2A26"><tspan font-weight="700" fill="#B4530A">8</tspan> = 呼び径 (diameter nominal)</text>
+    <text x="34" y="118" font-size="9.5" fill="#6B6459">yobikei, dalam mm</text>
+    <text x="20" y="142" font-size="11" fill="#2E2A26"><tspan font-weight="700" fill="#B4530A">30</tspan> = 長さ (panjang batang)</text>
+    <text x="34" y="156" font-size="9.5" fill="#6B6459">nagasa, dalam mm</text>
+    <line x1="20" y1="168" x2="270" y2="168" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="20" y="186" font-size="9.5" fill="#B4530A" font-weight="700">Jebakan: panjang TIDAK</text>
+    <text x="20" y="198" font-size="9.5" fill="#B4530A" font-weight="700">termasuk tinggi kepala baut</text>
+  </g>
+</svg>

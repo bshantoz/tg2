@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Rambu Keselamatan Kerja Umum</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">安全標識（KYT・危険予知訓練）</text>
+
+  <!-- 2x2 grid of sign cards -->
+  <!-- Card 1: rotating object warning (yellow triangle) -->
+  <g transform="translate(60,90)">
+    <rect width="320" height="130" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <g transform="translate(60,20)">
+      <polygon points="35,6 68,64 2,64" fill="#F4C430" stroke="#2E2A26" stroke-width="3"/>
+      <g transform="translate(35,44)">
+        <circle r="12" fill="none" stroke="#2E2A26" stroke-width="3"/>
+        <path d="M-8,-2 A8,8 0 0 1 8,-2" stroke="#2E2A26" stroke-width="2.5" fill="none"/>
+        <path d="M8,-2 l-3,-4 M8,-2 l4,-2" stroke="#2E2A26" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+    <text x="170" y="40" font-size="13" font-weight="700" fill="#2E2A26">回転物注意</text>
+    <text x="170" y="58" font-size="10.5" fill="#6B6459">kaitenbutsu chūi</text>
+    <text x="170" y="78" font-size="11" fill="#2E2A26">Peringatan &#8212; waspada</text>
+    <text x="170" y="94" font-size="11" fill="#2E2A26">benda berputar</text>
+    <text x="170" y="112" font-size="10" fill="#B4530A" font-weight="700">注意 (chūi) &#8212; segitiga kuning</text>
+  </g>
+
+  <!-- Card 2: prohibition - no entry (red circle) -->
+  <g transform="translate(420,90)">
+    <rect width="320" height="130" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <g transform="translate(60,20)">
+      <circle cx="35" cy="35" r="32" fill="#FFFFFF" stroke="#C0392B" stroke-width="6"/>
+      <line x1="14" y1="14" x2="56" y2="56" stroke="#C0392B" stroke-width="6"/>
+      <path d="M35 20 a10 10 0 1 0 0.1 0" fill="none" stroke="#2E2A26" stroke-width="2.5"/>
+      <path d="M25 46 q10 -14 20 0" stroke="#2E2A26" stroke-width="2.5" fill="none"/>
+    </g>
+    <text x="170" y="40" font-size="13" font-weight="700" fill="#2E2A26">立入禁止</text>
+    <text x="170" y="58" font-size="10.5" fill="#6B6459">tachiiri kinshi</text>
+    <text x="170" y="78" font-size="11" fill="#2E2A26">Larangan &#8212; dilarang</text>
+    <text x="170" y="94" font-size="11" fill="#2E2A26">masuk</text>
+    <text x="170" y="112" font-size="10" fill="#B4530A" font-weight="700">禁止 (kinshi) &#8212; lingkaran merah</text>
+  </g>
+
+  <!-- Card 3: no gloves near rotating machine -->
+  <g transform="translate(60,240)">
+    <rect width="320" height="130" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <g transform="translate(60,20)">
+      <circle cx="35" cy="35" r="32" fill="#FFFFFF" stroke="#C0392B" stroke-width="6"/>
+      <line x1="14" y1="14" x2="56" y2="56" stroke="#C0392B" stroke-width="6"/>
+      <path d="M25 22 v12 q0 9 10 9 q10 0 10 -9 v-12" fill="none" stroke="#2E2A26" stroke-width="3"/>
+    </g>
+    <text x="170" y="40" font-size="13" font-weight="700" fill="#2E2A26">手袋使用禁止</text>
+    <text x="170" y="58" font-size="10.5" fill="#6B6459">tebukuro shiyō kinshi</text>
+    <text x="170" y="78" font-size="11" fill="#2E2A26">Larangan pakai sarung</text>
+    <text x="170" y="94" font-size="11" fill="#2E2A26">tangan dekat mesin berputar</text>
+    <text x="170" y="112" font-size="10" fill="#B4530A" font-weight="700">禁止 (kinshi) &#8212; lingkaran merah</text>
+  </g>
+
+  <!-- Card 4: overhead warning -->
+  <g transform="translate(420,240)">
+    <rect width="320" height="130" rx="14" fill="#FFFFFF" stroke="#B4530A" stroke-width="3"/>
+    <g transform="translate(60,20)">
+      <polygon points="35,6 68,64 2,64" fill="#F4C430" stroke="#2E2A26" stroke-width="3"/>
+      <path d="M22 30 h26 M35 20 l0 20 M27 26 l8 -6 8 6" stroke="#2E2A26" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="170" y="40" font-size="13" font-weight="700" fill="#2E2A26">頭上注意</text>
+    <text x="170" y="58" font-size="10.5" fill="#6B6459">zujō chūi</text>
+    <text x="170" y="78" font-size="11" fill="#2E2A26">Peringatan &#8212; waspada</text>
+    <text x="170" y="94" font-size="11" fill="#2E2A26">bagian atas kepala</text>
+    <text x="170" y="112" font-size="10" fill="#B4530A" font-weight="700">注意 (chūi) &#8212; segitiga kuning</text>
+  </g>
+</svg>

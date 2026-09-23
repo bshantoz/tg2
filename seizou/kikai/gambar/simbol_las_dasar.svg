@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#F5F3EF"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E2A26">Anatomi Simbol Las (溶接記号)</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#6B6459">溶接記号の基本構造</text>
+
+  <defs>
+    <marker id="wArrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#B4530A"/>
+    </marker>
+  </defs>
+
+  <!-- Workpiece: two plates forming a corner joint -->
+  <g transform="translate(90,150)">
+    <rect x="0" y="60" width="160" height="18" fill="#DDB58C" stroke="#8C4008" stroke-width="2"/>
+    <rect x="0" y="0" width="18" height="78" fill="#DDB58C" stroke="#8C4008" stroke-width="2"/>
+    <!-- weld bead at corner -->
+    <path d="M18 60 q10 8 0 18" fill="#B4530A"/>
+    <text x="80" y="100" text-anchor="middle" font-size="10" fill="#6B6459">Sambungan pelat tegak + pelat datar</text>
+  </g>
+
+  <!-- Arrow line from symbol to weld joint -->
+  <line x1="250" y1="90" x2="118" y2="160" stroke="#2E2A26" stroke-width="2" marker-end="url(#wArrow)"/>
+  <text x="255" y="90" font-size="10" fill="#2E2A26" font-weight="700">矢印 (yajirushi)</text>
+  <text x="255" y="104" font-size="9.5" fill="#6B6459">garis panah → lokasi las</text>
+
+  <!-- Reference line (kisen) -->
+  <line x1="250" y1="90" x2="480" y2="90" stroke="#2E2A26" stroke-width="2.5"/>
+  <text x="360" y="80" text-anchor="middle" font-size="10" fill="#2E2A26" font-weight="700">基線 (kisen) — garis referensi</text>
+
+  <!-- Weld symbol: filled triangle (fillet weld) above the line -->
+  <polygon points="320,90 360,90 320,60" fill="#B4530A" stroke="#8C4008" stroke-width="1.5"/>
+  <text x="330" y="48" font-size="10.5" font-weight="700" fill="#2E2A26">隅肉溶接</text>
+  <text x="330" y="62" font-size="9" fill="#6B6459">suminiku yōsetsu</text>
+
+  <!-- Tail -->
+  <path d="M480 90 l30 -14 l0 28 z" fill="none" stroke="#2E2A26" stroke-width="2"/>
+  <text x="520" y="86" font-size="10" fill="#2E2A26" font-weight="700">尾/tail</text>
+  <text x="520" y="100" font-size="9" fill="#6B6459">keterangan tambahan</text>
+
+  <!-- Labeled parts box -->
+  <g transform="translate(560,120)">
+    <rect width="210" height="180" rx="12" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
+    <text x="105" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#2E2A26">Bagian Simbol Las</text>
+    <circle cx="20" cy="48" r="6" fill="#8C4008"/>
+    <text x="34" y="52" font-size="10" fill="#2E2A26">矢印 — penunjuk lokasi</text>
+    <circle cx="20" cy="76" r="6" fill="#8C4008"/>
+    <text x="34" y="80" font-size="10" fill="#2E2A26">基線 — garis referensi</text>
+    <circle cx="20" cy="104" r="6" fill="#8C4008"/>
+    <text x="34" y="108" font-size="10" fill="#2E2A26">溶接記号本体 — bentuk las</text>
+    <circle cx="20" cy="132" r="6" fill="#8C4008"/>
+    <text x="34" y="136" font-size="10" fill="#2E2A26">尾 — keterangan tambahan</text>
+    <line x1="15" y1="150" x2="195" y2="150" stroke="#F5F3EF" stroke-width="2"/>
+    <text x="105" y="168" text-anchor="middle" font-size="9.5" fill="#6B6459">Hasil: 溶接ビード</text>
+    <text x="105" y="182" text-anchor="middle" font-size="9" fill="#6B6459">(yōsetsu bīdo / jejak las)</text>
+  </g>
+
+  <text x="290" y="300" text-anchor="middle" font-size="10.5" fill="#B4530A" font-weight="700">Segitiga solid = 隅肉溶接 (fillet weld), jenis las sudut paling umum</text>
+</svg>
