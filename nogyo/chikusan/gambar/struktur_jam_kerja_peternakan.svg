@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="30" text-anchor="middle" font-size="21" font-weight="700" fill="#332A22">Struktur Jam Kerja Peternakan</text>
+  <text x="400" y="50" text-anchor="middle" font-size="12.5" fill="#8A7A6B">&#28183;&#22812;&#26989;&#21106;&#22450;&#12375; 22:00–05:00 (shinyagy&#333; warimashi)</text>
+
+  <!-- 24h bar -->
+  <g transform="translate(70,120)">
+    <rect x="0" y="0" width="660" height="60" rx="10" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.4"/>
+    <!-- segments: 00-05 night(part) / 05-22 day / 22-24 night -->
+    <!-- scale: 660px = 24h -> 27.5px/h -->
+    <rect x="0" y="0" width="137.5" height="60" fill="#332A22" opacity="0.85"/>
+    <rect x="137.5" y="0" width="467.5" height="60" fill="#D9A54A"/>
+    <rect x="605" y="0" width="55" height="60" fill="#332A22" opacity="0.85"/>
+
+    <!-- hour ticks every 4h -->
+    <g stroke="#FBF4EC" stroke-width="1" opacity="0.6">
+      <line x1="110" y1="0" x2="110" y2="60"/>
+      <line x1="220" y1="0" x2="220" y2="60"/>
+      <line x1="330" y1="0" x2="330" y2="60"/>
+      <line x1="440" y1="0" x2="440" y2="60"/>
+      <line x1="550" y1="0" x2="550" y2="60"/>
+    </g>
+
+    <text x="0" y="-8" font-size="9.5" fill="#8A7A6B">00:00</text>
+    <text x="330" y="-8" text-anchor="middle" font-size="9.5" fill="#8A7A6B">12:00</text>
+    <text x="655" y="-8" text-anchor="end" font-size="9.5" fill="#8A7A6B">24:00</text>
+
+    <!-- labels inside -->
+    <text x="68" y="36" text-anchor="middle" font-size="10" fill="#FBF4EC" font-weight="700">00–05</text>
+    <text x="370" y="36" text-anchor="middle" font-size="12" fill="#332A22" font-weight="700">Jam kerja fleksibel (Pasal 41 dikecualikan)</text>
+    <text x="632" y="36" text-anchor="middle" font-size="10" fill="#FBF4EC" font-weight="700">22–24</text>
+
+    <!-- braces highlighting night zone (22:00-05:00) -->
+    <path d="M0,68 h137.5" stroke="#B5652E" stroke-width="3"/>
+    <path d="M605,68 h55" stroke="#B5652E" stroke-width="3"/>
+  </g>
+
+  <!-- callout box -->
+  <g transform="translate(130,210)">
+    <rect x="0" y="0" width="540" height="66" rx="12" fill="#FFFFFF" stroke="#B5652E" stroke-width="2.4"/>
+    <text x="270" y="24" text-anchor="middle" font-size="12.5" font-weight="700" fill="#332A22">Zona 22:00–05:00: tunjangan kerja malam WAJIB +25%</text>
+    <text x="270" y="42" text-anchor="middle" font-size="10.5" fill="#8A7A6B">&#28183;&#22812;&#26989;&#21106;&#22450;&#12375; (shinyagy&#333; warimashi) — tidak dikecualikan meski sektor pertanian</text>
+    <text x="270" y="58" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">&#21172;&#20685;&#22522;&#28310;&#27861;&#31532;41&#26465; mengecualikan jam kerja &amp; libur, TAPI bukan tunjangan malam</text>
+  </g>
+
+  <!-- moon icon -->
+  <g transform="translate(90,238)">
+    <path d="M14,0 A14,14 0 1 0 14,28 A11,11 0 0 1 14,0 Z" fill="#332A22"/>
+  </g>
+  <g transform="translate(700,238)">
+    <path d="M14,0 A14,14 0 1 0 14,28 A11,11 0 0 1 14,0 Z" fill="#332A22"/>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="26" text-anchor="middle" font-size="20" font-weight="700" fill="#332A22">Peta Konsep Bidang Peternakan</text>
+  <text x="400" y="45" text-anchor="middle" font-size="12" fill="#8A7A6B">&#30044;&#29987;&#20892;&#26989; &#20388;&#12388;&#12398;&#20998;&#37326; (tujuh bidang peternakan)</text>
+
+  <!-- connecting lines from center to nodes -->
+  <g stroke="#D9A54A" stroke-width="2">
+    <line x1="400" y1="160" x2="120" y2="90"/>
+    <line x1="400" y1="160" x2="285" y2="70"/>
+    <line x1="400" y1="160" x2="400" y2="60"/>
+    <line x1="400" y1="160" x2="515" y2="70"/>
+    <line x1="400" y1="160" x2="680" y2="90"/>
+    <line x1="400" y1="160" x2="150" y2="250"/>
+    <line x1="400" y1="160" x2="650" y2="250"/>
+  </g>
+
+  <!-- center node -->
+  <g transform="translate(400,160)">
+    <circle cx="0" cy="0" r="42" fill="#B5652E"/>
+    <text x="0" y="-2" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">&#30044;&#29987;</text>
+    <text x="0" y="14" text-anchor="middle" font-size="9" fill="#FBF4EC">chikusan</text>
+  </g>
+
+  <!-- 7 satellite nodes -->
+  <!-- 1 dairy -->
+  <g transform="translate(120,90)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Sapi Perah</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#37193;&#20892;</text>
+  </g>
+  <!-- 2 beef -->
+  <g transform="translate(285,58)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Sapi Potong</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#32905;&#29992;&#29275;</text>
+  </g>
+  <!-- 3 pig -->
+  <g transform="translate(400,42)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Babi</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#39321;&#35910;</text>
+  </g>
+  <!-- 4 layer -->
+  <g transform="translate(515,58)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Ayam Petelur</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#37319;&#21365;&#40165;</text>
+  </g>
+  <!-- 5 broiler -->
+  <g transform="translate(680,90)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Ayam Pedaging</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#32905;&#29992;&#40165;</text>
+  </g>
+  <!-- 6 horse -->
+  <g transform="translate(150,250)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Kuda Ringan</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#36393;&#31278;&#39340;</text>
+  </g>
+  <!-- 7 bee -->
+  <g transform="translate(650,250)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7A4319" stroke-width="2.6"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">Lebah Madu</text>
+    <text x="0" y="9" text-anchor="middle" font-size="8" fill="#8A7A6B">&#20859;&#34509;</text>
+  </g>
+
+  <!-- shared-principles footer -->
+  <g transform="translate(260,278)">
+    <text x="140" y="0" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">Prinsip bersama: kesehatan hewan · kebersihan kandang · efisiensi pakan</text>
+  </g>
+</svg>

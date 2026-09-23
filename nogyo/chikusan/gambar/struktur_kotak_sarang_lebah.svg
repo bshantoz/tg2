@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="30" text-anchor="middle" font-size="21" font-weight="700" fill="#332A22">Struktur Kotak Sarang Lebah</text>
+  <text x="400" y="50" text-anchor="middle" font-size="12.5" fill="#8A7A6B">&#12511;&#12484;&#12496;&#12481;&#12398;&#24041;&#12392;&#12467;&#12525;&#12491;&#12540; (koroni no y&#333;wari)</text>
+
+  <!-- Hive box outline -->
+  <rect x="60" y="68" width="330" height="196" rx="12" fill="#FFFFFF" stroke="#7A4319" stroke-width="3"/>
+  <text x="225" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#332A22">Bingkai Sarang Segi Enam</text>
+  <text x="225" y="103" text-anchor="middle" font-size="9" fill="#8A7A6B">&#20966;&#39281;&#26495;&#12398;&#20853;&#33436;&#22411;&#26041;&#25226;&#28857;&#26999;</text>
+
+  <!-- hexagon grid -->
+  <g fill="none" stroke="#D9A54A" stroke-width="1.6">
+    <!-- generate rows of hexagons using polygon approximations -->
+    <g id="hexrow">
+    </g>
+  </g>
+  <g transform="translate(90,120)">
+    <!-- Row of hexagons: use a reusable pattern manually placed -->
+    <g stroke="#D9A54A" stroke-width="1.6" fill="#FFF6E8">
+      <polygon points="14,0 28,8 28,24 14,32 0,24 0,8"/>
+      <polygon points="42,0 56,8 56,24 42,32 28,24 28,8"/>
+      <polygon points="70,0 84,8 84,24 70,32 56,24 56,8"/>
+      <polygon points="98,0 112,8 112,24 98,32 84,24 84,8"/>
+      <polygon points="126,0 140,8 140,24 126,32 112,24 112,8"/>
+      <polygon points="154,0 168,8 168,24 154,32 140,24 140,8"/>
+      <polygon points="182,0 196,8 196,24 182,32 168,24 168,8"/>
+      <polygon points="210,0 224,8 224,24 210,32 196,24 196,8"/>
+      <polygon points="238,0 252,8 252,24 238,32 224,24 224,8"/>
+      <polygon points="266,0 280,8 280,24 266,32 252,24 252,8"/>
+    </g>
+    <g stroke="#D9A54A" stroke-width="1.6" fill="#FFF6E8" transform="translate(14,28)">
+      <polygon points="14,0 28,8 28,24 14,32 0,24 0,8"/>
+      <polygon points="42,0 56,8 56,24 42,32 28,24 28,8"/>
+      <polygon points="70,0 84,8 84,24 70,32 56,24 56,8"/>
+      <polygon points="98,0 112,8 112,24 98,32 84,24 84,8"/>
+      <polygon points="126,0 140,8 140,24 126,32 112,24 112,8"/>
+      <polygon points="154,0 168,8 168,24 154,32 140,24 140,8"/>
+      <polygon points="182,0 196,8 196,24 182,32 168,24 168,8"/>
+      <polygon points="210,0 224,8 224,24 210,32 196,24 196,8"/>
+      <polygon points="238,0 252,8 252,24 238,32 224,24 224,8"/>
+    </g>
+    <g stroke="#D9A54A" stroke-width="1.6" fill="#FFF6E8" transform="translate(0,56)">
+      <polygon points="14,0 28,8 28,24 14,32 0,24 0,8"/>
+      <polygon points="42,0 56,8 56,24 42,32 28,24 28,8"/>
+      <polygon points="70,0 84,8 84,24 70,32 56,24 56,8"/>
+      <polygon points="98,0 112,8 112,24 98,32 84,24 84,8"/>
+      <polygon points="126,0 140,8 140,24 126,32 112,24 112,8"/>
+      <polygon points="154,0 168,8 168,24 154,32 140,24 140,8"/>
+      <polygon points="182,0 196,8 196,24 182,32 168,24 168,8"/>
+      <polygon points="210,0 224,8 224,24 210,32 196,24 196,8"/>
+      <polygon points="238,0 252,8 252,24 238,32 224,24 224,8"/>
+      <polygon points="266,0 280,8 280,24 266,32 252,24 252,8"/>
+    </g>
+    <!-- Queen highlighted in special cell (王台) -->
+    <g transform="translate(126,56)">
+      <polygon points="14,0 28,8 28,24 14,32 0,24 0,8" fill="#B5652E" stroke="#7A4319" stroke-width="2"/>
+      <circle cx="14" cy="16" r="6" fill="#332A22"/>
+    </g>
+  </g>
+  <g transform="translate(120,214)">
+    <rect x="0" y="0" width="180" height="26" rx="7" fill="#FBF4EC" stroke="#B5652E" stroke-width="1.6"/>
+    <text x="90" y="17" text-anchor="middle" font-size="9" font-weight="700" fill="#332A22">&#29579;&#21488; (&#333;dai) sel calon ratu</text>
+  </g>
+  <g transform="translate(120,246)">
+    <text x="90" y="0" text-anchor="middle" font-size="9" fill="#8A7A6B">Larva diberi royal jelly (&#12525;&#12540;&#12516;&#12523;&#12476;&#12522;&#12540;)</text>
+  </g>
+
+  <!-- Right panel: three bee roles -->
+  <g transform="translate(430,80)">
+    <rect x="0" y="0" width="330" height="184" rx="14" fill="#FFFFFF" stroke="#B5652E" stroke-width="3"/>
+    <text x="165" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#332A22">Tiga Peran dalam Koloni</text>
+
+    <!-- Queen -->
+    <g transform="translate(60,58)">
+      <ellipse cx="0" cy="0" rx="16" ry="22" fill="#B5652E"/>
+      <circle cx="0" cy="-20" r="9" fill="#332A22"/>
+      <path d="M-16,-4 l-14,-4 M16,-4 l14,-4" stroke="#332A22" stroke-width="2"/>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">&#22899;&#29579;&#12496;&#12481;</text>
+      <text x="0" y="54" text-anchor="middle" font-size="8" fill="#8A7A6B">joou-bachi</text>
+      <text x="0" y="66" text-anchor="middle" font-size="8" fill="#8A7A6B">2–3 tahun</text>
+    </g>
+
+    <!-- Worker -->
+    <g transform="translate(165,58)">
+      <ellipse cx="0" cy="0" rx="12" ry="16" fill="#D9A54A"/>
+      <circle cx="0" cy="-15" r="7" fill="#332A22"/>
+      <path d="M-12,-3 l-12,-4 M12,-3 l12,-4" stroke="#332A22" stroke-width="1.6"/>
+      <line x1="-8" y1="4" x2="-8" y2="10" stroke="#332A22" stroke-width="1.6"/>
+      <line x1="8" y1="4" x2="8" y2="10" stroke="#332A22" stroke-width="1.6"/>
+      <text x="0" y="40" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">&#20685;&#12365;&#12496;&#12481;</text>
+      <text x="0" y="52" text-anchor="middle" font-size="8" fill="#8A7A6B">hataraki-bachi</text>
+      <text x="0" y="64" text-anchor="middle" font-size="8" fill="#8A7A6B">&#177;1 bulan</text>
+    </g>
+
+    <!-- Drone -->
+    <g transform="translate(270,58)">
+      <ellipse cx="0" cy="0" rx="13" ry="17" fill="#7A4319"/>
+      <circle cx="0" cy="-16" r="8" fill="#332A22"/>
+      <path d="M-13,-3 l-13,-6 M13,-3 l13,-6" stroke="#332A22" stroke-width="1.8"/>
+      <text x="0" y="40" text-anchor="middle" font-size="9.5" font-weight="700" fill="#332A22">&#38596;&#12496;&#12481;</text>
+      <text x="0" y="52" text-anchor="middle" font-size="8" fill="#8A7A6B">osu-bachi</text>
+      <text x="0" y="64" text-anchor="middle" font-size="8" fill="#8A7A6B">April–Juni</text>
+    </g>
+
+    <line x1="16" y1="130" x2="314" y2="130" stroke="#E3D2BC" stroke-width="1.4"/>
+    <text x="165" y="150" text-anchor="middle" font-size="9.5" fill="#332A22" font-weight="700">Ratu bertelur &#177;2.000 butir/hari</text>
+    <text x="165" y="165" text-anchor="middle" font-size="9" fill="#8A7A6B">hanya 1 ekor ratu per koloni</text>
+  </g>
+</svg>

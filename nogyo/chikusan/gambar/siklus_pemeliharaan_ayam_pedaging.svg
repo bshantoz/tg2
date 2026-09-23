@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="30" text-anchor="middle" font-size="21" font-weight="700" fill="#332A22">Siklus Pemeliharaan Ayam Pedaging</text>
+  <text x="400" y="50" text-anchor="middle" font-size="12.5" fill="#8A7A6B">&#12502;&#12525;&#12452;&#12521;&#12540; vs &#22320;&#40165; (broiler vs jidori)</text>
+
+  <!-- Broiler timeline -->
+  <g transform="translate(60,100)">
+    <text x="0" y="-14" font-size="12.5" font-weight="700" fill="#332A22">Broiler (&#12502;&#12525;&#12452;&#12521;&#12540;)</text>
+    <line x1="0" y1="40" x2="560" y2="40" stroke="#B5652E" stroke-width="4"/>
+    <!-- chick -->
+    <circle cx="0" cy="40" r="16" fill="#D9A54A"/>
+    <text x="0" y="70" text-anchor="middle" font-size="9" fill="#8A7A6B">Menetas</text>
+    <!-- mid chicken -->
+    <circle cx="280" cy="40" r="20" fill="#D9A54A"/>
+    <path d="M292,32 l10,-6 l0,10 z" fill="#B5652E"/>
+    <text x="280" y="75" text-anchor="middle" font-size="9" fill="#8A7A6B">Fase tumbuh</text>
+    <!-- final large chicken -->
+    <ellipse cx="560" cy="40" rx="28" ry="24" fill="#B5652E"/>
+    <path d="M580,28 l12,-7 l0,12 z" fill="#7A4319"/>
+    <text x="560" y="76" text-anchor="middle" font-size="9" fill="#332A22" font-weight="700">Panen</text>
+    <text x="560" y="88" text-anchor="middle" font-size="9" fill="#8A7A6B">&#177;3,0 kg</text>
+    <!-- duration label -->
+    <g transform="translate(230,-2)">
+      <rect x="0" y="0" width="150" height="24" rx="6" fill="#FFFFFF" stroke="#B5652E" stroke-width="1.6"/>
+      <text x="75" y="16" text-anchor="middle" font-size="10.5" font-weight="700" fill="#332A22">6–7 minggu</text>
+    </g>
+  </g>
+
+  <!-- Jidori timeline -->
+  <g transform="translate(60,210)">
+    <text x="0" y="-14" font-size="12.5" font-weight="700" fill="#332A22">Ayam Kampung (&#22320;&#40165; / jidori)</text>
+    <line x1="0" y1="40" x2="680" y2="40" stroke="#7A4319" stroke-width="4"/>
+    <circle cx="0" cy="40" r="16" fill="#D9A54A"/>
+    <text x="0" y="70" text-anchor="middle" font-size="9" fill="#8A7A6B">Menetas</text>
+    <circle cx="340" cy="40" r="19" fill="#D9A54A"/>
+    <path d="M352,32 l9,-6 l0,10 z" fill="#B5652E"/>
+    <text x="340" y="75" text-anchor="middle" font-size="9" fill="#8A7A6B">Fase tumbuh lambat</text>
+    <ellipse cx="680" cy="40" rx="24" ry="21" fill="#7A4319"/>
+    <path d="M698,29 l11,-7 l0,11 z" fill="#332A22"/>
+    <text x="680" y="76" text-anchor="middle" font-size="9" fill="#332A22" font-weight="700">Panen</text>
+    <text x="680" y="88" text-anchor="middle" font-size="9" fill="#8A7A6B">tekstur kenyal</text>
+    <g transform="translate(270,-2)">
+      <rect x="0" y="0" width="180" height="24" rx="6" fill="#FFFFFF" stroke="#7A4319" stroke-width="1.6"/>
+      <text x="90" y="16" text-anchor="middle" font-size="10.5" font-weight="700" fill="#332A22">&#8805;80 hari (sering 4–5 bulan)</text>
+    </g>
+  </g>
+</svg>

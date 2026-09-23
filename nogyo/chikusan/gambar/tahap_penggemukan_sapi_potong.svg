@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="32" text-anchor="middle" font-size="22" font-weight="700" fill="#332A22">Tahap Penggemukan Sapi Potong</text>
+  <text x="400" y="53" text-anchor="middle" font-size="13" fill="#8A7A6B">肉用牛の肥育段階 (nikuy&#333;gy&#363; no hiiku dankai)</text>
+
+  <line x1="60" y1="245" x2="740" y2="245" stroke="#332A22" stroke-width="2"/>
+
+  <defs>
+    <marker id="cow-ap" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#B5652E"/>
+    </marker>
+  </defs>
+
+  <!-- Stage 1: Anak sapi -->
+  <g transform="translate(120,205)">
+    <g transform="scale(0.55)">
+      <ellipse cx="0" cy="0" rx="46" ry="26" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-44" cy="-6" r="15" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-30" cy="24" r="9" fill="#7A4319"/><circle cx="30" cy="24" r="9" fill="#7A4319"/>
+    </g>
+    <text x="0" y="-4" text-anchor="middle" font-size="12" font-weight="700" fill="#332A22">Anak Sapi</text>
+    <text x="0" y="10" text-anchor="middle" font-size="9" fill="#8A7A6B">子牛 / kougy&#363;</text>
+    <text x="0" y="40" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">Lahir</text>
+  </g>
+  <line x1="180" y1="240" x2="230" y2="240" stroke="#B5652E" stroke-width="3" marker-end="url(#cow-ap)"/>
+
+  <!-- Stage 2: Disapih -->
+  <g transform="translate(290,197)">
+    <g transform="scale(0.72)">
+      <ellipse cx="0" cy="0" rx="46" ry="26" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-44" cy="-6" r="15" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-30" cy="24" r="9" fill="#7A4319"/><circle cx="30" cy="24" r="9" fill="#7A4319"/>
+    </g>
+    <text x="0" y="10" text-anchor="middle" font-size="12" font-weight="700" fill="#332A22">Sapi Disapih</text>
+    <text x="0" y="24" text-anchor="middle" font-size="9" fill="#8A7A6B">離乳 (rin&#363;)</text>
+    <text x="0" y="48" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">&#177;hari ke-285</text>
+  </g>
+  <line x1="365" y1="235" x2="415" y2="230" stroke="#B5652E" stroke-width="3" marker-end="url(#cow-ap)"/>
+
+  <!-- Stage 3: Fase penggemukan -->
+  <g transform="translate(480,180)">
+    <g transform="scale(0.95)">
+      <ellipse cx="0" cy="0" rx="46" ry="26" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-44" cy="-6" r="15" fill="#FFFFFF" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-30" cy="24" r="9" fill="#7A4319"/><circle cx="30" cy="24" r="9" fill="#7A4319"/>
+    </g>
+    <text x="0" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#332A22">Fase Penggemukan</text>
+    <text x="0" y="42" text-anchor="middle" font-size="9" fill="#8A7A6B">肥育期 (hiikuki)</text>
+    <text x="0" y="66" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">Konsentrat + jerami</text>
+  </g>
+  <line x1="580" y1="205" x2="630" y2="190" stroke="#B5652E" stroke-width="3" marker-end="url(#cow-ap)"/>
+
+  <!-- Stage 4: Siap potong -->
+  <g transform="translate(690,150)">
+    <g transform="scale(1.25)">
+      <ellipse cx="0" cy="0" rx="46" ry="26" fill="#B5652E" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-44" cy="-6" r="15" fill="#B5652E" stroke="#7A4319" stroke-width="4"/>
+      <circle cx="-30" cy="24" r="9" fill="#7A4319"/><circle cx="30" cy="24" r="9" fill="#7A4319"/>
+    </g>
+    <text x="0" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#332A22">Siap Potong</text>
+    <text x="0" y="66" text-anchor="middle" font-size="9" fill="#8A7A6B">出荷 (shukka)</text>
+    <text x="0" y="86" text-anchor="middle" font-size="9.5" fill="#B5652E" font-weight="700">&#177;9 tahun / 7&#215; beranak</text>
+  </g>
+</svg>

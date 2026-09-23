@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="32" text-anchor="middle" font-size="22" font-weight="700" fill="#332A22">Tingkat Swasembada Pakan Ternak Jepang</text>
+  <text x="400" y="53" text-anchor="middle" font-size="13" fill="#8A7A6B">飼料自給率 (shiry&#333; jiky&#363;ritsu)</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="252" x2="710" y2="252" stroke="#332A22" stroke-width="2"/>
+
+  <!-- Bar: pakan kasar (roughage) 77% -->
+  <g>
+    <rect x="150" y="252" width="120" height="0" fill="none"/>
+    <rect x="150" y="100" width="120" height="152" rx="8" fill="#7C8C5A"/>
+    <text x="210" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#332A22">77%</text>
+    <!-- little grass icon -->
+    <g transform="translate(195,118)" stroke="#FBF4EC" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <path d="M0,30 Q3,10 0,-4"/>
+      <path d="M8,30 Q11,14 16,0"/>
+      <path d="M16,30 Q13,16 8,2"/>
+    </g>
+    <text x="210" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#332A22">Pakan Kasar</text>
+    <text x="210" y="286" text-anchor="middle" font-size="10.5" fill="#8A7A6B">粗飼料 / so shiry&#333;</text>
+  </g>
+
+  <!-- Bar: pakan konsentrat (concentrate) 12% -->
+  <g>
+    <rect x="330" y="228" width="120" height="24" rx="8" fill="#D9A54A"/>
+    <text x="390" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#332A22">12%</text>
+    <g transform="translate(374,150)" fill="#FBF4EC">
+      <ellipse cx="8" cy="70" rx="11" ry="7"/>
+      <ellipse cx="24" cy="70" rx="11" ry="7"/>
+      <ellipse cx="16" cy="60" rx="11" ry="7"/>
+    </g>
+    <text x="390" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#332A22">Pakan Konsentrat</text>
+    <text x="390" y="286" text-anchor="middle" font-size="10.5" fill="#8A7A6B">濃厚飼料 / n&#333;k&#333; shiry&#333;</text>
+  </g>
+
+  <!-- Bar: overall average 25% -->
+  <g>
+    <rect x="510" y="203" width="120" height="49" rx="8" fill="#B5652E"/>
+    <text x="570" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#332A22">&#177;25%</text>
+    <text x="570" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#332A22">Rata-rata Total</text>
+    <text x="570" y="286" text-anchor="middle" font-size="10.5" fill="#8A7A6B">飼料自給率 全体</text>
+  </g>
+
+  <!-- 100% reference line -->
+  <line x1="130" y1="100" x2="650" y2="100" stroke="#B5652E" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="695" y="104" font-size="10" fill="#8A7A6B">100%</text>
+
+  <!-- side note box -->
+  <g transform="translate(660,150)">
+    <rect x="0" y="0" width="126" height="70" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="1.6"/>
+    <text x="63" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#332A22">Sebagian besar</text>
+    <text x="63" y="31" text-anchor="middle" font-size="9" font-weight="700" fill="#332A22">konsentrat impor</text>
+    <text x="63" y="48" text-anchor="middle" font-size="8.5" fill="#8A7A6B">輸入依存が</text>
+    <text x="63" y="60" text-anchor="middle" font-size="8.5" fill="#8A7A6B">高い</text>
+  </g>
+</svg>

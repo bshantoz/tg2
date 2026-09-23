@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#FBF4EC"/>
+  <text x="400" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#332A22">APD Pekerja Peternakan</text>
+  <text x="400" y="55" text-anchor="middle" font-size="13" fill="#8A7A6B">畜産作業の保護具 (hogogu)</text>
+
+  <defs>
+    <marker id="apd-dot" markerWidth="6" markerHeight="6" refX="3" refY="3">
+      <circle cx="3" cy="3" r="3" fill="#B5652E"/>
+    </marker>
+  </defs>
+
+  <!-- Central worker figure -->
+  <g transform="translate(400,185)">
+    <!-- legs -->
+    <rect x="-22" y="30" width="16" height="55" rx="6" fill="#7A4319"/>
+    <rect x="6" y="30" width="16" height="55" rx="6" fill="#7A4319"/>
+    <!-- boots -->
+    <rect x="-28" y="80" width="26" height="14" rx="5" fill="#332A22"/>
+    <rect x="2" y="80" width="26" height="14" rx="5" fill="#332A22"/>
+    <!-- body/vest -->
+    <path d="M-32,-10 Q0,-24 32,-10 L32,34 Q0,44 -32,34 Z" fill="#B5652E"/>
+    <path d="M-14,-8 L0,30 L14,-8" fill="none" stroke="#FBF4EC" stroke-width="4" stroke-linejoin="round"/>
+    <!-- arms -->
+    <rect x="-46" y="-6" width="14" height="46" rx="7" fill="#B5652E"/>
+    <rect x="32" y="-6" width="14" height="46" rx="7" fill="#B5652E"/>
+    <!-- gloves -->
+    <circle cx="-39" cy="44" r="10" fill="#7A4319"/>
+    <circle cx="39" cy="44" r="10" fill="#7A4319"/>
+    <!-- neck/head -->
+    <circle cx="0" cy="-34" r="20" fill="#EBC79E"/>
+    <!-- goggles -->
+    <rect x="-15" y="-40" width="30" height="10" rx="5" fill="#332A22" opacity="0.85"/>
+    <rect x="-13" y="-38" width="11" height="6" rx="3" fill="#D9EEF2"/>
+    <rect x="2" y="-38" width="11" height="6" rx="3" fill="#D9EEF2"/>
+    <!-- helmet -->
+    <path d="M-22,-46 Q0,-70 22,-46 Z" fill="#D9A54A"/>
+    <rect x="-24" y="-48" width="48" height="7" rx="3.5" fill="#B5652E"/>
+  </g>
+
+  <!-- Callout: Helm -->
+  <line x1="378" y1="140" x2="270" y2="90" stroke="#B5652E" stroke-width="2" marker-end="url(#apd-dot)"/>
+  <g transform="translate(150,66)">
+    <rect x="0" y="0" width="150" height="46" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="2"/>
+    <text x="75" y="19" text-anchor="middle" font-size="12.5" font-weight="700" fill="#332A22">Helm Pelindung</text>
+    <text x="75" y="35" text-anchor="middle" font-size="10" fill="#8A7A6B">ヘルメット / herumetto</text>
+  </g>
+
+  <!-- Callout: Goggle -->
+  <line x1="382" y1="153" x2="270" y2="155" stroke="#B5652E" stroke-width="2" marker-end="url(#apd-dot)"/>
+  <g transform="translate(148,132)">
+    <rect x="0" y="0" width="150" height="46" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="2"/>
+    <text x="75" y="19" text-anchor="middle" font-size="12.5" font-weight="700" fill="#332A22">Kacamata (Goggle)</text>
+    <text x="75" y="35" text-anchor="middle" font-size="10" fill="#8A7A6B">ゴーグル / g&#333;guru</text>
+  </g>
+
+  <!-- Callout: Sarung tangan -->
+  <line x1="440" y1="192" x2="560" y2="140" stroke="#B5652E" stroke-width="2" marker-end="url(#apd-dot)"/>
+  <g transform="translate(500,66)">
+    <rect x="0" y="0" width="168" height="46" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="2"/>
+    <text x="84" y="19" text-anchor="middle" font-size="12.5" font-weight="700" fill="#332A22">Sarung Tangan Tahan Getar</text>
+    <text x="84" y="35" text-anchor="middle" font-size="10" fill="#8A7A6B">防振手袋 / b&#333;shin tebukuro</text>
+  </g>
+
+  <!-- Callout: Sepatu -->
+  <line x1="412" y1="270" x2="560" y2="248" stroke="#B5652E" stroke-width="2" marker-end="url(#apd-dot)"/>
+  <g transform="translate(500,224)">
+    <rect x="0" y="0" width="168" height="46" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="2"/>
+    <text x="84" y="19" text-anchor="middle" font-size="12.5" font-weight="700" fill="#332A22">Sepatu Keselamatan</text>
+    <text x="84" y="35" text-anchor="middle" font-size="10" fill="#8A7A6B">安全靴 / anzengutsu</text>
+  </g>
+
+  <!-- Left lower note -->
+  <g transform="translate(60,224)">
+    <rect x="0" y="0" width="210" height="46" rx="10" fill="#FFFFFF" stroke="#B5652E" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="105" y="19" text-anchor="middle" font-size="11.5" font-weight="700" fill="#332A22">&gt;80% kecelakaan akibat sapi</text>
+    <text x="105" y="34" text-anchor="middle" font-size="9.5" fill="#8A7A6B">家畜事故 kachiku jiko</text>
+  </g>
+</svg>
