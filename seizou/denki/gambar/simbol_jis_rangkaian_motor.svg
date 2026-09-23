@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="420" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Simbol JIS Alat Ukur &amp; Rangkaian Starter Motor</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">電気用図記号と始動回路（モータースターター）</text>
+
+  <!-- Row 1: JIS symbols -->
+  <g transform="translate(30,82)">
+    <rect width="740" height="110" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="20" y="24" font-size="12.5" font-weight="700" fill="#16324A">Simbol JIS &#8212; alat ukur &amp; sumber listrik</text>
+
+    <!-- Ammeter -->
+    <g transform="translate(60,66)">
+      <circle r="22" fill="none" stroke="#1A56A8" stroke-width="2.6"/>
+      <text text-anchor="middle" y="7" font-size="16" font-weight="700" fill="#1A56A8">A</text>
+      <text text-anchor="middle" y="42" font-size="10" fill="#16324A" font-weight="700">Ampermeter</text>
+      <text text-anchor="middle" y="55" font-size="9" fill="#5C7A96">電流計</text>
+    </g>
+    <!-- Voltmeter -->
+    <g transform="translate(240,66)">
+      <circle r="22" fill="none" stroke="#1A56A8" stroke-width="2.6"/>
+      <text text-anchor="middle" y="7" font-size="16" font-weight="700" fill="#1A56A8">V</text>
+      <text text-anchor="middle" y="42" font-size="10" fill="#16324A" font-weight="700">Voltmeter</text>
+      <text text-anchor="middle" y="55" font-size="9" fill="#5C7A96">電圧計</text>
+    </g>
+    <!-- DC source -->
+    <g transform="translate(420,66)">
+      <line x1="-14" y1="-12" x2="14" y2="-12" stroke="#1A56A8" stroke-width="3"/>
+      <line x1="-8" y1="-2" x2="8" y2="-2" stroke="#1A56A8" stroke-width="3"/>
+      <line x1="-14" y1="8" x2="14" y2="8" stroke="#1A56A8" stroke-width="3"/>
+      <line x1="-8" y1="18" x2="8" y2="18" stroke="#1A56A8" stroke-width="3"/>
+      <text text-anchor="middle" y="42" font-size="10" fill="#16324A" font-weight="700">Sumber DC</text>
+      <text text-anchor="middle" y="55" font-size="9" fill="#5C7A96">直流電源</text>
+    </g>
+    <!-- AC source -->
+    <g transform="translate(600,66)">
+      <circle r="22" fill="none" stroke="#1A56A8" stroke-width="2.6"/>
+      <path d="M-12,0 Q-6,-12 0,0 Q6,12 12,0" fill="none" stroke="#1A56A8" stroke-width="2.4"/>
+      <text text-anchor="middle" y="42" font-size="10" fill="#16324A" font-weight="700">Sumber AC</text>
+      <text text-anchor="middle" y="55" font-size="9" fill="#5C7A96">交流電源</text>
+    </g>
+  </g>
+
+  <!-- Row 2: Motor starter circuit -->
+  <g transform="translate(30,210)">
+    <rect width="740" height="190" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="20" y="24" font-size="12.5" font-weight="700" fill="#16324A">Rangkaian daya starter motor 3 fase</text>
+
+    <g stroke="#1A56A8" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <line x1="30" y1="60" x2="30" y2="150"/>
+      <line x1="30" y1="105" x2="700" y2="105"/>
+    </g>
+    <text x="30" y="52" text-anchor="middle" font-size="10" fill="#16324A" font-weight="700">Sumber R-S-T</text>
+
+    <!-- breaker -->
+    <g transform="translate(120,85)">
+      <rect width="60" height="40" rx="6" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.2"/>
+      <line x1="10" y1="20" x2="30" y2="6" stroke="#1A56A8" stroke-width="2.4"/>
+      <line x1="30" y1="20" x2="50" y2="20" stroke="#1A56A8" stroke-width="2.4"/>
+      <text x="30" y="60" text-anchor="middle" font-size="9.5" font-weight="700" fill="#16324A">Breaker</text>
+      <text x="30" y="72" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#12502;&#12524;&#12540;&#12459;&#12540;</text>
+    </g>
+
+    <!-- contactor -->
+    <g transform="translate(300,85)">
+      <rect width="60" height="40" rx="6" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.2"/>
+      <line x1="12" y1="12" x2="12" y2="28" stroke="#1A56A8" stroke-width="2.4"/>
+      <line x1="12" y1="20" x2="48" y2="20" stroke="#1A56A8" stroke-width="2.4"/>
+      <circle cx="12" cy="12" r="2.4" fill="#1A56A8"/>
+      <text x="30" y="60" text-anchor="middle" font-size="9.5" font-weight="700" fill="#16324A">Kontaktor</text>
+      <text x="30" y="72" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#12467;&#12531;&#12479;&#12463;&#12479;</text>
+    </g>
+
+    <!-- thermal relay -->
+    <g transform="translate(480,85)">
+      <rect width="60" height="40" rx="6" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.2"/>
+      <path d="M10,20 q10,-14 20,0 q10,14 20,0" stroke="#1A56A8" stroke-width="2.2" fill="none"/>
+      <text x="30" y="60" text-anchor="middle" font-size="9.5" font-weight="700" fill="#16324A">Relay Thermal</text>
+      <text x="30" y="72" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#12469;&#12540;&#12510;&#12523;&#12522;&#12524;&#12540;</text>
+    </g>
+
+    <!-- motor -->
+    <g transform="translate(650,105)">
+      <circle r="26" fill="none" stroke="#1A56A8" stroke-width="2.6"/>
+      <text text-anchor="middle" y="7" font-size="15" font-weight="700" fill="#1A56A8">M</text>
+      <text text-anchor="middle" y="46" font-size="9.5" font-weight="700" fill="#16324A">Motor</text>
+    </g>
+
+    <text x="370" y="170" text-anchor="middle" font-size="10" fill="#5C7A96">Urutan pengaman: Sumber &#8594; Breaker &#8594; Kontaktor &#8594; Relay Thermal &#8594; Motor</text>
+  </g>
+</svg>

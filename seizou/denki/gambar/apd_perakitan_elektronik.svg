@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="400" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">APD Area Kerja Perakitan Elektronik</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">電気電子組立現場のPPE（保護具）</text>
+
+  <!-- work table -->
+  <rect x="250" y="330" width="300" height="14" rx="3" fill="#1A56A8" opacity="0.15"/>
+
+  <!-- Person silhouette, centered -->
+  <g stroke="#0E3E73" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- head -->
+    <circle cx="400" cy="118" r="24" fill="#FFFFFF"/>
+    <!-- safety glasses -->
+    <g>
+      <rect x="382" y="112" width="15" height="10" rx="3" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.5"/>
+      <rect x="403" y="112" width="15" height="10" rx="3" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.5"/>
+      <line x1="397" y1="117" x2="403" y2="117" stroke="#1A56A8" stroke-width="2.5"/>
+    </g>
+    <!-- torso in ESD smock -->
+    <path d="M370 142 L430 142 L442 240 L358 240 Z" fill="#FFFFFF"/>
+    <!-- badge on chest -->
+    <rect x="392" y="168" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2.5"/>
+    <circle cx="401" cy="176" r="4" fill="#1A56A8" stroke="none"/>
+    <line x1="396" y1="185" x2="406" y2="185" stroke="#1A56A8" stroke-width="1.6"/>
+    <!-- arms -->
+    <path d="M370 150 L330 190 L326 226" fill="none"/>
+    <path d="M430 150 L470 190 L474 226" fill="none"/>
+    <!-- hands with anti-static gloves -->
+    <circle cx="326" cy="232" r="12" fill="#FFFFFF"/>
+    <circle cx="474" cy="232" r="12" fill="#FFFFFF"/>
+    <!-- wrist strap on right wrist with coil cord to ground -->
+    <circle cx="474" cy="220" r="6" fill="none" stroke="#1A56A8" stroke-width="3"/>
+    <path d="M474 226 q10 20 -4 34 q-12 12 2 26 q10 10 -2 24" stroke="#1A56A8" stroke-width="2" fill="none"/>
+    <circle cx="470" cy="312" r="5" fill="#1A56A8" stroke="none"/>
+    <!-- legs -->
+    <path d="M375 240 L365 320" fill="none"/>
+    <path d="M425 240 L435 320" fill="none"/>
+    <!-- safety shoes -->
+    <path d="M350 320 h30 q6 0 6 8 h-36 Z" fill="#0E3E73" stroke="none"/>
+    <path d="M420 320 h30 q6 0 6 8 h-36 Z" fill="#0E3E73" stroke="none"/>
+  </g>
+
+  <!-- leader line + label: kacamata -->
+  <line x1="418" y1="112" x2="560" y2="80" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="560" cy="80" r="3" fill="#1A56A8"/>
+  <g transform="translate(566,64)">
+    <rect width="196" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Kacamata pelindung</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">保護メガネ &#8212; dari percikan &amp; serpihan</text>
+  </g>
+
+  <!-- leader line + label: wrist strap -->
+  <line x1="474" y1="220" x2="612" y2="186" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="612" cy="186" r="3" fill="#1A56A8"/>
+  <g transform="translate(566,170)">
+    <rect width="196" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Gelang anti statis (ESD)</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">リストストラップ &#8212; buang muatan statis ke ground</text>
+  </g>
+
+  <!-- leader line + label: badge -->
+  <line x1="401" y1="178" x2="238" y2="150" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="238" cy="150" r="3" fill="#1A56A8"/>
+  <g transform="translate(38,130)">
+    <rect width="200" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Badge identitas pekerja</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">身分証 &#8212; dipakai selalu di area kerja</text>
+  </g>
+
+  <!-- leader line + label: gloves -->
+  <line x1="326" y1="232" x2="238" y2="256" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="238" cy="256" r="3" fill="#1A56A8"/>
+  <g transform="translate(38,236)">
+    <rect width="200" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Sarung tangan anti-statis</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">静電気防止手袋 &#8212; lindungi IC/komponen sensitif</text>
+  </g>
+
+  <!-- leader line + label: shoes -->
+  <line x1="365" y1="326" x2="238" y2="342" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="238" cy="342" r="3" fill="#1A56A8"/>
+  <g transform="translate(38,322)">
+    <rect width="200" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Sepatu anti-statis</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">静電気防止靴 &#8212; area produksi elektronik</text>
+  </g>
+
+  <!-- leader line + label: ground symbol -->
+  <line x1="470" y1="312" x2="612" y2="322" stroke="#1A56A8" stroke-width="1.5"/>
+  <circle cx="612" cy="322" r="3" fill="#1A56A8"/>
+  <g transform="translate(566,304)">
+    <rect width="196" height="40" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="2"/>
+    <text x="10" y="17" font-size="12" font-weight="700" fill="#16324A">Titik ground (アース)</text>
+    <text x="10" y="32" font-size="10.5" fill="#5C7A96">Kabel wrist strap terhubung ke sini</text>
+  </g>
+</svg>

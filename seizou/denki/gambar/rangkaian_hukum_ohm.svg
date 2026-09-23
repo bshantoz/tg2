@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="300" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Rangkaian Dasar &amp; Hukum Ohm</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">オームの法則（V = I &#215; R）</text>
+
+  <defs>
+    <marker id="apI" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1A56A8"/>
+    </marker>
+  </defs>
+
+  <!-- Circuit card -->
+  <g transform="translate(40,90)">
+    <rect width="380" height="170" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <!-- circuit loop -->
+    <g stroke="#1A56A8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="70" y1="60" x2="70" y2="130"/>
+      <line x1="70" y1="130" x2="310" y2="130"/>
+      <line x1="310" y1="130" x2="310" y2="60"/>
+      <line x1="70" y1="60" x2="150" y2="60"/>
+      <line x1="230" y1="60" x2="310" y2="60"/>
+    </g>
+    <!-- battery symbol -->
+    <g transform="translate(70,95)" stroke="#1A56A8" stroke-width="3" stroke-linecap="round">
+      <line x1="-14" y1="-16" x2="14" y2="-16"/>
+      <line x1="-8" y1="-6" x2="8" y2="-6"/>
+      <line x1="-14" y1="4" x2="14" y2="4"/>
+      <line x1="-8" y1="14" x2="8" y2="14"/>
+    </g>
+    <text x="30" y="100" font-size="13" font-weight="700" fill="#16324A">V</text>
+    <text x="30" y="115" font-size="10.5" fill="#5C7A96">12V</text>
+    <!-- resistor symbol (zig-zag) -->
+    <polyline points="150,60 158,48 172,72 186,48 200,72 214,48 222,60 230,60" fill="none" stroke="#1A56A8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="190" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#16324A">R</text>
+    <text x="190" y="26" text-anchor="middle" font-size="10.5" fill="#5C7A96">4&#937;</text>
+    <!-- current arrow -->
+    <line x1="230" y1="100" x2="270" y2="100" stroke="#1A56A8" stroke-width="2.4" marker-end="url(#apI)"/>
+    <text x="250" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#16324A">I</text>
+    <text x="250" y="150" text-anchor="middle" font-size="10.5" fill="#5C7A96">I = 12V &#247; 4&#937; = 3A</text>
+  </g>
+
+  <!-- Formula triangle card -->
+  <g transform="translate(460,90)">
+    <rect width="300" height="170" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="150" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#16324A">Segitiga Hukum Ohm</text>
+    <polygon points="150,45 90,140 210,140" fill="none" stroke="#1A56A8" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="120" y1="92" x2="180" y2="92" stroke="#1A56A8" stroke-width="2"/>
+    <line x1="150" y1="92" x2="150" y2="140" stroke="#1A56A8" stroke-width="2"/>
+    <text x="150" y="80" text-anchor="middle" font-size="20" font-weight="700" fill="#16324A">V</text>
+    <text x="118" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#16324A">I</text>
+    <text x="182" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#16324A">R</text>
+    <text x="150" y="162" text-anchor="middle" font-size="11" fill="#5C7A96">V = I &#215; R</text>
+    <text x="150" y="178" text-anchor="middle" font-size="10" fill="#5C7A96">I = V &#247; R    R = V &#247; I</text>
+  </g>
+</svg>

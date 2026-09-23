@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="400" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Diagram Fishbone (Sebab-Akibat) &amp; QC 7 Tools</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">特性要因図（フィッシュボーン図）とパレート図</text>
+
+  <defs>
+    <marker id="apf" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1A56A8"/>
+    </marker>
+  </defs>
+
+  <!-- Fishbone card -->
+  <g transform="translate(24,84)">
+    <rect width="560" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <!-- spine -->
+    <line x1="40" y1="160" x2="470" y2="160" stroke="#1A56A8" stroke-width="3" marker-end="url(#apf)"/>
+    <!-- problem box -->
+    <g transform="translate(470,132)">
+      <rect width="80" height="56" rx="8" fill="#0E3E73"/>
+      <text x="40" y="24" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">Masalah</text>
+      <text x="40" y="40" text-anchor="middle" font-size="9" fill="#FFFFFF">Kualitas</text>
+    </g>
+
+    <!-- Manusia branch (upper-left) -->
+    <line x1="90" y1="70" x2="180" y2="160" stroke="#1A56A8" stroke-width="2.4"/>
+    <line x1="115" y1="98" x2="150" y2="112" stroke="#1A56A8" stroke-width="1.6"/>
+    <line x1="135" y1="122" x2="165" y2="132" stroke="#1A56A8" stroke-width="1.6"/>
+    <text x="90" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#16324A">Manusia</text>
+    <text x="90" y="72" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#20154;</text>
+
+    <!-- Mesin branch (upper-right) -->
+    <line x1="290" y1="70" x2="230" y2="160" stroke="#1A56A8" stroke-width="2.4"/>
+    <line x1="270" y1="98" x2="240" y2="112" stroke="#1A56A8" stroke-width="1.6"/>
+    <line x1="255" y1="122" x2="228" y2="132" stroke="#1A56A8" stroke-width="1.6"/>
+    <text x="290" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#16324A">Mesin</text>
+    <text x="290" y="72" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#27231;&#26800;</text>
+
+    <!-- Material branch (lower-left) -->
+    <line x1="90" y1="250" x2="180" y2="160" stroke="#1A56A8" stroke-width="2.4"/>
+    <line x1="115" y1="222" x2="150" y2="208" stroke="#1A56A8" stroke-width="1.6"/>
+    <line x1="135" y1="198" x2="165" y2="188" stroke="#1A56A8" stroke-width="1.6"/>
+    <text x="90" y="266" text-anchor="middle" font-size="11" font-weight="700" fill="#16324A">Material</text>
+    <text x="90" y="280" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#26448;&#26009;</text>
+
+    <!-- Metode branch (lower-right) -->
+    <line x1="290" y1="250" x2="230" y2="160" stroke="#1A56A8" stroke-width="2.4"/>
+    <line x1="270" y1="222" x2="240" y2="208" stroke="#1A56A8" stroke-width="1.6"/>
+    <line x1="255" y1="198" x2="228" y2="188" stroke="#1A56A8" stroke-width="1.6"/>
+    <text x="290" y="266" text-anchor="middle" font-size="11" font-weight="700" fill="#16324A">Metode</text>
+    <text x="290" y="280" text-anchor="middle" font-size="8.5" fill="#5C7A96">&#26041;&#27861;</text>
+
+    <text x="280" y="30" text-anchor="middle" font-size="10.5" fill="#5C7A96">特性要因図 &#8212; analisis hubungan sebab-akibat</text>
+  </g>
+
+  <!-- Mini Pareto card -->
+  <g transform="translate(600,84)">
+    <rect width="176" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="88" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="#16324A">Pareto</text>
+    <text x="88" y="38" text-anchor="middle" font-size="9" fill="#5C7A96">&#12497;&#12524;&#12540;&#12488;&#22259;</text>
+
+    <!-- bars descending -->
+    <g>
+      <rect x="24" y="220" width="24" height="60" fill="#0E3E73"/>
+      <rect x="56" y="240" width="24" height="40" fill="#1A56A8"/>
+      <rect x="88" y="255" width="24" height="25" fill="#1A56A8" opacity="0.8"/>
+      <rect x="120" y="266" width="24" height="14" fill="#1A56A8" opacity="0.6"/>
+    </g>
+    <line x1="16" y1="280" x2="152" y2="280" stroke="#1A56A8" stroke-width="1.6"/>
+    <line x1="16" y1="150" x2="16" y2="280" stroke="#1A56A8" stroke-width="1.6"/>
+    <!-- cumulative line -->
+    <polyline points="36,225 68,190 100,168 132,158" fill="none" stroke="#5C7A96" stroke-width="2"/>
+    <circle cx="36" cy="225" r="2.6" fill="#5C7A96"/>
+    <circle cx="68" cy="190" r="2.6" fill="#5C7A96"/>
+    <circle cx="100" cy="168" r="2.6" fill="#5C7A96"/>
+    <circle cx="132" cy="158" r="2.6" fill="#5C7A96"/>
+
+    <text x="88" y="296" text-anchor="middle" font-size="9" fill="#5C7A96">Urutan masalah</text>
+    <text x="88" y="308" text-anchor="middle" font-size="9" fill="#5C7A96">terbanyak &#8594; prioritas</text>
+  </g>
+</svg>

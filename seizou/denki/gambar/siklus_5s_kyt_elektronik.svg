@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="420" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Siklus 5S di Area Kerja Elektronik</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">5S活動（整理・整頓・清掃・清潔・しつけ）</text>
+
+  <defs>
+    <marker id="ap5" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1A56A8"/>
+    </marker>
+  </defs>
+
+  <!-- circular arrows connecting 5 stages -->
+  <g fill="none" stroke="#1A56A8" stroke-width="3">
+    <path d="M 330 118 A 190 190 0 0 1 470 118" marker-end="url(#ap5)"/>
+    <path d="M 545 176 A 190 190 0 0 1 545 292" marker-end="url(#ap5)"/>
+    <path d="M 480 350 A 190 190 0 0 1 320 350" marker-end="url(#ap5)"/>
+    <path d="M 255 292 A 190 190 0 0 1 255 176" marker-end="url(#ap5)"/>
+  </g>
+
+  <!-- center label -->
+  <g transform="translate(400,234)">
+    <circle r="52" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text text-anchor="middle" y="-4" font-size="14" font-weight="700" fill="#16324A">5S</text>
+    <text text-anchor="middle" y="14" font-size="10" fill="#5C7A96">area kerja</text>
+    <text text-anchor="middle" y="27" font-size="10" fill="#5C7A96">rapi &amp; aman</text>
+  </g>
+
+  <!-- Stage 1: 整理 seiri (top) -->
+  <g transform="translate(400,96)">
+    <circle r="34" fill="#0E3E73"/>
+    <path d="M-14 -6 h28 M-14 2 h20 M-14 10 h24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M12 -14 l8 -8 l6 6 l-8 8 Z" fill="#FFFFFF"/>
+    <text text-anchor="middle" y="56" font-size="13" font-weight="700" fill="#16324A">整理</text>
+    <text text-anchor="middle" y="70" font-size="10" fill="#5C7A96">seiri &#8212; ringkas</text>
+  </g>
+
+  <!-- Stage 2: 整頓 seiton (upper right) -->
+  <g transform="translate(614,176)">
+    <circle r="34" fill="#0E3E73"/>
+    <rect x="-14" y="-12" width="28" height="24" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+    <line x1="-14" y1="-2" x2="14" y2="-2" stroke="#FFFFFF" stroke-width="2"/>
+    <text text-anchor="middle" y="56" font-size="13" font-weight="700" fill="#16324A">整頓</text>
+    <text text-anchor="middle" y="70" font-size="10" fill="#5C7A96">seiton &#8212; rapi</text>
+  </g>
+
+  <!-- Stage 3: 清掃 seiso (lower right) -->
+  <g transform="translate(534,344)">
+    <circle r="34" fill="#0E3E73"/>
+    <path d="M-4 14 l0 -22 M-4 -8 l-8 -8 M-4 -8 l8 -8" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <path d="M-16 14 h24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+    <text text-anchor="middle" y="56" font-size="13" font-weight="700" fill="#16324A">清掃</text>
+    <text text-anchor="middle" y="70" font-size="10" fill="#5C7A96">seis&#333; &#8212; bersih</text>
+  </g>
+
+  <!-- Stage 4: 清潔 seiketsu (lower left) -->
+  <g transform="translate(266,344)">
+    <circle r="34" fill="#0E3E73"/>
+    <path d="M-10 4 l7 7 l15 -17" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text text-anchor="middle" y="56" font-size="13" font-weight="700" fill="#16324A">清潔</text>
+    <text text-anchor="middle" y="70" font-size="10" fill="#5C7A96">seiketsu &#8212; standar</text>
+  </g>
+
+  <!-- Stage 5: しつけ shitsuke (upper left) -->
+  <g transform="translate(186,176)">
+    <circle r="34" fill="#0E3E73"/>
+    <circle cx="0" cy="-10" r="6" fill="#FFFFFF"/>
+    <path d="M-12 14 q0 -16 12 -16 q12 0 12 16" fill="#FFFFFF"/>
+    <text text-anchor="middle" y="56" font-size="13" font-weight="700" fill="#16324A">&#12375;&#12388;&#12369;</text>
+    <text text-anchor="middle" y="70" font-size="10" fill="#5C7A96">shitsuke &#8212; disiplin</text>
+  </g>
+
+  <!-- KYT note box -->
+  <g transform="translate(30,382)">
+    <rect width="740" height="28" rx="8" fill="#FFFFFF" stroke="#1A56A8" stroke-width="1.5"/>
+    <text x="12" y="19" font-size="11.5" fill="#16324A"><tspan font-weight="700">KYT (危険予知訓練)</tspan> &#8212; sesi prediksi bahaya sebelum kerja, dilakukan tiap awal shift agar kecelakaan dicegah sejak dini</text>
+  </g>
+</svg>

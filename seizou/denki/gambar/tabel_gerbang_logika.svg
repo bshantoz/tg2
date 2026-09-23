@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="400" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Gerbang Logika &amp; Tabel Kebenaran</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">論理ゲートの図記号と真理値表（入力X・Y）</text>
+
+  <!-- 4 columns -->
+  <!-- AND -->
+  <g transform="translate(30,84)">
+    <rect width="176" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="88" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">AND</text>
+    <text x="88" y="41" text-anchor="middle" font-size="10" fill="#5C7A96">論理積</text>
+    <g transform="translate(38,54)" stroke="#1A56A8" stroke-width="2.6" fill="none">
+      <path d="M0,0 L28,0 A26,26 0 0 1 28,52 L0,52 Z" fill="#FFFFFF"/>
+      <line x1="-16" y1="12" x2="0" y2="12"/>
+      <line x1="-16" y1="40" x2="0" y2="40"/>
+      <line x1="54" y1="26" x2="70" y2="26"/>
+    </g>
+    <text x="16" y="64" font-size="9.5" fill="#5C7A96">X</text>
+    <text x="16" y="102" font-size="9.5" fill="#5C7A96">Y</text>
+    <g transform="translate(20,132)" font-size="9.5" fill="#16324A">
+      <rect width="136" height="86" fill="none" stroke="#1A56A8" stroke-width="1.2"/>
+      <line x1="0" y1="20" x2="136" y2="20" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="45" y1="0" x2="45" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="90" y1="0" x2="90" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="0" y1="36" x2="136" y2="36" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="52" x2="136" y2="52" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="68" x2="136" y2="68" stroke="#1A56A8" stroke-width="0.6"/>
+      <text x="22" y="14" text-anchor="middle" font-weight="700">X</text>
+      <text x="67" y="14" text-anchor="middle" font-weight="700">Y</text>
+      <text x="112" y="14" text-anchor="middle" font-weight="700">Out</text>
+      <text x="22" y="32" text-anchor="middle">0</text><text x="67" y="32" text-anchor="middle">0</text><text x="112" y="32" text-anchor="middle">0</text>
+      <text x="22" y="48" text-anchor="middle">0</text><text x="67" y="48" text-anchor="middle">1</text><text x="112" y="48" text-anchor="middle">0</text>
+      <text x="22" y="64" text-anchor="middle">1</text><text x="67" y="64" text-anchor="middle">0</text><text x="112" y="64" text-anchor="middle">0</text>
+      <text x="22" y="80" text-anchor="middle">1</text><text x="67" y="80" text-anchor="middle">1</text><text x="112" y="80" text-anchor="middle">1</text>
+    </g>
+  </g>
+
+  <!-- OR -->
+  <g transform="translate(216,84)">
+    <rect width="176" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="88" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">OR</text>
+    <text x="88" y="41" text-anchor="middle" font-size="10" fill="#5C7A96">論理和</text>
+    <g transform="translate(38,54)" stroke="#1A56A8" stroke-width="2.6" fill="none">
+      <path d="M-12,0 Q10,0 28,26 Q10,52 -12,52 Q0,26 -12,0 Z" fill="#FFFFFF"/>
+      <line x1="-24" y1="12" x2="-11" y2="12"/>
+      <line x1="-24" y1="40" x2="-11" y2="40"/>
+      <line x1="52" y1="26" x2="68" y2="26"/>
+    </g>
+    <text x="8" y="64" font-size="9.5" fill="#5C7A96">X</text>
+    <text x="8" y="102" font-size="9.5" fill="#5C7A96">Y</text>
+    <g transform="translate(20,132)" font-size="9.5" fill="#16324A">
+      <rect width="136" height="86" fill="none" stroke="#1A56A8" stroke-width="1.2"/>
+      <line x1="0" y1="20" x2="136" y2="20" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="45" y1="0" x2="45" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="90" y1="0" x2="90" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="0" y1="36" x2="136" y2="36" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="52" x2="136" y2="52" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="68" x2="136" y2="68" stroke="#1A56A8" stroke-width="0.6"/>
+      <text x="22" y="14" text-anchor="middle" font-weight="700">X</text>
+      <text x="67" y="14" text-anchor="middle" font-weight="700">Y</text>
+      <text x="112" y="14" text-anchor="middle" font-weight="700">Out</text>
+      <text x="22" y="32" text-anchor="middle">0</text><text x="67" y="32" text-anchor="middle">0</text><text x="112" y="32" text-anchor="middle">0</text>
+      <text x="22" y="48" text-anchor="middle">0</text><text x="67" y="48" text-anchor="middle">1</text><text x="112" y="48" text-anchor="middle">1</text>
+      <text x="22" y="64" text-anchor="middle">1</text><text x="67" y="64" text-anchor="middle">0</text><text x="112" y="64" text-anchor="middle">1</text>
+      <text x="22" y="80" text-anchor="middle">1</text><text x="67" y="80" text-anchor="middle">1</text><text x="112" y="80" text-anchor="middle">1</text>
+    </g>
+  </g>
+
+  <!-- NOT -->
+  <g transform="translate(402,84)">
+    <rect width="176" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="88" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">NOT</text>
+    <text x="88" y="41" text-anchor="middle" font-size="10" fill="#5C7A96">否定</text>
+    <g transform="translate(52,54)" stroke="#1A56A8" stroke-width="2.6" fill="none">
+      <polygon points="0,0 0,52 46,26" fill="#FFFFFF"/>
+      <circle cx="52" cy="26" r="6" fill="#FFFFFF"/>
+      <line x1="-16" y1="26" x2="0" y2="26"/>
+      <line x1="58" y1="26" x2="74" y2="26"/>
+    </g>
+    <text x="30" y="83" text-anchor="middle" font-size="9.5" fill="#5C7A96">X</text>
+    <g transform="translate(38,132)" font-size="9.5" fill="#16324A">
+      <rect width="100" height="46" fill="none" stroke="#1A56A8" stroke-width="1.2"/>
+      <line x1="0" y1="20" x2="100" y2="20" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="50" y1="0" x2="50" y2="46" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="0" y1="33" x2="100" y2="33" stroke="#1A56A8" stroke-width="0.6"/>
+      <text x="25" y="14" text-anchor="middle" font-weight="700">X</text>
+      <text x="75" y="14" text-anchor="middle" font-weight="700">Out</text>
+      <text x="25" y="29" text-anchor="middle">0</text><text x="75" y="29" text-anchor="middle">1</text>
+      <text x="25" y="42" text-anchor="middle">1</text><text x="75" y="42" text-anchor="middle">0</text>
+    </g>
+  </g>
+
+  <!-- NAND -->
+  <g transform="translate(588,84)">
+    <rect width="182" height="290" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="91" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">NAND</text>
+    <text x="91" y="41" text-anchor="middle" font-size="10" fill="#5C7A96">否定論理積</text>
+    <g transform="translate(38,54)" stroke="#1A56A8" stroke-width="2.6" fill="none">
+      <path d="M0,0 L28,0 A26,26 0 0 1 28,52 L0,52 Z" fill="#FFFFFF"/>
+      <circle cx="60" cy="26" r="6" fill="#FFFFFF"/>
+      <line x1="-16" y1="12" x2="0" y2="12"/>
+      <line x1="-16" y1="40" x2="0" y2="40"/>
+      <line x1="66" y1="26" x2="82" y2="26"/>
+    </g>
+    <text x="16" y="64" font-size="9.5" fill="#5C7A96">X</text>
+    <text x="16" y="102" font-size="9.5" fill="#5C7A96">Y</text>
+    <g transform="translate(23,132)" font-size="9.5" fill="#16324A">
+      <rect width="136" height="86" fill="none" stroke="#1A56A8" stroke-width="1.2"/>
+      <line x1="0" y1="20" x2="136" y2="20" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="45" y1="0" x2="45" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="90" y1="0" x2="90" y2="86" stroke="#1A56A8" stroke-width="1"/>
+      <line x1="0" y1="36" x2="136" y2="36" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="52" x2="136" y2="52" stroke="#1A56A8" stroke-width="0.6"/>
+      <line x1="0" y1="68" x2="136" y2="68" stroke="#1A56A8" stroke-width="0.6"/>
+      <text x="22" y="14" text-anchor="middle" font-weight="700">X</text>
+      <text x="67" y="14" text-anchor="middle" font-weight="700">Y</text>
+      <text x="112" y="14" text-anchor="middle" font-weight="700">Out</text>
+      <text x="22" y="32" text-anchor="middle">0</text><text x="67" y="32" text-anchor="middle">0</text><text x="112" y="32" text-anchor="middle">1</text>
+      <text x="22" y="48" text-anchor="middle">0</text><text x="67" y="48" text-anchor="middle">1</text><text x="112" y="48" text-anchor="middle">1</text>
+      <text x="22" y="64" text-anchor="middle">1</text><text x="67" y="64" text-anchor="middle">0</text><text x="112" y="64" text-anchor="middle">1</text>
+      <text x="22" y="80" text-anchor="middle">1</text><text x="67" y="80" text-anchor="middle">1</text><text x="112" y="80" text-anchor="middle">0</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <rect width="800" height="300" fill="#EEF3FA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#16324A">Rangkaian Kapasitor: Seri vs Paralel</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#5C7A96">コンデンサの直列接続と並列接続</text>
+
+  <!-- Left card: Seri -->
+  <g transform="translate(40,84)">
+    <rect width="340" height="182" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="170" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">Seri (直列)</text>
+
+    <g stroke="#1A56A8" stroke-width="3" fill="none" stroke-linecap="round">
+      <line x1="40" y1="90" x2="90" y2="90"/>
+      <line x1="90" y1="76" x2="90" y2="104"/>
+      <line x1="100" y1="76" x2="100" y2="104"/>
+      <line x1="100" y1="90" x2="170" y2="90"/>
+      <line x1="170" y1="76" x2="170" y2="104"/>
+      <line x1="180" y1="76" x2="180" y2="104"/>
+      <line x1="180" y1="90" x2="230" y2="90"/>
+      <line x1="230" y1="90" x2="230" y2="130"/>
+      <line x1="40" y1="90" x2="40" y2="130"/>
+      <line x1="40" y1="130" x2="230" y2="130"/>
+    </g>
+    <text x="95" y="66" text-anchor="middle" font-size="10.5" fill="#16324A" font-weight="700">C1</text>
+    <text x="95" y="120" text-anchor="middle" font-size="9.5" fill="#5C7A96">10&#956;F</text>
+    <text x="175" y="66" text-anchor="middle" font-size="10.5" fill="#16324A" font-weight="700">C2</text>
+    <text x="175" y="120" text-anchor="middle" font-size="9.5" fill="#5C7A96">40&#956;F</text>
+
+    <rect x="18" y="150" width="304" height="20" rx="4" fill="#EEF3FA"/>
+    <text x="170" y="164" text-anchor="middle" font-size="10.5" fill="#16324A">1/C_total = 1/C1 + 1/C2 &#8594; C_total &#8776; 8&#956;F</text>
+  </g>
+
+  <!-- Right card: Paralel -->
+  <g transform="translate(420,84)">
+    <rect width="340" height="182" rx="14" fill="#FFFFFF" stroke="#1A56A8" stroke-width="3"/>
+    <text x="170" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#16324A">Paralel (並列)</text>
+
+    <g stroke="#1A56A8" stroke-width="3" fill="none" stroke-linecap="round">
+      <line x1="40" y1="55" x2="40" y2="125"/>
+      <line x1="260" y1="55" x2="260" y2="125"/>
+      <line x1="40" y1="70" x2="110" y2="70"/>
+      <line x1="150" y1="70" x2="260" y2="70"/>
+      <line x1="110" y1="56" x2="110" y2="84"/>
+      <line x1="120" y1="56" x2="120" y2="84"/>
+      <line x1="120" y1="70" x2="150" y2="70"/>
+      <line x1="40" y1="110" x2="110" y2="110"/>
+      <line x1="150" y1="110" x2="260" y2="110"/>
+      <line x1="110" y1="96" x2="110" y2="124"/>
+      <line x1="120" y1="96" x2="120" y2="124"/>
+      <line x1="120" y1="110" x2="150" y2="110"/>
+    </g>
+    <text x="115" y="46" text-anchor="middle" font-size="10.5" fill="#16324A" font-weight="700">C1 20&#956;F</text>
+    <text x="115" y="140" text-anchor="middle" font-size="10.5" fill="#16324A" font-weight="700">C2 20&#956;F</text>
+
+    <rect x="18" y="150" width="304" height="20" rx="4" fill="#EEF3FA"/>
+    <text x="170" y="164" text-anchor="middle" font-size="10.5" fill="#16324A">C_total = C1 + C2 = 20 + 20 = 40&#956;F</text>
+  </g>
+</svg>
