@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F7F2EA"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#5C1F28">APD &amp; Keselamatan Kerja Perhotelan</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#9B6B2C">安全衛生管理・保護具</text>
+
+  <g font-size="10.5" fill="#2E2620">
+    <!-- Card 1: Sarung tangan -->
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#5C3A17"/>
+      <path d="M58 40 v-14 q0 -5 4 -5 q4 0 4 5 v6 M66 40 v-16 q0 -5 4 -5 q4 0 4 5 v10 M74 40 v-14 q0 -5 4 -5 q4 0 4 5 v6 M82 38 v-6 q0 -4 3 -4 q3 0 3 4 v10 q0 8 -8 10 h-14 q-6 0 -8 -6 l-3 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5">Sarung Tangan</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#8A5A2E">手袋（tebukuro）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#5C1F28">Lindungi tangan saat</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#5C1F28">bersih-bersih &amp; dapur</text>
+    </g>
+
+    <!-- Card 2: Alas kaki anti-licin -->
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#5C3A17"/>
+      <path d="M58 40 q0 -12 8 -14 q4 -1 6 2 l10 12 q2 3 -1 4 h-19 q-4 0 -4 -4 z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M58 40 h24" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M56 40 q-2 4 2 4 h26 q4 0 2 -4" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5">Alas Kaki Anti Licin</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#8A5A2E">滑り止め靴（kutsu）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#5C1F28">Cegah tergelincir di</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#5C1F28">lantai basah/kamar mandi</text>
+    </g>
+
+    <!-- Card 3: APAR -->
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#5C3A17"/>
+      <rect x="63" y="24" width="14" height="20" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M66 24 v-4 h8 v4 M70 20 v-4 M74 28 l6 -4" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5">Alat Pemadam Api</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#8A5A2E">消火器（shōkaki）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#5C1F28">Periksa rutin, posisi</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#5C1F28">diketahui semua staf</text>
+    </g>
+
+    <!-- Card 4: Jalur evakuasi -->
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#5C3A17"/>
+      <circle cx="65" cy="24" r="3" fill="#FFFFFF"/>
+      <path d="M65 27 v6 l-6 8 M65 33 l7 6" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M72 26 h8 l-3 -3 M80 26 l-3 3" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5">Jalur Evakuasi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#8A5A2E">避難経路（hinan keiro）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#5C1F28">Denah evakuasi jelas,</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#5C1F28">tidak terhalang barang</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#8A2E3B"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#F7F2EA">3 pihak yang keselamatannya harus dijaga bersamaan</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#F0DFC9">Tamu（お客様）　・　Karyawan（従業員）　・　Fasilitas（施設）</text>
+  </g>
+</svg>

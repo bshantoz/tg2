@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#F7F2EA"/>
+  <text x="400" y="28" text-anchor="middle" font-size="21" font-weight="700" fill="#5C1F28">Glosarium Istilah Kerja Perhotelan</text>
+  <text x="400" y="47" text-anchor="middle" font-size="12.5" fill="#9B6B2C">衛生管理・施設管理・環境対応など</text>
+
+  <g font-size="9.3" fill="#2E2620">
+    <!-- Quadrant 1: Kebersihan -->
+    <g transform="translate(30,62)">
+      <rect width="365" height="105" rx="12" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="26" cy="24" r="14" fill="#5C3A17"/>
+      <path d="M20 30 q0 -10 6 -14 q6 4 6 14 q0 5 -6 5 q-6 0 -6 -5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+      <text x="48" y="21" font-weight="700" font-size="11">衛生管理 — Manajemen Kebersihan</text>
+      <text x="48" y="40" font-size="8.6">清掃・消毒・害虫駆除（seisō, shōdoku, gaichū kujo）</text>
+      <text x="48" y="55" font-size="8.6">— pembersihan, disinfeksi, kendalikan hama —</text>
+      <text x="48" y="70" font-size="8.6">termasuk 大浴場（daiyokujō）pemandian umum besar</text>
+      <text x="48" y="88" font-size="8.3" fill="#8A2E3B">Rutin &amp; terjadwal: kamar, koridor, dapur, kamar mandi</text>
+    </g>
+
+    <!-- Quadrant 2: Fasilitas -->
+    <g transform="translate(405,62)">
+      <rect width="365" height="105" rx="12" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="26" cy="24" r="14" fill="#5C3A17"/>
+      <path d="M18 30 l8 -12 l8 12 z" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round"/>
+      <line x1="22" y1="30" x2="22" y2="24" stroke="#FFFFFF" stroke-width="1.4"/>
+      <text x="48" y="21" font-weight="700" font-size="11">施設管理 — Manajemen Fasilitas</text>
+      <text x="48" y="40" font-size="8.6">点検（tenken）— pemeriksaan berkala listrik, AC,</text>
+      <text x="48" y="55" font-size="8.6">lift, boiler air panas — dicatat rutin agar tidak</text>
+      <text x="48" y="70" font-size="8.6">mengganggu kenyamanan &amp; keselamatan tamu</text>
+    </g>
+
+    <!-- Quadrant 3: Lingkungan -->
+    <g transform="translate(30,178)">
+      <rect width="365" height="98" rx="12" fill="#FFFFFF" stroke="#9B6B2C" stroke-width="3"/>
+      <circle cx="26" cy="24" r="14" fill="#5C3A17"/>
+      <path d="M26 16 q8 6 0 16 q-8 -10 0 -16 z" fill="#FFFFFF"/>
+      <text x="48" y="21" font-weight="700" font-size="11">環境対応 — Respons Lingkungan</text>
+      <text x="48" y="40" font-size="8.6">省エネ（shō-ene）hemat energi　・　ゴミの分別</text>
+      <text x="48" y="55" font-size="8.6">（gomi no bunbetsu）pemilahan sampah　・</text>
+      <text x="48" y="70" font-size="8.6">kontribusi SDGs, kurangi plastik sekali pakai</text>
+    </g>
+
+    <!-- Quadrant 4: Istilah harian -->
+    <g transform="translate(405,178)">
+      <rect width="365" height="98" rx="12" fill="#FFFFFF" stroke="#8A2E3B" stroke-width="3"/>
+      <circle cx="26" cy="24" r="14" fill="#8A2E3B"/>
+      <rect x="18" y="17" width="16" height="14" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+      <line x1="21" y1="22" x2="31" y2="22" stroke="#FFFFFF" stroke-width="1.2"/>
+      <text x="48" y="21" font-weight="700" font-size="11">Istilah Kerja Harian Lainnya</text>
+      <text x="48" y="38" font-size="8.4">仲居 nakai — staf pelayan ryokan　・　館内 kannai — dalam gedung</text>
+      <text x="48" y="53" font-size="8.4">点検 tenken — inspeksi　・　省エネ shō-ene — hemat energi</text>
+      <text x="48" y="68" font-size="8.4">分別 bunbetsu — pemilahan sampah</text>
+    </g>
+  </g>
+</svg>
