@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EEF2F5"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E4A6B">Bahan Bakar &amp; Pelumas</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#C9542C">燃料油脂（Nenryou Yushi）</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<rect x="60" y="20" width="14" height="22" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M74 26 h4 q3 0 3 3 v9 q0 3 -3 3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="67" cy="16" r="2" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Bensin &amp; Solar</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ガソリン・軽油</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Sumber energi utama</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">pembakaran mesin</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M70 18 q10 12 10 18 a10 10 0 1 1 -20 0 q0 -6 10 -18 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Oli Mesin</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">エンジンオイル</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Melumasi &amp; mendinginkan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">komponen bergerak</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M58 38 a14 14 0 0 1 24 0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 34 l-6 -8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="34" r="2" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Cairan Pendingin</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">冷却水（クーラント）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Menjaga suhu kerja</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">mesin tetap stabil</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M70 16 l14 26 h-28 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 24 v9 M70 37 v2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Penyimpanan Aman</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">安全な保管</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Simpan jauh dari api &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">sesuai regulasi</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#2E4A6B"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EEF2F5">Kualitas &amp; kebersihan bahan bakar-pelumas menjaga umur mesin</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#C9D6E2">燃料・油脂管理の徹底</text>
+  </g>
+</svg>

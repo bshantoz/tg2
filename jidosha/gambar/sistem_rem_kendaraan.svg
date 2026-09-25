@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EEF2F5"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E4A6B">Sistem Rem (Brake System)</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#C9542C">ブレーキシステム</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<circle cx="70" cy="32" r="12" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="32" r="4" fill="#FFFFFF"/><path d="M58 24 l6 4 M82 24 l-6 4 M58 40 l6 -4 M82 40 l-6 -4" stroke="#FFFFFF" stroke-width="1.6"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Rem Cakram</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ディスクブレーキ</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Kaliper jepit cakram</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">untuk perlambatan</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M58 38 a14 14 0 0 1 24 0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 34 l-6 -8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="34" r="2" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Tekanan Minyak Rem</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ブレーキ液圧</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Tenaga injak diteruskan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">lewat tekanan fluida</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M70 16 l14 26 h-28 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 24 v9 M70 37 v2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Rem Tangan/Parkir</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">パーキングブレーキ</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Menahan kendaraan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">saat berhenti/parkir</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<rect x="60" y="18" width="20" height="26" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 l3 3 l6 -7 M64 32 l3 3 l6 -7" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Pemeriksaan Kampas</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ブレーキパッド点検</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Cek ketebalan &amp; keausan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">kampas rem berkala</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#2E4A6B"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EEF2F5">Fungsi utama: memperlambat &amp; menghentikan kendaraan dengan aman</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#C9D6E2">安全な減速・停止（Anzen na Gensoku Teishi）</text>
+  </g>
+</svg>

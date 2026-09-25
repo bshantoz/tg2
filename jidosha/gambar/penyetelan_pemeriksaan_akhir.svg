@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EEF2F5"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E4A6B">Penyetelan &amp; Pemeriksaan Akhir</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#C9542C">調整・完成検査</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M58 42 l10 -10 M66 20 l8 8 l4 -4 -8 -8 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Penyetelan Komponen</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">部品調整</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Setel celah, tekanan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">&amp; posisi komponen</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M58 38 a14 14 0 0 1 24 0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 34 l-6 -8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="34" r="2" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Uji Fungsi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">機能試験</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Pastikan sistem</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">bekerja normal</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<rect x="60" y="18" width="20" height="26" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 l3 3 l6 -7 M64 32 l3 3 l6 -7" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Checklist Akhir</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">完成検査表</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Verifikasi seluruh</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">item sebelum serah</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M70 16 l14 6 v10 q0 12 -14 16 q-14 -4 -14 -16 v-10 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 32 l4 4 l8 -9" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Jaminan Kualitas</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">品質保証</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Konfirmasi standar</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">keselamatan terpenuhi</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#2E4A6B"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EEF2F5">Pemeriksaan akhir memastikan kendaraan siap &amp; aman digunakan</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#C9D6E2">完成検査（Kansei Kensa）</text>
+  </g>
+</svg>

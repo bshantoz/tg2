@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EEF2F5"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#2E4A6B">Sasis, Sistem Kemudi &amp; Suspensi</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#C9542C">シャシー・ステアリング・サスペンション</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<circle cx="70" cy="32" r="12" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M58 32 h24 M70 20 v4 M70 40 v4" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Roda Kemudi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ステアリングホイール</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Mengendalikan arah</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">gerak kendaraan</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M62 20 v6 l4 3 l-4 3 l4 3 l-4 3 v6" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M78 20 v24" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Sistem Suspensi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">サスペンション</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Meredam guncangan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">dari permukaan jalan</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M70 20 v-4 M70 44 v4 M58 32 h-4 M82 32 h4 M62 24 l-3 -3 M78 40 l3 3 M78 24 l3 -3 M62 40 l-3 3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="32" r="8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Gigi Kemudi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">ステアリングギア</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Meneruskan putaran</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">setir ke roda depan</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#2E4A6B" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#3A5570"/>
+<path d="M58 24 h24 M58 30 h24 M58 36 h24" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#20303F">Rangka Sasis</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#C9542C">フレーム（シャシー）</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A4C5C">Struktur dasar penopang</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A4C5C">seluruh komponen mobil</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#2E4A6B"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EEF2F5">Kestabilan berkendara bergantung pada sasis, kemudi &amp; suspensi</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#C9D6E2">走行安定性（Soukou Anteisei）</text>
+  </g>
+</svg>
