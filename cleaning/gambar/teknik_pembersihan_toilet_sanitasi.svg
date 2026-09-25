@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EDF7F6"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#1E7A72">Teknik Pembersihan Toilet &amp; Sanitasi</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#E8A33D">トイレ・衛生設備の清掃</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="60" y="14" width="16" height="8" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M58 22 q0 20 12 20 q12 0 12 -20 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Pembersihan Kloset</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">便器の清掃</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Disinfeksi permukaan</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">&amp; saluran</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="61" y="22" width="11" height="19" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M72 24 l7 -5" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82" cy="16" r="1.3" fill="#FFFFFF"/><circle cx="85" cy="19" r="1" fill="#FFFFFF"/><circle cx="80" cy="20" r="1" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Disinfektan</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">消毒・除菌</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Membunuh kuman</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">&amp; bakteri</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <path d="M60 41 v-15 q0 -6 5.5 -6 q5.5 0 5.5 6 v3 q3.5 -2 3.5 3.5 v8 q0 6.5 -6 6.5 h-2.5 q-5.5 0 -5.5 -6z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">APD Sanitasi</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">衛生用保護具</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Sarung tangan &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">masker pelindung</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <path d="M70 16 q11 14 0 23 q-11 -9 0 -23 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Kontrol Bau</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">臭気管理</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Ventilasi &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">pengharum ruangan</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#1E7A72"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EDF7F6">Sanitasi toilet menjaga kesehatan &amp; kenyamanan pengguna gedung</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#F6DDB0">衛生管理が利用者の健康と快適さを守る</text>
+  </g>
+</svg>

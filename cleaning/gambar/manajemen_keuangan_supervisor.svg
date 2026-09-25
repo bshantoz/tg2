@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EDF7F6"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#1E7A72">Manajemen Keuangan Supervisor</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#E8A33D">スーパーバイザーの財務管理</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="57" y="15" width="26" height="31" rx="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="60.5" y="18.5" width="19" height="7" rx="1" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="63" cy="30" r="1.3" fill="#FFFFFF"/><circle cx="70" cy="30" r="1.3" fill="#FFFFFF"/><circle cx="77" cy="30" r="1.3" fill="#FFFFFF"/><circle cx="63" cy="36" r="1.3" fill="#FFFFFF"/><circle cx="70" cy="36" r="1.3" fill="#FFFFFF"/><circle cx="77" cy="36" r="1.3" fill="#FFFFFF"/><circle cx="63" cy="42" r="1.3" fill="#FFFFFF"/><circle cx="70" cy="42" r="1.3" fill="#FFFFFF"/><circle cx="77" cy="42" r="1.3" fill="#FFFFFF"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Anggaran Operasional</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">運営予算</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Perhitungan biaya</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">operasional harian</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <path d="M56 44 h30" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="59" y="31" width="6" height="13" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="68" y="23" width="6" height="21" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="77" y="16" width="6" height="28" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Analisis Biaya</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">コスト分析</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Evaluasi efisiensi</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">penggunaan dana</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <circle cx="70" cy="29" r="11" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 22 v14 M66 25.5 q0 -3 4 -3 q4 0 4 3 q0 3 -4 3 q-4 0 -4 3 q0 3 4 3 q4 0 4 -3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Pengendalian Biaya</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">コスト管理</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Kontrol pengeluaran</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">bahan &amp; alat</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="57" y="13" width="26" height="33" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 21 h16 M62 27 h16 M62 33 h11" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M63 40 q4.5 -4.5 8.5 0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Laporan Keuangan</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">財務報告書</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Dokumentasi &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">pertanggungjawaban</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#1E7A72"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EDF7F6">Pengelolaan keuangan yang cermat menjaga keberlanjutan usaha</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#F6DDB0">堅実な財務管理が事業の持続性を支える</text>
+  </g>
+</svg>

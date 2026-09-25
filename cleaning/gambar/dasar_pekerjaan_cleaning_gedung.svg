@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EDF7F6"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#1E7A72">Dasar Pekerjaan Cleaning Gedung</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#E8A33D">ビルクリーニングの基礎</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <path d="M59 21 h22 l-3.2 21 h-15.6 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M63 21 q7 -9 14 0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Ruang Lingkup Kerja</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">作業範囲</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Area gedung yang</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">dibersihkan rutin</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <path d="M70 14 v20" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M58 34 q12 -4 24 0 q-2 8 -12 8 q-10 0 -12 -8 z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Alat &amp; Bahan Dasar</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">基本用具・資材</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Peralatan pokok</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">kebersihan gedung</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="57" y="17" width="26" height="29" rx="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="64" y="13" width="12" height="7" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 27 l3 3 l7 -8 M62 37 l3 3 l7 -8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Prosedur Kerja</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">作業手順</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Urutan langkah</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">kerja standar</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <circle cx="61" cy="19" r="5" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M61 25 q-9 2 -9 13 h18 q0 -11 -9 -13" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="79" cy="22" r="4" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M79 27 q6.5 2 6.5 10 h-12" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Etika Profesional</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">職業倫理</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Sikap &amp; tata krama</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">petugas cleaning</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#1E7A72"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EDF7F6">Cleaning gedung menjaga kebersihan, kenyamanan, dan citra bangunan</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#F6DDB0">建物の清潔・快適・イメージを守る</text>
+  </g>
+</svg>

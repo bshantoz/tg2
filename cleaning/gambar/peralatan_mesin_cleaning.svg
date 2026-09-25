@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#EDF7F6"/>
+  <text x="400" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#1E7A72">Peralatan Mesin Cleaning</text>
+  <text x="400" y="58" text-anchor="middle" font-size="14" fill="#E8A33D">清掃機械・機器</text>
+  <g font-size="10.5" fill="#2E2620">
+    <g transform="translate(90,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="58" y="24" width="18" height="12" rx="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="61.5" cy="40" r="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="72.5" cy="40" r="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M76 27 q9 -3 6 11" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Vacuum Cleaner</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">掃除機</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Menyedot debu &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">kotoran kering</text>
+    </g>
+    <g transform="translate(250,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <ellipse cx="70" cy="41" rx="14" ry="4" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 41 v-21" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 20 h16" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Floor Polisher</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">床磨き機</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Memoles &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">mengkilapkan lantai</text>
+    </g>
+    <g transform="translate(410,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="57" y="22" width="20" height="14" rx="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M77 26 q8 0 8 8 q0 6 -6 6" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M63 36 v6" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Extractor Karpet</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">カーペット抽出機</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Menyemprot &amp;</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">menyedot cairan</text>
+    </g>
+    <g transform="translate(570,90)">
+      <rect width="140" height="120" rx="14" fill="#FFFFFF" stroke="#1E7A72" stroke-width="3"/>
+      <circle cx="70" cy="32" r="18" fill="#155C56"/>
+      <rect x="57" y="17" width="26" height="29" rx="3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="64" y="13" width="12" height="7" rx="2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 27 l3 3 l7 -8 M62 37 l3 3 l7 -8" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="66" text-anchor="middle" font-weight="700" font-size="11.5" fill="#123B36">Perawatan Mesin</text>
+      <text x="70" y="80" text-anchor="middle" font-size="9.5" fill="#E8A33D">機器のメンテナンス</text>
+      <text x="70" y="102" text-anchor="middle" font-size="9" fill="#3A5652">Perawatan rutin</text>
+      <text x="70" y="114" text-anchor="middle" font-size="9" fill="#3A5652">agar awet &amp; aman</text>
+    </g>
+  </g>
+  <g>
+    <rect x="60" y="226" width="680" height="46" rx="10" fill="#1E7A72"/>
+    <text x="400" y="245" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EDF7F6">Pilih &amp; rawat mesin sesuai jenis permukaan yang dibersihkan</text>
+    <text x="400" y="262" text-anchor="middle" font-size="10.5" fill="#F6DDB0">清掃対象に合った機械を選び、正しく手入れする</text>
+  </g>
+</svg>
