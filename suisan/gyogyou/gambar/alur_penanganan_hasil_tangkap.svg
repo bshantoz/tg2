@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF4FA"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A4B">Alur Penanganan Hasil Tangkapan di Kapal</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A7F93">漁獲物の船上処理の流れ</text>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0B5C8C"/></marker></defs>
+<g transform="translate(36,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#0B5C8C"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">1</text>
+<g transform="translate(79.5,60)"><rect x="-22" y="-6" width="44" height="22" rx="3" fill="#0B5C8C"/>
+<circle cx="-10" cy="-10" r="6" fill="#0B5C8C"/>
+<circle cx="6" cy="-10" r="4" fill="#0B5C8C"/>
+<circle cx="16" cy="-6" r="3" fill="#0B5C8C"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A4B">Disortir</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A7F93">選別</text>
+</g>
+<line x1="199" y1="187.0" x2="221" y2="187.0" stroke="#0B5C8C" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(225,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#0B5C8C"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">2</text>
+<g transform="translate(79.5,60)"><path d="M-14,-18 q14,-4 28,0 l-4,30 q-10,6 -20,0 z" fill="#0B5C8C"/>
+<path d="M-8,-10 q4,-6 8,0 t8,0" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A4B">Dicuci</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A7F93">洗浄</text>
+</g>
+<line x1="388" y1="187.0" x2="410" y2="187.0" stroke="#0B5C8C" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(414,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#0B5C8C"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">3</text>
+<g transform="translate(79.5,60)"><rect x="-18" y="-16" width="16" height="16" rx="2" fill="#0B5C8C"/>
+<rect x="2" y="-16" width="16" height="16" rx="2" fill="#0B5C8C"/>
+<rect x="-18" y="2" width="16" height="16" rx="2" fill="#0B5C8C"/>
+<rect x="2" y="2" width="16" height="16" rx="2" fill="#0B5C8C"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A4B">Didinginkan dengan Es</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A7F93">氷で冷却</text>
+</g>
+<line x1="577" y1="187.0" x2="599" y2="187.0" stroke="#0B5C8C" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(603,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#0B5C8C"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">4</text>
+<g transform="translate(79.5,60)"><path d="M-24,-10 h48 v20 q0,6 -6,6 h-36 q-6,0 -6,-6 z" fill="#0B5C8C"/>
+<path d="M-24,-10 l24,-10 l24,10" fill="none" stroke="#0B5C8C" stroke-width="3"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A4B">Disimpan di Palka</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A7F93">魚倉に保管</text>
+</g>
+</svg>

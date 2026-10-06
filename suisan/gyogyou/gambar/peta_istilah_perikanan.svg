@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF4FA"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A4B">Peta Istilah Penting Perikanan Tangkap</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A7F93">漁業の重要用語マップ</text>
+<g transform="translate(40,70)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">漁具 / gyogu</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">gyogu &#8212; alat tangkap ikan</text>
+</g>
+<g transform="translate(410,70)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">魚群探知機 / gyogun tanchiki</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">gyogun tanchiki &#8212; fish finder / sonar</text>
+</g>
+<g transform="translate(40,128)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">水揚げ / mizuage</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">mizuage &#8212; membongkar hasil tangkap di darat</text>
+</g>
+<g transform="translate(410,128)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">鮮度 / sendo</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">sendo &#8212; tingkat kesegaran ikan</text>
+</g>
+<g transform="translate(40,186)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">操業 / sougyou</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">sougyou &#8212; kegiatan operasi penangkapan</text>
+</g>
+<g transform="translate(410,186)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#0B5C8C" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A4B">甲板 / kanpan</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A7F93">kanpan &#8212; geladak kapal</text>
+</g>
+</svg>
