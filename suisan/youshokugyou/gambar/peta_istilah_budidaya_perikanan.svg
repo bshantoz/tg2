@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF6F2"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A3A">Peta Istilah Penting Budidaya Perikanan</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A8F87">養殖業の重要用語マップ</text>
+<g transform="translate(40,70)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">いけす / ikesu</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">ikesu &#8212; keramba jaring apung</text>
+</g>
+<g transform="translate(410,70)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">筏 / ikada</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">ikada &#8212; rakit/pontoon terapung</text>
+</g>
+<g transform="translate(40,128)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">給餌 / kyuuji</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">kyuuji &#8212; pemberian pakan</text>
+</g>
+<g transform="translate(410,128)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">出荷 / shukka</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">shukka &#8212; pengiriman hasil panen</text>
+</g>
+<g transform="translate(40,186)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">垂下式 / suikashiki</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">suikashiki &#8212; metode budidaya gantung</text>
+</g>
+<g transform="translate(410,186)">
+<rect width="350" height="44" rx="10" fill="#FFFFFF" stroke="#13715E" stroke-width="2"/>
+<text x="14" y="18" font-weight="700" font-size="12.5" fill="#1C3A3A">真珠 / shinju</text>
+<text x="14" y="33" font-size="9.5" font-style="italic" fill="#5A8F87">shinju &#8212; mutiara</text>
+</g>
+</svg>

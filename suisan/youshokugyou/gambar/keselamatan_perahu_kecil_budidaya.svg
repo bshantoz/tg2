@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF6F2"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A3A">Keselamatan di Perahu Kecil &amp; Cuaca Budidaya</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A8F87">小型船・天候に関する安全確認</text>
+<g transform="translate(40,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><path d="M-26,10 h52" stroke="#13715E" stroke-width="2"/>
+<path d="M-26,10 q10,-18 20,0" stroke="#13715E" stroke-width="3" fill="none"/>
+<path d="M-6,10 q10,14 20,0" stroke="#13715E" stroke-width="3" fill="none" opacity="0.5"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Cek Pasang Surut</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">潮位確認</text>
+</g>
+<g transform="translate(224,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><circle cx="-6" cy="-2" r="14" fill="#13715E" opacity="0.85"/>
+<path d="M8,-2 a10,10 0 1 1 -2,-9" fill="none" stroke="#13715E" stroke-width="3"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Cek Cuaca</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">天候確認</text>
+</g>
+<g transform="translate(408,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><path d="M-14,-18 h28 l-4,38 h-20 z" fill="#13715E"/>
+<rect x="-14" y="-10" width="28" height="4" fill="#fff" opacity="0.8"/>
+<rect x="-14" y="2" width="28" height="4" fill="#fff" opacity="0.8"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Life Jacket Wajib</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">救命胴衣着用</text>
+</g>
+<g transform="translate(592,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><rect x="-11" y="-18" width="22" height="40" rx="5" fill="#13715E"/>
+<rect x="-4" y="-26" width="8" height="10" rx="2" fill="#13715E"/>
+<circle cx="0" cy="-2" r="5" fill="#fff"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Alat Komunikasi</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">通信機器</text>
+</g>
+</svg>

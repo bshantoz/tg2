@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF6F2"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A3A">Proses Budidaya Mutiara</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A8F87">真珠養殖の工程</text>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#13715E"/></marker></defs>
+<g transform="translate(36,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">1</text>
+<g transform="translate(79.5,60)"><ellipse cx="0" cy="0" rx="18" ry="22" fill="none" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="0" cy="0" r="5" fill="#13715E"/>
+<line x1="12" y1="-14" x2="4" y2="-4" stroke="#13715E" stroke-width="2.5"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Inti Ditanam</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">核入れ</text>
+</g>
+<line x1="199" y1="187.0" x2="221" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(225,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">2</text>
+<g transform="translate(79.5,60)"><ellipse cx="0" cy="4" rx="20" ry="16" fill="#13715E" opacity="0.85"/>
+<path d="M-10,4 h20 M-6,10 h12" stroke="#fff" stroke-width="2"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Kerang Diistirahatkan</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">養生</text>
+</g>
+<line x1="388" y1="187.0" x2="410" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(414,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">3</text>
+<g transform="translate(79.5,60)"><line x1="0" y1="-22" x2="0" y2="18" stroke="#13715E" stroke-width="3"/>
+<ellipse cx="0" cy="22" rx="14" ry="9" fill="#13715E"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Digantung Bertahun-tahun</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">数年間育成</text>
+</g>
+<line x1="577" y1="187.0" x2="599" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(603,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">4</text>
+<g transform="translate(79.5,60)"><circle cx="0" cy="0" r="16" fill="#13715E"/>
+<circle cx="-5" cy="-5" r="4" fill="#fff" opacity="0.7"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Mutiara Dipanen</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">真珠の採取</text>
+</g>
+</svg>

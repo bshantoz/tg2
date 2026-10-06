@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF6F2"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A3A">Siklus Budidaya Ikan Laut</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A8F87">魚類養殖のサイクル</text>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#13715E"/></marker></defs>
+<g transform="translate(36,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">1</text>
+<g transform="translate(79.5,60)"><path d="M-14,0 q10,-8 20,0 q-10,8 -20,0 Z" fill="#13715E"/>
+<path d="M-14,0 l-6,-5 v10 z" fill="#13715E"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Benih Ditebar</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">稚魚を入れる</text>
+</g>
+<line x1="199" y1="187.0" x2="221" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(225,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">2</text>
+<g transform="translate(79.5,60)"><circle cx="-8" cy="-4" r="4" fill="#13715E"/>
+<circle cx="4" cy="2" r="4" fill="#13715E"/>
+<circle cx="-2" cy="10" r="4" fill="#13715E"/>
+<circle cx="10" cy="-6" r="3" fill="#13715E"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Pemberian Pakan Rutin</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">給餌</text>
+</g>
+<line x1="388" y1="187.0" x2="410" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(414,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">3</text>
+<g transform="translate(79.5,60)"><circle cx="0" cy="-2" r="16" fill="none" stroke="#13715E" stroke-width="3"/>
+<path d="M-7,-2 l5,6 l9,-12" stroke="#13715E" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Dipantau Kesehatan</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">健康観察</text>
+</g>
+<line x1="577" y1="187.0" x2="599" y2="187.0" stroke="#13715E" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g transform="translate(603,112)">
+<rect width="159" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<circle cx="18" cy="18" r="13" fill="#13715E"/>
+<text x="18" y="22.5" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">4</text>
+<g transform="translate(79.5,60)"><rect x="-20" y="-10" width="40" height="26" rx="3" fill="#13715E"/>
+<path d="M-20,-10 l6,-6 h28 l6,6" fill="none" stroke="#13715E" stroke-width="2.5"/></g>
+<text x="79.5" y="112" text-anchor="middle" font-weight="700" font-size="11.5" fill="#1C3A3A">Panen &amp; Dikirim</text>
+<text x="79.5" y="130" text-anchor="middle" font-size="9.5" fill="#5A8F87">出荷</text>
+</g>
+</svg>

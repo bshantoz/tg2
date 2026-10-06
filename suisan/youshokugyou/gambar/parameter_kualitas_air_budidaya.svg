@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="800" height="300" fill="#EAF6F2"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3A3A">Parameter Kualitas Air &amp; Pakan Budidaya</text>
+<text x="400" y="52" text-anchor="middle" font-size="13" fill="#5A8F87">水質・給餌の管理項目</text>
+<g transform="translate(40,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><rect x="-5" y="-20" width="10" height="28" rx="5" fill="#13715E"/>
+<circle cx="0" cy="14" r="9" fill="#13715E"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Suhu Air</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">水温</text>
+</g>
+<g transform="translate(224,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><circle cx="0" cy="0" r="18" fill="none" stroke="#13715E" stroke-width="3"/>
+<text x="0" y="6" text-anchor="middle" font-size="14" font-weight="700" fill="#13715E">O2</text></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Oksigen Terlarut</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">溶存酸素</text>
+</g>
+<g transform="translate(408,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><circle cx="0" cy="0" r="18" fill="none" stroke="#13715E" stroke-width="3"/>
+<text x="0" y="6" text-anchor="middle" font-size="14" font-weight="700" fill="#13715E">pH</text></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">pH Air</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">pH</text>
+</g>
+<g transform="translate(592,110)">
+<rect width="166" height="150" rx="14" fill="#FFFFFF" stroke="#13715E" stroke-width="2.5"/>
+<g transform="translate(83.0,54)"><path d="M-16,14 h32 l-4,-28 h-24 z" fill="#13715E"/>
+<ellipse cx="0" cy="-14" rx="16" ry="5" fill="#13715E" opacity="0.7"/></g>
+<text x="83.0" y="104" text-anchor="middle" font-weight="700" font-size="12" fill="#1C3A3A">Jumlah Pakan</text>
+<text x="83.0" y="124" text-anchor="middle" font-size="10" fill="#5A8F87">給餌量</text>
+</g>
+</svg>
