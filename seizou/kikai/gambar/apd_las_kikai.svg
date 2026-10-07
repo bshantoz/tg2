@@ -13,13 +13,26 @@
   <g transform="translate(340,90)">
     <!-- torso -->
     <path d="M60 150 q-4 -60 8 -78 q12 -14 32 -14 q20 0 32 14 q12 18 8 78 z" fill="#8C4008"/>
-    <!-- head with welding face shield -->
+    <!-- head (skin) -->
     <circle cx="100" cy="40" r="30" fill="#8C4008"/>
-    <!-- face shield rectangle -->
-    <rect x="76" y="34" width="48" height="26" rx="4" fill="#2E2A26" stroke="#FFFFFF" stroke-width="2"/>
-    <rect x="83" y="40" width="34" height="12" rx="2" fill="#B4530A"/>
-    <!-- helmet top -->
-    <path d="M72 20 q28 -22 56 0 l-4 10 q-24 -16 -48 0 z" fill="#6B6459"/>
+
+    <!-- dust mask, peeking out below the face shield -->
+    <rect x="84" y="54" width="32" height="16" rx="7" fill="#FFFFFF" stroke="#6B6459" stroke-width="1.5"/>
+    <line x1="78" y1="58" x2="67" y2="38" stroke="#6B6459" stroke-width="1.5"/>
+    <line x1="122" y1="58" x2="133" y2="38" stroke="#6B6459" stroke-width="1.5"/>
+
+    <!-- earplugs (left & right) -->
+    <circle cx="67" cy="38" r="4.5" fill="#B4530A" stroke="#6B6459" stroke-width="1"/>
+    <circle cx="133" cy="38" r="4.5" fill="#B4530A" stroke="#6B6459" stroke-width="1"/>
+
+    <!-- welding face shield (flipped down over eyes/nose) -->
+    <path d="M74 34 q26 -8 52 0 l-3 24 q-23 8 -46 0 z" fill="#2E2A26" stroke="#FFFFFF" stroke-width="2"/>
+    <rect x="82" y="39" width="36" height="12" rx="2" fill="#B4530A"/>
+
+    <!-- hard hat (helmet) with brim, worn above/outside the face shield -->
+    <path d="M68 16 q32 -24 64 0 q5 9 -1 15 q-31 -19 -62 0 q-6 -6 -1 -15 z" fill="#FFFFFF" stroke="#6B6459" stroke-width="1.5"/>
+    <ellipse cx="100" cy="27" rx="35" ry="6" fill="#E8E4DC" stroke="#6B6459" stroke-width="1"/>
+
     <!-- arms -->
     <path d="M60 90 q-22 6 -30 30" stroke="#8C4008" stroke-width="14" fill="none" stroke-linecap="round"/>
     <path d="M140 90 q22 6 30 30" stroke="#8C4008" stroke-width="14" fill="none" stroke-linecap="round"/>
@@ -32,7 +45,7 @@
   </g>
 
   <!-- Callout 1: face shield -->
-  <line x1="378" y1="122" x2="150" y2="102" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
+  <line x1="412" y1="132" x2="150" y2="102" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
   <g transform="translate(20,80)">
     <rect width="200" height="66" rx="12" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
     <circle cx="28" cy="33" r="16" fill="#8C4008"/>
@@ -44,7 +57,7 @@
   </g>
 
   <!-- Callout 2: helmet -->
-  <line x1="420" y1="70" x2="480" y2="30" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
+  <line x1="458" y1="100" x2="480" y2="30" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
   <g transform="translate(482,4)">
     <rect width="190" height="60" rx="12" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
     <circle cx="27" cy="30" r="15" fill="#8C4008"/>
@@ -55,7 +68,7 @@
   </g>
 
   <!-- Callout 3: earplugs -->
-  <line x1="382" y1="88" x2="595" y2="140" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
+  <line x1="405" y1="126" x2="595" y2="140" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
   <g transform="translate(597,110)">
     <rect width="190" height="60" rx="12" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
     <circle cx="27" cy="30" r="15" fill="#8C4008"/>
@@ -65,7 +78,7 @@
   </g>
 
   <!-- Callout 4: dust mask -->
-  <line x1="418" y1="118" x2="595" y2="230" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
+  <line x1="440" y1="156" x2="595" y2="230" stroke="#B4530A" stroke-width="2" marker-end="url(#apdArrow)"/>
   <g transform="translate(597,200)">
     <rect width="190" height="60" rx="12" fill="#FFFFFF" stroke="#B4530A" stroke-width="2.5"/>
     <circle cx="27" cy="30" r="15" fill="#8C4008"/>
